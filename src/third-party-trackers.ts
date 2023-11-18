@@ -1,24 +1,24 @@
-import { fromPuppeteerDetails, PuppeteerBlocker } from '@cliqz/adblocker-puppeteer';
+import { fromPlaywrightDetails, PlaywrightBlocker } from '@cliqz/adblocker-playwright';
 import fs from 'fs';
 import path from 'path';
-import { Page } from 'puppeteer';
+import { Page } from 'playwright';
 import { TrackingRequestEvent } from './types';
 
-/**
- * @fileoverview
- * @see https://github.com/EU-EDPS/website-evidence-collector/blob/f75ef3ea7ff1be24940c4c33218c900afcf31979/lib/setup-beacon-recording.js
- */
-
 const blockerOptions = {
-    debug: true, // Keep track of the rule that matched a request
-    enableOptimizations: false, // Required to return all information about block rule
-    loadCosmeticFilters: false // We're only interested in network filters
+    debug: true,
+    enableOptimizations: false,
+    loadCosmeticFilters: false
 };
 
-const blockers = {
-    'easyprivacy.txt': PuppeteerBlocker.parse(fs.readFileSync(path.join(__dirname, '../data/blocklists/easyprivacy.txt'), 'utf8'), blockerOptions),
-    'easylist.txt': PuppeteerBlocker.parse(fs.readFileSync(path.join(__dirname, '../data/blocklists/easylist.txt'), 'utf8'), blockerOptions)
-};
+const easyPrivacy = PlaywrightBlocker.parse(
+    fs.readFileSync(path.join(__dirname, '../data/blocklists/easyprivacy.txt'), 'utf8'),
+    blockerOptions
+);
+
+const easyList = PlaywrightBlocker.parse(
+    fs.readFileSync(path.join(__dirname, '../data/blocklists/easylist.txt'), 'utf8'),
+    blockerOptions
+);
 
 export const setUpThirdPartyTrackersInspector = async (
     page: Page,
@@ -26,56 +26,60 @@ export const setUpThirdPartyTrackersInspector = async (
     enableAdBlock = false
 ) => {
     if (enableAdBlock) {
-        await page.setRequestInterception(true);
-    }
+        await page.route('**', (route) => {
+            const request = route.request();
+            let isBlocked = false;
 
-    page.on('request', async request => {
-        let isBlocked = false;
+            const { match: easyPrivacyMatch } = easyPrivacy.match(fromPlaywrightDetails(request));
+            const { match: easyListMatch } = easyList.match(fromPlaywrightDetails(request));
 
-        for (const [listName, blocker] of Object.entries(blockers)) {
-            const { match, filter } = blocker.match(fromPuppeteerDetails(request));
-
-            if (!match) {
-                continue;
+            if (easyPrivacyMatch || easyListMatch) {
+                isBlocked = true;
             }
 
-            isBlocked = true;
+            for (const [listName, blocker] of Object.entries({ easyPrivacy, easyList })) {
+                const { match, filter } = blocker.match(fromPlaywrightDetails(request));
 
-            const params = new URL(request.url()).searchParams;
-            const query = {};
-            for (const [key, value] of params.entries()) {
-                try {
-                    query[key] = JSON.parse(value);
-                } catch {
-                    query[key] = value;
+                if (!match) {
+                    continue;
                 }
-            }
 
-            eventDataHandler({
-                data: {
-                    query,
-                    filter: filter.toString(),
-                    listName
-                },
-                stack: [
-                    {
-                        fileName: request.frame()?.url() ?? '',
-                        source: 'ThirdPartyTracker RequestHandler'
+                isBlocked = true;
+
+                const params = new URL(request.url()).searchParams;
+                const query: Record<string, any> = {};
+                for (const [key, value] of params.entries()) {
+                    try {
+                        query[key] = JSON.parse(value);
+                    } catch {
+                        query[key] = value;
                     }
-                ],
-                type: 'TrackingRequest',
-                url: request.url()
-            });
+                }
 
-            break;
-        }
+                const eventData: TrackingRequestEvent = {
+                    data: {
+                        query,
+                        filter: filter.toString(),
+                        listName
+                    },
+                    stack: [
+                        {
+                            fileName: request.frame()?.url() ?? '',
+                            source: 'ThirdPartyTracker RequestHandler'
+                        }
+                    ],
+                    type: 'TrackingRequest',
+                    url: request.url()
+                };
 
-        if (enableAdBlock) {
-            if (isBlocked) {
-                request.abort();
-            } else {
-                request.continue();
+                eventDataHandler(eventData);
+
+                break;
             }
-        }
-    });
+
+            if (enableAdBlock) {
+                isBlocked ? route.abort() : route.continue();
+            }
+        });
+    }
 };

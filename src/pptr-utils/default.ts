@@ -1,8 +1,6 @@
-import fs from 'fs';
+import { writeFile } from 'fs/promises';
 import path from 'path';
-import { Page } from 'puppeteer';
-import { promisify } from 'util';
-const writeFile = promisify(fs.writeFile);
+import { Page } from 'playwright';
 
 export const savePageContent = async (index, outDir, page: Page, screenshot = true) => {
     try {
@@ -14,14 +12,15 @@ export const savePageContent = async (index, outDir, page: Page, screenshot = tr
             await page.screenshot({ path: outPathImg, type: 'jpeg', quality: 50 });
         }
     } catch (error) {
-        console.log(`couldnt save page content: ${JSON.stringify(error)}`);
+        console.log(`Couldn't save page content: ${JSON.stringify(error)}`);
     }
 };
+
 /**
- * Default Puppeteer options for dev
+ * Default Playwright options for dev
  */
-export const defaultPuppeteerBrowserOptions = {
+export const defaultPlaywrightBrowserOptions = {
     args: ['--no-sandbox', '--disable-dev-shm-usage', '--ignore-certificate-errors', '--autoplay-policy=no-user-gesture-required'],
-    defaultViewport: null,
-    headless: true
+    viewport: null,
+    headless: true,
 };

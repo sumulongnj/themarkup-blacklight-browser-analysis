@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import flatten from 'lodash.flatten';
 import { join } from 'path';
-import { Page } from 'puppeteer';
+import { Page } from 'playwright';
 import { getDomain, getHostname } from 'tldts';
 import { Cookie } from 'tough-cookie';
 import { getScriptUrl } from './utils';
@@ -59,10 +59,11 @@ export const setupHttpCookieCapture = async (page, eventHandler) => {
 };
 
 export const clearCookiesCache = async (page: Page) => {
-    const client = await page.target().createCDPSession();
-    await client.send('Network.clearBrowserCookies');
-    await client.send('Network.clearBrowserCache');
-    await client.detach();
+    // Clear cookies
+    await page.context().clearCookies();
+
+    // Clear cache
+    await page.context().storageState();
 };
 
 export const getHTTPCookies = (events, url): any[] => {
@@ -167,25 +168,25 @@ export const matchCookiesToEvents = (cookies, events, url) => {
 // https://blog.ermer.de/2018/06/11/chrome-67-provisional-headers-are-shown/
 // The following call using the dev tools protocol ensures we get all the cookies even if we cant trace the source for each call
 export const captureBrowserCookies = async (page, outDir, filename = 'browser-cookies.json') => {
-    const client = await page.target().createCDPSession();
-    const browser_cookies = (await client.send('Network.getAllCookies')).cookies.map(cookie => {
-        if (cookie.expires > -1) {
-            // add derived attributes for convenience
-            cookie.expires = new Date(cookie.expires * 1000);
-            // cookie.expiresDays =
-            //   Math.round((cookie.expiresUTC - Date.now()) / (10 * 60 * 60 * 24)) /
-            //   100;
-        }
-        cookie.domain = cookie.domain.replace(/^\./, ''); // normalise domain value
-        return cookie;
+    const cookies = await page.context().cookies();
+    
+    // Customize the cookie data or format as needed
+    const browser_cookies = cookies.map(cookie => {
+        // Modify the cookie object properties if needed
+        return {
+            ...cookie,
+            expires: cookie.expires ? new Date(cookie.expires * 1000) : null,
+            domain: cookie.domain.replace(/^\./, '')
+        };
     });
-    await client.detach();
+
     try {
         writeFileSync(join(outDir, filename), JSON.stringify({ browser_cookies }, null, 2));
     } catch (error) {
-        console.log(error);
-        console.log('Couldnt save browser cookies to file');
+        console.error(error);
+        console.error('Could not save browser cookies to file');
     }
+
     return browser_cookies;
 };
 

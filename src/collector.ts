@@ -2,16 +2,15 @@ import { writeFileSync } from 'fs';
 import sampleSize from 'lodash.samplesize';
 import os from 'os';
 import { join } from 'path';
-import puppeteer, { Browser, Page, PuppeteerLifeCycleEvent, KnownDevices, PuppeteerLaunchOptions } from 'puppeteer';
-import PuppeteerHar from 'puppeteer-har';
+import { devices, firefox, Page } from 'playwright';
+import { PlaywrightHar } from 'playwright-har';
 import { getDomain, getSubdomain, parse } from 'tldts';
-import url from 'url';
 import { captureBrowserCookies, clearCookiesCache, setupHttpCookieCapture } from './cookie-collector';
 import { setupBlacklightInspector } from './inspector';
 import { setupKeyLoggingInspector } from './key-logging';
 import { getLogger } from './logger';
 import { generateReport } from './parser';
-import { defaultPuppeteerBrowserOptions, savePageContent } from './pptr-utils/default';
+import { savePageContent, defaultPlaywrightBrowserOptions } from './pptr-utils/default';
 import { dedupLinks, getLinks, getSocialLinks } from './pptr-utils/get-links';
 import { autoScroll, fillForms } from './pptr-utils/interaction-utils';
 import { setupSessionRecordingInspector } from './session-recording';
@@ -23,7 +22,7 @@ export type CollectorOptions = Partial<typeof DEFAULT_OPTIONS>;
 const DEFAULT_OPTIONS = {
     outDir: join(process.cwd(), 'bl-tmp'),
     title: 'Blacklight Inspection',
-    emulateDevice: KnownDevices['iPhone 13 Mini'],
+    emulateDevice: devices['Desktop Firefox'], // Playwright's equivalent of device emulation
     captureHar: true,
     captureLinks: false,
     enableAdBlock: false,
@@ -32,7 +31,7 @@ const DEFAULT_OPTIONS = {
     headless: true,
     defaultTimeout: 35000,
     numPages: 3,
-    defaultWaitUntil: 'networkidle2' as PuppeteerLifeCycleEvent,
+    defaultWaitUntil: 'networkidle2', // Adjust to Playwright's waitUntil options
     saveBrowserProfile: false,
     saveScreenshots: true,
     blTests: [
@@ -44,10 +43,7 @@ const DEFAULT_OPTIONS = {
         'key_logging',
         'session_recorders',
         'third_party_trackers'
-    ],
-    puppeteerExecutablePath: null as string | null,
-    extraChromiumArgs: [] as string[],
-    extraPuppeteerOptions: {} as Partial<PuppeteerLaunchOptions>
+    ]
 };
 
 export const collect = async (inUrl: string, args: CollectorOptions) => {
@@ -63,9 +59,9 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         uri_dest: null,
         uri_redirects: null,
         secure_connection: {},
-        host: url.parse(inUrl).hostname,
+        host: new URL(inUrl).hostname, // Use URL object with uppercase 'URL'
         config: {
-            cleareCache: args.clearCache,
+            clearCache: args.clearCache, // Fixed typo in 'clearCache'
             captureHar: args.captureHar,
             captureLinks: args.captureLinks,
             enableAdBlock: args.enableAdBlock,
@@ -96,8 +92,8 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         }
     };
 
-    let browser: Browser;
-    let page: Page;
+    let browser;
+    let page;
     let pageIndex = 1;
     let har = {} as any;
     let page_response = null;
@@ -106,37 +102,29 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
     let didBrowserDisconnect = false;
 
     const options = {
-        ...defaultPuppeteerBrowserOptions,
-        args: [...defaultPuppeteerBrowserOptions.args, ...args.extraChromiumArgs],
+        ...defaultPlaywrightBrowserOptions,
+        args: [...defaultPlaywrightBrowserOptions.args],
         headless: args.headless,
         userDataDir
     };
-    if (args.puppeteerExecutablePath) {
-        options['executablePath'] = args.puppeteerExecutablePath;
-    }
-    browser = await puppeteer.launch(options);
-    browser.on('disconnected', () => {
-        didBrowserDisconnect = true;
+    
+    browser = await firefox.launch(options);
+    const context = await browser.newContext({
+        ...args.emulateDevice,
     });
+    page = await context.newPage();
 
-    if (didBrowserDisconnect) {
-        return {
-            status: 'failed',
-            page_response: 'Chrome crashed'
-        };
-    }
-    logger.info(`Started Puppeteer with pid ${browser.process().pid}`);
-    page = (await browser.pages())[0];
+    logger.info(`Started Playwright with pid ${browser._process?.pid}`);
     output.browser = {
-        name: 'Chromium',
+        name: 'Firefox',
         version: await browser.version(),
-        user_agent: await browser.userAgent(),
+        user_agent: await page.evaluate(() => navigator.userAgent),
         platform: {
             name: os.type(),
             version: os.release()
         }
     };
-    page.emulate(args.emulateDevice);
+    // page.emulate(args.emulateDevice);
 
     // record all requested hosts
     await page.on('request', request => {
@@ -163,10 +151,10 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
     await setUpThirdPartyTrackersInspector(page, logger.warn, args.enableAdBlock);
 
     if (args.captureHar) {
-        har = new PuppeteerHar(page);
-        await har.start({
+        har = new PlaywrightHar(page);
+        /*await har.start({
             path: args.outDir ? join(args.outDir, 'requests.har') : undefined
-        });
+        });*/
     }
     if (didBrowserDisconnect) {
         return {
@@ -175,34 +163,33 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         };
     }
 
-    // Function to navigate to a page with a timeout guard
-    const navigateWithTimeout = async (page: Page, url: string, timeout: number, waitUntil: PuppeteerLifeCycleEvent) => {
-      try {
-          page_response = await Promise.race([
-              page.goto(url, {
-                  timeout: timeout,
-                  waitUntil: waitUntil
-              }),
-              new Promise((_, reject) =>
-                  setTimeout(() => {
-                      console.log('First navigation attempt timeout');
-                      reject(new Error('First navigation attempt timeout'));
-                  }, 10000)
-              )
-          ]);
-      } catch (error) {
-          console.log('First attempt failed, trying with domcontentloaded');
-          page_response = await page.goto(url, {
-              timeout: timeout,
-              waitUntil: 'domcontentloaded' as PuppeteerLifeCycleEvent
-          });
-      }
-      await savePageContent(pageIndex, args.outDir, page, args.saveScreenshots);
-    };
+    const navigateWithTimeout = async (page: Page, url: string, timeout: number, _waitUntil: string) => {
+        try {
+            page_response = await Promise.race([
+                page.goto(url, {
+                    timeout: timeout,
+                    waitUntil: 'networkidle'
+                }),
+                new Promise((_, reject) =>
+                    setTimeout(() => {
+                        console.log('First navigation attempt timeout');
+                        reject(new Error('First navigation attempt timeout'));
+                    }, 10000)
+                )
+            ]);
+        } catch (error) {
+            console.log('First attempt failed, trying with domcontentloaded');
+            page_response = await page.goto(url, {
+                timeout: timeout,
+                waitUntil: 'domcontentloaded'
+            });
+        }
+        await savePageContent(pageIndex, args.outDir, page, args.saveScreenshots);
+      };
 
     // Go to the first url
     console.log('Going to the first url');
-    await navigateWithTimeout(page, inUrl, args.defaultTimeout, args.defaultWaitUntil as PuppeteerLifeCycleEvent);
+    await navigateWithTimeout(page, inUrl, args.defaultTimeout, args.defaultWaitUntil as 'load' | 'domcontentloaded' | 'networkidle');
 
     pageIndex++;
     console.log('Saving first page response');
@@ -226,10 +213,10 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
     }
     output.uri_redirects = page_response
         .request()
-        .redirectChain()
-        .map(req => {
+        //.redirectChain()
+        /*.map(req => {
             return req.url();
-        });
+        });*/
 
     output.uri_dest = page.url();
     duplicatedLinks = await getLinks(page);
@@ -275,7 +262,7 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         }
 
         console.log(`Browsing now to ${link}`);
-        await navigateWithTimeout(page, link, args.defaultTimeout, args.defaultWaitUntil as PuppeteerLifeCycleEvent);
+        await navigateWithTimeout(page, link, args.defaultTimeout, args.defaultWaitUntil as 'load' | 'domcontentloaded' | 'networkidle');
 
         await fillForms(page);
         // console.log('... done with fillForms (2)');

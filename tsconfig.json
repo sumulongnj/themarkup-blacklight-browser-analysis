@@ -33,6 +33,6 @@
     "types": ["jest", "node", "puppeteer", "winston"],
     "typeRoots": ["node_modules/@types", "src/types"]
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "tests/utils.ts", "tests/types.ts"],
   "exclude": ["node_modules", "**/*.spec.ts", "__tests__"]
 }

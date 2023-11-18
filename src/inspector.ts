@@ -1,5 +1,5 @@
-import { readFileSync } from 'fs';
-import { Page } from 'puppeteer';
+import { promises as fsPromises } from 'fs';
+import { Page } from 'playwright';
 import { instrumentAddEventListener } from './plugins/add-event-listener';
 import { instrumentFingerprintingApis } from './plugins/fingerprinting-apis';
 import { jsInstruments } from './plugins/js-instrument';
@@ -22,9 +22,11 @@ export const setupBlacklightInspector = async (
     testing = false,
     plugins = [instrumentAddEventListener, instrumentFingerprintingApis]
 ) => {
-    const stackTraceHelper = readFileSync(require.resolve('stacktrace-js/dist/stacktrace.js'), 'utf8');
-    await page.evaluateOnNewDocument(stackTraceHelper);
-    await page.evaluateOnNewDocument(getPageScriptAsString(plugins, testing));
+    const stackTraceHelper = await fsPromises.readFile(require.resolve('stacktrace-js/dist/stacktrace.js'), 'utf8');
+    await page.addInitScript(stackTraceHelper);
+    
+    const pageScript = await getPageScriptAsString(plugins, testing);
+    await page.addInitScript(pageScript);
 
     await page.exposeFunction('reportEvent', eventData => {
         try {

@@ -1,1 +1,1 @@
-export { collect, CollectorOptions } from './collector';
+export { collectChromium, collectFirefox, collectWebkit, CollectorOptions } from './collector';

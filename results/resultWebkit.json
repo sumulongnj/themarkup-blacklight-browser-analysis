@@ -1,0 +1,255 @@
+{
+  "status": "success",
+  "args": "Blacklight Inspection",
+  "uri_ins": "http://tiktok.com",
+  "uri_dest": "https://www.tiktok.com/explore",
+  "uri_redirects": {
+    "_type": "Request",
+    "_guid": "request@1ce5714711cdc940156f741a7dc6d6b5"
+  },
+  "secure_connection": {},
+  "host": "tiktok.com",
+  "config": {
+    "clearCache": true,
+    "captureHar": true,
+    "captureLinks": false,
+    "enableAdBlock": false,
+    "numPages": 1
+  },
+  "browser": {
+    "name": "Webkit",
+    "version": "17.4",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+    "platform": {
+      "name": "Darwin",
+      "version": "23.0.0"
+    }
+  },
+  "script": {
+    "host": "Nadinnes-MacBook-Air.local",
+    "version": {
+      "npm": "3.0.3",
+      "commit": "dev"
+    },
+    "node_version": "v20.7.0"
+  },
+  "start_time": "2023-11-24T13:01:40.677Z",
+  "end_time": "2023-11-24T13:01:54.780Z",
+  "browsing_history": [
+    "https://www.tiktok.com/explore",
+    "https://www.tiktok.com/embed"
+  ],
+  "hosts": {
+    "requests": {
+      "first_party": [
+        "tiktok.com",
+        "www.tiktok.com",
+        "mcs-sg.tiktok.com",
+        "webcast.tiktok.com",
+        "mssdk-sg.tiktok.com",
+        "v16-webapp-prime.tiktok.com"
+      ],
+      "third_party": [
+        "sf16-website-login.neutral.ttwstatic.com",
+        "mon.tiktokv.com",
+        "vmweb-sg.byteoversea.com",
+        "mon-va.byteoversea.com",
+        "mcs-va.tiktokv.com",
+        "starling-oversea.byteoversea.com",
+        "p16-sign-va.tiktokcdn.com",
+        "p16-sign-sg.tiktokcdn.com",
+        "p16-sign-useast2a.tiktokcdn.com",
+        "sf16-short-va.bytedapm.com",
+        "lf16-tiktok-common.ibytedtos.com"
+      ]
+    }
+  },
+  "reports": {
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "web-inspector://bootstrap.js": [
+          "dblclick",
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "web-inspector://bootstrap.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "KEYBOARD": {
+        "web-inspector://bootstrap.js": [
+          "keydown",
+          "keypress",
+          "keyup"
+        ]
+      },
+      "SENSOR": {
+        "web-inspector://bootstrap.js": [
+          "devicemotion"
+        ]
+      }
+    },
+    "canvas_fingerprinters": {
+      "data_url": {
+        "web-inspector://bootstrap.js": [
+          "data:image/png;base64,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",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAEAAAAAAa9kMIAAADgUlEQVRIDc3WC2hXVRzA8U3Lx0ptaE56TIcjM0sxRUVxWMhEhJlYGGI5MFFDRUUiVITJ0LAgUJAyKFBwioY4JqMZa6VoKGqF9kBl0+YzXWoqK/Px/f67Z9xtd+IgHz/47Jxzz/3fe8/v/O5laWnJ8RKHH41NPUY/PTa+390e0Q370VahMho3a57gSEfMRjGysRhT8Dm6RBbSZuFexHIu+ivKsQkVuIWRMMbgQKrHn0dCJ2pfpx2KZ+Aqj+Bj9EcuFsHdeAo7cBb/d3iPlbgYXXgprc9kVQzBYLigVLQJHdpeMKvXUYdOKIE/duvq8Tjczgz8iBAuygit/XbwGi3F00y4o0kRHr4zk+/iQ1gdR2H2GxZAv1FkMroMt07foQyzsBnz4KImIIRZ+QuH8A8stxE4BW80CSFMmBk9g39xE+VoaSGrmfsK8RjNYG840LSEvODfOBxOoHU3fBDLpg/aoh+64TO8A3/3JczSR2gPFz4R+TAZxla8iAIcxCv4AuswHvEYxeA15GE6bsAKGICGHYiXEMdTL3At7TK4ymfhjpjhbFg6V5ADa/V5dMW3cKstK8twO95CNeL3uMDY+V14ARUoxXDEYzCDVXCBXkPe93vsgUlORfziHvDT6TvgS2zG3V6zF+ruN/rW9XHMheeb+Z4wu5NQgxlIipUc9D2Zg/AOnaPfASEG0rF0xsGaN77GT7Aa/EKdQCriJeT2FGEfNsKycMXF+AFVGAN3xKy7gP0wM25rX/wMt/sqkqJ7dNDrJYWfymkowB/RCS7uA5gcd8LFvIdUxHfAEjkJH/JlpKMjzK4PPQhurWO30K+IJRay0Yu+YQKSYiIHfT/uFJZWIcLDe+56PAc/Fpaa95+JVMQXcIwjZuhT/ALLIwsb4ELWoASn4YOX4VXsRjxuxQex/lr6lpvhroUwUSGSfjuWyRX4PTrpE9r8qN/oBTOrmdGEpVWLbvgTvg85GAYv1BnugHUZ6tSSS4pwfBuTlmM54l8558M5dJuFCZoG72k5FaICqYiv3gNbsBNTUQN3Ihf1OII3sAfG23gTpQ7uMkyQCWlNmMQFsAR9XhNQhDo0+1fCTFzCRVjLebCMMvANnD+O9+F519CaaO3De+3zWITFDoikMvtvJvrbm7ZtoyNpaU9GY78wvgNLmsw/sKG13jTcqvmoRHU0mUPrC2vNT4a78VDEbRSTwvmPG7WeAAAAAElFTkSuQmCC"
+        ]
+      },
+      "fingerprinters": [
+        "web-inspector://bootstrap.js"
+      ],
+      "styles": {
+        "web-inspector://bootstrap.js": [
+          "rgba(47, 211, 69, .99)",
+          "rgba(150, 32, 170, .97)",
+          "{}",
+          "rgba(0,0,0,0)"
+        ]
+      },
+      "texts": {
+        "web-inspector://bootstrap.js": [
+          "🐼OynG@%tp$"
+        ]
+      }
+    },
+    "canvas_font_fingerprinters": {
+      "canvas_font": {},
+      "text_measure": {}
+    },
+    "cookies": [
+      {
+        "name": "msToken",
+        "value": "6obRZBxlRcCukKVTnHRJjlF7uoobkQC0ySelapW7qKzSQov3RlM-Udq9eGA5lgN2tcy9_hJWng1tNpwb4aeMzAvFJfrcFimtJjDC_Ejk2TGI_o0AmLPfOmXgdqWc9cxpkUxpHAJtLD3MnUnjvhI=",
+        "domain": "www.tiktok.com",
+        "path": "/",
+        "expires": "2024-02-22T13:01:48.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "csrf_session_id",
+        "value": "48b6baf1924582b2ae5b7b65ed08eacd",
+        "domain": "webcast.tiktok.com",
+        "path": "/",
+        "expires": "1969-12-31T23:59:59.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "__tea_cache_tokens_1988",
+        "value": "{%22_type_%22:%22default%22%2C%22user_unique_id%22:%227305013047487350279%22%2C%22timestamp%22:1700830903559}",
+        "domain": "www.tiktok.com",
+        "path": "/",
+        "expires": "2023-12-01T13:01:43.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tiktok_webapp_theme",
+        "value": "light",
+        "domain": "www.tiktok.com",
+        "path": "/",
+        "expires": "2024-09-19T13:01:43.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "perf_feed_cache",
+        "value": "{%22expireTimestamp%22:1701003600000%2C%22itemIds%22:[%227299164746748628256%22%2C%227276186817764937002%22%2C%227302336016243838251%22]}",
+        "domain": "www.tiktok.com",
+        "path": "/",
+        "expires": "2023-11-29T13:01:48.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tt_csrf_token",
+        "value": "xs3W5j3x-QItnBIuefoeo7kVrTZHT1lbSDh8",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "1969-12-31T23:59:59.000Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Lax",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ttwid",
+        "value": "1%7Cc-BOZqrwK8yEEUe7DsQruQXU_zhaamdFN-6EIz1y3sA%7C1700830903%7Cd4ada8ffa71259756234162918398fe84191e506fc13d2caaf78e52fa5b5dc8d",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2024-11-18T13:01:50.000Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "tt_chain_token",
+        "value": "dned1YnLiFjxMEByXa9fnQ==",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2023-12-01T13:01:42.000Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "odin_tt",
+        "value": "06a9c42d9cc3dbebbfe41c13ea137dd08559c2d4b888df01dfe155d8161c618adaf8a488159d8cb99bc2268a41e60eb7997050d10d5c06b7062d98e5156318c67fde13b6258236bd143e792d2ff65bea",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2024-11-23T13:01:43.000Z",
+        "httpOnly": true,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "msToken",
+        "value": "umRYPjYlfmDguPZSe_XyPfY1dda2uqPeAs0FqUCHOx5pA6wDTfqDchUf3fJLT4MHm2JwgLTPSHUOVN0C7TeMrPDfMS60DhHzZi1kY5ldrbYn89FPadD7",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2023-12-01T13:01:50.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [],
+    "key_logging": {},
+    "session_recorders": {},
+    "third_party_trackers": []
+  }
+}

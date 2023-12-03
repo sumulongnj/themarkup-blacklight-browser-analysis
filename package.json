@@ -37,6 +37,8 @@
     "build": "^0.1.4",
     "lodash.flatten": "^4.4.0",
     "lodash.samplesize": "^4.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.5",
     "npm": "^9.8.1",
     "parse-domain": "^8.0.1",
     "path": "^0.12.7",

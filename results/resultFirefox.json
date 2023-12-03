@@ -5,7 +5,7 @@
   "uri_dest": "https://www.tiktok.com/explore",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@79f2d4e6f0140bda0a5da3a940cebf75"
+    "_guid": "request@a63db01d2cc171e65f29ebf9409dc8d2"
   },
   "secure_connection": {},
   "host": "tiktok.com",
@@ -33,11 +33,11 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2023-11-24T13:01:19.638Z",
-  "end_time": "2023-11-24T13:01:39.097Z",
+  "start_time": "2023-12-03T04:01:35.588Z",
+  "end_time": "2023-12-03T04:01:52.140Z",
   "browsing_history": [
     "https://www.tiktok.com/explore",
-    "https://www.tiktok.com/tag/alightmotion_edit"
+    "https://www.tiktok.com/transparency"
   ],
   "hosts": {
     "requests": {
@@ -48,21 +48,21 @@
         "webcast.tiktok.com",
         "v16-webapp-prime.tiktok.com",
         "mssdk-sg.tiktok.com",
-        "verification-sg.tiktok.com"
+        "libraweb-sg.tiktok.com"
       ],
       "third_party": [
         "sf16-website-login.neutral.ttwstatic.com",
-        "mon.tiktokv.com",
         "vmweb-sg.byteoversea.com",
-        "starling-oversea.byteoversea.com",
+        "mon.tiktokv.com",
         "mcs-va.tiktokv.com",
+        "starling-oversea.byteoversea.com",
         "mon-va.byteoversea.com",
         "p16-sign-va.tiktokcdn.com",
         "p16-sign-sg.tiktokcdn.com",
         "p16-sign-useast2a.tiktokcdn.com",
-        "vcs-sg.byteoversea.com",
-        "mcs-sg.tiktokv.com",
-        "p19-rc-captcha-sg.ibyteimg.com"
+        "lf16-web.tiktokcdn.com",
+        "lf16-tiktok-common.ttwstatic.com",
+        "mcs-sg.tiktokv.com"
       ]
     }
   },
@@ -111,10 +111,10 @@
       ],
       "styles": {
         "debugger eval code": [
+          "rgba(0,0,0,0)",
           "rgba(47, 211, 69, .99)",
           "rgba(150, 32, 170, .97)",
-          "{}",
-          "rgba(0,0,0,0)"
+          "{}"
         ]
       },
       "texts": {
@@ -130,7 +130,7 @@
     "cookies": [
       {
         "name": "tt_csrf_token",
-        "value": "YHya9e2x-iKOJfEk16I4UqXDaG4qJQWV4IxM",
+        "value": "71j6gvLv-gksV-e0t34P0iCWhvauC1As2R4w",
         "domain": "tiktok.com",
         "path": "/",
         "expires": "1969-12-31T23:59:59.000Z",
@@ -141,35 +141,11 @@
         "third_party": false
       },
       {
-        "name": "odin_tt",
-        "value": "f31ab41f3372197010e45441f2f1aecf60ee7c2f7900566f3a4fbb899093ba3b4bc63881a3b5be2a3ee91e746f3f802f22d8a355dda62e9bf7d838f15a37c5039978ac526c5dfb1000fa5cc4a821a350",
-        "domain": "tiktok.com",
-        "path": "/",
-        "expires": "2024-11-23T13:01:23.000Z",
-        "httpOnly": true,
-        "secure": false,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": false
-      },
-      {
-        "name": "perf_feed_cache",
-        "value": "{%22expireTimestamp%22:1701003600000%2C%22itemIds%22:[%227277556717066456321%22%2C%227286187215439400197%22%2C%227287268313393155333%22]}",
-        "domain": "www.tiktok.com",
-        "path": "/",
-        "expires": "2023-11-29T13:01:28.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": false
-      },
-      {
         "name": "tt_chain_token",
-        "value": "Na24o2rhyJ+hfxwfwsfOdg==",
+        "value": "qFGqW3rSIvgqlA/bjCThXg==",
         "domain": "tiktok.com",
         "path": "/",
-        "expires": "2024-05-22T13:01:31.000Z",
+        "expires": "2024-05-31T04:01:38.000Z",
         "httpOnly": true,
         "secure": true,
         "sameSite": "None",
@@ -178,10 +154,10 @@
       },
       {
         "name": "__tea_cache_tokens_1988",
-        "value": "{%22_type_%22:%22default%22%2C%22user_unique_id%22:%227305012963277456903%22%2C%22timestamp%22:1700830882883}",
+        "value": "{%22_type_%22:%22default%22%2C%22user_unique_id%22:%227308213631212520967%22%2C%22timestamp%22:1701576098853}",
         "domain": "www.tiktok.com",
         "path": "/",
-        "expires": "2023-12-01T13:01:31.000Z",
+        "expires": "2023-12-10T04:01:38.000Z",
         "httpOnly": false,
         "secure": false,
         "sameSite": "None",
@@ -193,7 +169,7 @@
         "value": "light",
         "domain": "www.tiktok.com",
         "path": "/",
-        "expires": "2024-09-19T13:01:32.000Z",
+        "expires": "2024-09-28T04:01:39.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -201,13 +177,13 @@
         "third_party": false
       },
       {
-        "name": "ttwid",
-        "value": "1%7CMIyuI6OQSB1AdpRYXwNdG-Pvw5A17fExS7f-gOxTvz4%7C1700830892%7Ce7b1670b1cd4b4095e2f22f225070d2f2f14f7f5bd66225fed894226250d3fd6",
+        "name": "odin_tt",
+        "value": "66e44a85a33cb94505bc870b87032934b5c354e9a06e285f35896693c707c4e7536ca99de8639eb58e8b76c5aea44d0079b248197454c4682997b2d60e100d0169059846366465fa1c393bdd5f53d5f9",
         "domain": "tiktok.com",
         "path": "/",
-        "expires": "2024-11-23T13:01:32.000Z",
+        "expires": "2024-12-02T04:01:39.000Z",
         "httpOnly": true,
-        "secure": true,
+        "secure": false,
         "sameSite": "None",
         "type": "unknown",
         "third_party": false
@@ -225,23 +201,11 @@
         "third_party": false
       },
       {
-        "name": "s_v_web_id",
-        "value": "verify_lpcmssgt_IT4S5bQR_X0Os_4DAh_Bmx4_aywc9YxoxkQp",
-        "domain": "tiktok.com",
-        "path": "/",
-        "expires": "1969-12-31T23:59:59.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
         "name": "msToken",
-        "value": "rTjaFFjySCXkNrRsBWAB1jCh8-5hipz_IQ48xZWYzHnp58N96qyjNyRRE4DXfXb58FgTSuICj3Rit2dzCX9ChvYewYclq2V3e7ugvb1cy5QoDtljTUt1gSGyKOh0ZDPnTUI=",
+        "value": "rXQjW90zFN_PQw7RFPBCnQwg2Z_fUJttVFMxWztZg9NZuQDrvskQIKaAAAHHdm6McGktm5QOWBOMZdINhHd8nxjhz5EtlfKPXM7dwuKbZB7VECimyhdaHnWlyoXCyen7wRc=",
         "domain": "www.tiktok.com",
         "path": "/",
-        "expires": "2024-02-22T13:01:36.000Z",
+        "expires": "2024-03-02T04:01:45.000Z",
         "httpOnly": false,
         "secure": false,
         "sameSite": "None",
@@ -249,12 +213,36 @@
         "third_party": false
       },
       {
+        "name": "perf_feed_cache",
+        "value": "{%22expireTimestamp%22:1701748800000%2C%22itemIds%22:[%227292026110919888133%22%2C%227299855820777360645%22]}",
+        "domain": "www.tiktok.com",
+        "path": "/",
+        "expires": "2023-12-08T04:01:45.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
         "name": "msToken",
-        "value": "yxUrVuHBmI6gfXb4wu_-xMoZXqRZhfMQFLbLSBVuItdzRPszbGD2ba1lJcEL-ELrPV3WkatIEbY-22WOYg_maDvTCTji0J7_qowd0mUDaVsCdRqCit4HGRSmQzOr2yB8JwI=",
+        "value": "5-4epM6Tox90Xl_pn8XxJTClukXkgYditCe6BV0rGVckRq_juERaMqqXBvR3r2c3eEfEIXC4CKZcC8_50PEMBs1peuFx4Cz1J0iMvpeNgIL5RyrP4sEs",
         "domain": "tiktok.com",
         "path": "/",
-        "expires": "2023-12-04T13:01:37.000Z",
+        "expires": "2023-12-13T04:01:47.000Z",
         "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "ttwid",
+        "value": "1%7C6HRt90MrgdgDvUqzRmgjIy7TjZsTyEuh4ng2N-GZQ6k%7C1701576099%7C0b5003638788c3aa586318dc63af79c95e1aec0a646b58805a7c80ed1dba372a",
+        "domain": "tiktok.com",
+        "path": "/",
+        "expires": "2024-11-27T04:01:47.000Z",
+        "httpOnly": true,
         "secure": true,
         "sameSite": "None",
         "type": "unknown",
@@ -262,21 +250,7 @@
       }
     ],
     "fb_pixel_events": [],
-    "key_logging": {
-      "tiktok.com": [
-        {
-          "filter": [
-            "TheMarkup"
-          ],
-          "match_type": [
-            "plaintext"
-          ],
-          "post_data": "[{\"events\":[{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":7,\\\"words_content\\\":\\\"markup app\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"5427845727933034087\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954245}\",\"local_time_ms\":1700830897979,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":6,\\\"words_content\\\":\\\"the mark\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"5922348260964659120\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954244}\",\"local_time_ms\":1700830897968,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":5,\\\"words_content\\\":\\\"schema markup\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"295186173207922607\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954243}\",\"local_time_ms\":1700830897956,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":4,\\\"words_content\\\":\\\"markup video\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"30295278056831988\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954242}\",\"local_time_ms\":1700830897946,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":3,\\\"words_content\\\":\\\"mark up\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"3748078293981088204\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954241}\",\"local_time_ms\":1700830897933,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":2,\\\"words_content\\\":\\\"how to remove the markup\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"7549038490820649150\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954240}\",\"local_time_ms\":1700830897923,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":1,\\\"words_content\\\":\\\"themarku\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"7751956384170121603\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954239}\",\"local_time_ms\":1700830897912,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_words_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_position\\\":0,\\\"words_content\\\":\\\"the markup\\\",\\\"sug_type\\\":\\\"normal_sug\\\",\\\"query_id\\\":\\\"\\\",\\\"group_id\\\":\\\"7861153444985010188\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954238}\",\"local_time_ms\":1700830897895,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"},{\"event\":\"trending_show\",\"params\":\"{\\\"page_name\\\":\\\"challenge\\\",\\\"enter_from\\\":\\\"challenge\\\",\\\"is_landing_page\\\":0,\\\"previous_page\\\":\\\"explore_page\\\",\\\"page_url\\\":\\\"https://www.tiktok.com/tag/alightmotion_edit\\\",\\\"userAgent\\\":\\\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0\\\",\\\"user_type_alias\\\":\\\"user\\\",\\\"domain_name\\\":\\\"www.tiktok.com\\\",\\\"page_path\\\":\\\"/tag/alightmotion_edit\\\",\\\"ui_type\\\":\\\"challenge\\\",\\\"is_non_personalized\\\":\\\"0\\\",\\\"words_source\\\":\\\"sug\\\",\\\"words_num\\\":\\\"8\\\",\\\"impr_id\\\":\\\"2023112413013604404D28BFCB96112323\\\",\\\"raw_query\\\":\\\"TheMarkup\\\",\\\"search_position\\\":\\\"challenge\\\",\\\"video_page_type\\\":\\\"\\\",\\\"enter_group_id\\\":\\\"\\\",\\\"event_index\\\":1700830954237}\",\"local_time_ms\":1700830897880,\"is_bav\":0,\"session_id\":\"c16a5c64-ed25-4729-a7f9-e97678d1f4e5\"}],\"user\":{\"user_unique_id\":\"7305012963277456903\",\"user_type\":12,\"user_id\":\"\",\"user_is_login\":false},\"header\":{\"app_id\":1988,\"os_name\":\"mac\",\"os_version\":\"10.15\",\"device_model\":\"Macintosh\",\"language\":\"en-US\",\"region\":\"PH\",\"platform\":\"web\",\"sdk_version\":\"5.1.11_oversea\",\"sdk_lib\":\"js\",\"timezone\":8,\"tz_offset\":-28800,\"resolution\":\"1280x720\",\"browser\":\"Firefox\",\"browser_version\":\"119.0\",\"referrer\":\"\",\"referrer_host\":\"\",\"width\":1280,\"height\":720,\"screen_width\":1280,\"screen_height\":720,\"tracer_data\":\"{\\\"$utm_from_url\\\":1}\",\"custom\":\"{\\\"session_id\\\":\\\"73050129632774569031700830882841\\\",\\\"device\\\":\\\"pc\\\",\\\"launch_mode\\\":\\\"direct\\\",\\\"traffic_type\\\":\\\"no_referrer\\\",\\\"source\\\":\\\"\\\",\\\"referer_url\\\":\\\"direct\\\",\\\"browserName\\\":\\\"firefox\\\",\\\"hevcSupported\\\":0,\\\"cpu_core\\\":8,\\\"release\\\":\\\"1.0.1.3337\\\",\\\"user_is_login\\\":0,\\\"landing_page\\\":\\\"explore_page\\\",\\\"is_kids_mode\\\":0,\\\"region\\\":\\\"PH\\\",\\\"extraData\\\":\\\"{}\\\",\\\"is_downgrade\\\":true,\\\"app_language\\\":\\\"en\\\",\\\"is_sharing\\\":0}\"},\"local_time\":1700830898,\"verbose\":1}]",
-          "post_request_url": "https://mcs-sg.tiktok.com/v1/list",
-          "post_request_ps": "tiktok.com"
-        }
-      ]
-    },
+    "key_logging": {},
     "session_recorders": {},
     "third_party_trackers": []
   }

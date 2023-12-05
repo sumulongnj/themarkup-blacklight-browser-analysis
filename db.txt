@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS Blacklight_Tool;
+
+USE Blacklight_Tool;
+
+CREATE TABLE IF NOT EXISTS WebsiteData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Website VARCHAR(255) NOT NULL,
+    Browser VARCHAR(50) NOT NULL,
+    adTrackers INT NOT NULL,
+    thirdPartyCookies INT NOT NULL,
+    canvasFingerprinting BOOLEAN NOT NULL,
+    sessionRecording BOOLEAN NOT NULL,
+    keyLogging BOOLEAN NOT NULL,
+    fbPixel BOOLEAN NOT NULL,
+    googleAnalytics BOOLEAN NOT NULL,
+    executionTime BIGINT NOT NULL
+);

@@ -1,14 +1,14 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://mb.com.ph",
-  "uri_dest": "https://mb.com.ph/",
+  "uri_ins": "http://facebook.com",
+  "uri_dest": "https://www.facebook.com/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@84cfbc8ba0bf833ce1bc8cdc115e6e8c"
+    "_guid": "request@843f5a96dcf83c285ee4722b70e67ddd"
   },
   "secure_connection": {},
-  "host": "mb.com.ph",
+  "host": "facebook.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -33,161 +33,64 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2023-12-05T01:44:08.771Z",
-  "end_time": "2023-12-05T01:44:25.624Z",
+  "start_time": "2024-01-08T06:22:19.233Z",
+  "end_time": "2024-01-08T06:22:26.433Z",
   "browsing_history": [
-    "https://mb.com.ph/",
-    "https://mb.com.ph/category/entertainment"
+    "https://www.facebook.com/",
+    "https://fr-fr.facebook.com/"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "mb.com.ph",
-        "rev2.mb.com.ph",
-        "api.mb.com.ph",
-        "admin.mb.com.ph"
+        "facebook.com",
+        "www.facebook.com",
+        "fr-fr.facebook.com"
       ],
       "third_party": [
-        "cdn.jsdelivr.net",
-        "www.youtube.com",
-        "securepubads.g.doubleclick.net",
-        "static.chartbeat.com",
-        "www.googletagmanager.com",
-        "pagead2.googlesyndication.com",
-        "anymind360.com",
-        "cdn.taboola.com",
-        "ads.pubmatic.com",
-        "s.imgsynd.com",
-        "srv2.weatherwidget.org",
-        "rumcdn.geoedge.be",
-        "tag.adbro.me",
-        "analytics.google.com",
-        "stats.g.doubleclick.net",
-        "www.google.com.ph",
-        "c.amazon-adsystem.com",
-        "fonts.gstatic.com",
-        "tags.crwdcntrl.net",
-        "cdn.prod.uidapi.com",
-        "cdn.id5-sync.com",
-        "oa.openxcdn.net",
-        "cdn-ima.33across.com",
-        "static.criteo.net",
-        "a.teads.tv",
-        "hbopenbid.pubmatic.com",
-        "prebid.media.net",
-        "bidder.criteo.com",
-        "ib.adnxs.com",
-        "rtb.openx.net",
-        "targeting.unrulymedia.com",
-        "bs.yandex.ru",
-        "fastlane.rubiconproject.com",
-        "tlx.3lift.com",
-        "prebid.ad.smaato.net",
-        "htlb.casalemedia.com",
-        "prg-apac.smartadserver.com",
-        "ads.playground.xyz",
-        "googleads.g.doubleclick.net",
-        "static.doubleclick.net",
-        "jnn-pa.googleapis.com",
-        "www.google.com",
-        "yt3.ggpht.com",
-        "oajs.openx.net",
-        "bcp.crwdcntrl.net",
-        "gum.criteo.com",
-        "rr5---sn-jvhja5g3-hoal7.googlevideo.com",
-        "i.ytimg.com",
-        "www.gstatic.com",
-        "google-bidout-d.openx.net",
-        "match.adsrvr.org",
-        "tg.socdm.com",
-        "cr-p3.ladsp.com",
-        "cm.g.doubleclick.net",
-        "jp-u.openx.net",
-        "storage.googleapis.com",
-        "play.google.com",
-        "img.youtube.com",
-        "js-sec.indexww.com",
-        "adasia-d.openx.net",
-        "acdn.adnxs.com",
-        "eb2.3lift.com",
-        "eus.rubiconproject.com",
-        "pr-bh.ybp.yahoo.com",
-        "cs.nex8.net",
-        "sync-dsp.ad-m.asia",
-        "ad.turn.com",
-        "token.rubiconproject.com",
-        "mug.criteo.com",
-        "px.ads.linkedin.com",
-        "x.bidswitch.net",
-        "dis.criteo.com",
-        "s.amazon-adsystem.com",
-        "pixel.rubiconproject.com",
-        "aax-eu.amazon-adsystem.com",
-        "match.prod.bidr.io",
-        "sync.ipredictive.com"
+        "static.xx.fbcdn.net"
       ]
     }
   },
   "reports": {
     "behaviour_event_listeners": {
       "MOUSE": {
-        "https://www.googletagmanager.com/gtag/js?id=G-CBC2KJ1P72": [
-          "scroll",
-          "click"
-        ],
-        "https://anymind360.com/js/1686/ats.js": [
-          "click"
-        ],
-        "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js": [
-          "mousedown",
-          "mousemove",
-          "mouseup"
-        ],
-        "https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js": [
-          "mousemove",
-          "scroll",
+        "    at <anonymous>:6025:11": [
+          "dblclick",
+          "click",
           "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://static.xx.fbcdn.net/rsrc.php/v3/y_/r/2H4wLdDD9MP.js?_nc_x=Ij3Wp8lg5Kz": [
+          "scroll",
+          "click"
+        ],
+        "https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/sKtrEJAtiUM.js?_nc_x=Ij3Wp8lg5Kz": [
+          "mousemove",
           "mousedown"
         ]
       },
       "TOUCH": {
-        "https://anymind360.com/js/1686/ats.js": [
-          "touchstart"
-        ],
-        "https://www.google.com/js/th/lYY52XQrUlH64Wh-f-QMzQSikq1nuSlNPE5Z4_DU2e4.js": [
+        "    at <anonymous>:6025:11": [
+          "touchcancel",
           "touchend",
           "touchstart"
         ],
-        "https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js": [
-          "touchend",
+        "https://static.xx.fbcdn.net/rsrc.php/v3/yp/r/sKtrEJAtiUM.js?_nc_x=Ij3Wp8lg5Kz": [
+          "touchcancel",
           "touchstart"
-        ]
-      },
-      "SENSOR": {
-        "https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js": [
-          "orientationchange"
         ]
       },
       "KEYBOARD": {
-        "https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js": [
-          "keyup",
+        "https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/6bjw9N12j0I.js?_nc_x=Ij3Wp8lg5Kz": [
           "keydown"
         ]
       }
     },
     "canvas_fingerprinters": {
-      "data_url": {
-        "https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js": [
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAYAAAAbb8MkAAAAAXNSR0IArs4c6QAAAG9JREFUGFdNx1EGwgAAgOE9doOOsBt0g14zZiKTmIkkIxlJIhmTRDKSjCTSIfO99T98/EHwX8d0EaKHPgaIECPBECOkGGOCDDmmmGGOBQossUKJNTbYYoc9DqhQ44gTzrjgigY33PFAiydeeOOD7w/b2RVEimC76wAAAABJRU5ErkJggg==",
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAByCAYAAACSo7vmAAAAAXNSR0IArs4c6QAAANVJREFUKFNNx2krAwAAgOG5ZoSxkfvIfWRz5z7C2EhKS2lJSUqSkpQkJSlJSlKSlKTkR+r55v3w1BsI/C/LZCMHuchDEPkIoQCFKEIxShBGKcoQQRTlqEAlqlCNGtSiDvVoQCOa0IwWtKIN7ehAJ7rQjR70IoY4+tCPAQxiCMMYwSjGMI4JTGIK05jBLOYwjwUsIoElLCOJFFawijWsYwNpbGILGWxjB7vYwz4OcIgjHOMEpzjDOS5wiStc4wa3uMM9HvCIJzzjBa94wzs+8IkvfOMHv3+aph8Ke/A6EgAAAABJRU5ErkJggg=="
-        ]
-      },
+      "data_url": {},
       "fingerprinters": [],
-      "styles": {
-        "https://www.youtube.com/s/player/31e0b6d9/player_ias.vflset/en_US/base.js": [
-          "{}"
-        ]
-      },
+      "styles": {},
       "texts": {}
     },
     "canvas_font_fingerprinters": {
@@ -196,292 +99,52 @@
     },
     "cookies": [
       {
-        "name": "sync",
-        "value": "CgoIoQEQxLSXvcMxCgoIkQIQxLSXvcMxCgoItAIQxLSXvcMxCgoI5gEQxLSXvcMxCgoIhwIQxLSXvcMxCgoItwIQxLSXvcMxCgkIOhDEtJe9wzEKCgiMAhDEtJe9wzEKCQhfEMS0l73DMQoJCB8QxLSXvcMx",
-        "domain": "3lift.com",
-        "path": "/sync",
-        "expires": "2024-03-04T01:44:25.392Z",
-        "httpOnly": false,
+        "name": "sb",
+        "value": "nJSbZXoR-JWNDlPbcvuCL2E2",
+        "domain": "facebook.com",
+        "path": "/",
+        "expires": "2025-02-11T06:22:20.956Z",
+        "httpOnly": true,
         "secure": true,
         "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "_cfuvid",
-        "value": "0FhOjaIeIt9dS_z8ht2XyELjpk4DNNvUXWrRVgd_r00-1701740650310-0-604800000",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "1969-12-31T23:59:59.000Z",
-        "httpOnly": true,
-        "secure": false,
-        "sameSite": "Lax",
         "type": "unknown",
         "third_party": false
       },
       {
-        "name": "YSC",
-        "value": "BbiD4Igl5eg",
-        "domain": "youtube.com",
+        "name": "wd",
+        "value": "1280x720",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "1969-12-31T23:59:59.000Z",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "VISITOR_INFO1_LIVE",
-        "value": "3fnM2JDrD1Y",
-        "domain": "youtube.com",
-        "path": "/",
-        "expires": "2024-06-02T01:44:12.430Z",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.1.1934103231.1701740653",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "2025-01-08T01:44:13.059Z",
+        "expires": "2024-01-15T06:22:23.000Z",
         "httpOnly": false,
-        "secure": false,
+        "secure": true,
         "sameSite": "Lax",
         "type": "js",
         "third_party": false
       },
       {
-        "name": "_pbjs_userid_consent_data",
-        "value": "3524755945110770",
-        "domain": "mb.com.ph",
+        "name": "datr",
+        "value": "nJSbZQhjTIsdaspv-4x04jjm",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "2024-01-04T01:44:18.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "tt_viewer",
-        "value": "fb2c55bb-9648-4e3f-8829-9048f6b5eb67",
-        "domain": "teads.tv",
-        "path": "/",
-        "expires": "2024-12-03T01:44:13.706Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "receive-cookie-deprecation",
-        "value": "1",
-        "domain": "teads.tv",
-        "path": "/",
-        "expires": "2024-12-03T01:44:13.708Z",
+        "expires": "2025-02-11T06:22:23.522Z",
         "httpOnly": true,
         "secure": true,
         "sameSite": "None",
         "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "yandexuid",
-        "value": "1211776141701740653",
-        "domain": "yandex.ru",
-        "path": "/",
-        "expires": "2025-01-08T01:44:19.034Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "_cc_dc",
-        "value": "2",
-        "domain": "crwdcntrl.net",
-        "path": "/",
-        "expires": "2024-08-31T01:08:00.201Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "_cc_id",
-        "value": "daf1307656416d8016a28875ca07db27",
-        "domain": "crwdcntrl.net",
-        "path": "/",
-        "expires": "2024-08-31T01:08:00.201Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "uid",
-        "value": "31e3b932-de43-4ace-bfec-c7546403fe40",
-        "domain": "criteo.com",
-        "path": "/",
-        "expires": "2024-12-29T01:44:14.228Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "i",
-        "value": "9b3917d5-b77e-4e36-8fa2-396bd7c746cb|1701740654",
-        "domain": "openx.net",
-        "path": "/",
-        "expires": "2024-12-04T01:44:14.331Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "_cc_id",
-        "value": "daf1307656416d8016a28875ca07db27",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "2024-08-31T01:44:14.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
         "third_party": false
       },
       {
-        "name": "panoramaId_expiry",
-        "value": "1701827054211",
-        "domain": "mb.com.ph",
+        "name": "fr",
+        "value": "0B51JgAqmTynZD1Lu..Blm5Sc.RW.AAA.0.0.Blm5Sf.AWWygOD6S7M",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "2023-12-06T01:44:14.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "cr",
-        "value": "1",
-        "domain": "ladsp.com",
-        "path": "/",
-        "expires": "2023-12-05T02:44:15.754Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "smn_uid",
-        "value": "gTteKJPUFe2vDcLy1SXIFxA7ezZxRbA",
-        "domain": "ladsp.com",
-        "path": "/",
-        "expires": "2025-01-08T01:44:25.369Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "SOSYNC",
-        "value": "anNvbjp7Im9wZW54IjoxNzAxNzQwNjU1fQ",
-        "domain": "socdm.com",
-        "path": "/",
-        "expires": "2025-01-08T01:44:25.377Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "_ga_CBC2KJ1P72",
-        "value": "GS1.1.1701740653.1.1.1701740658.55.0.0",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "2025-01-08T01:44:18.287Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "tluid",
-        "value": "2052007188613788066823",
-        "domain": "3lift.com",
-        "path": "/",
-        "expires": "2024-03-04T01:44:25.484Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "lum",
-        "value": "CIy0l73DMRIFCAMQ0AU",
-        "domain": "ladsp.com",
-        "path": "/",
-        "expires": "2025-01-08T01:44:25.369Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "A3",
-        "value": "d=AQABBHmAbmUCELrhW-ZmljwlyeSpfG_RnxsFEgEBAQHRb2V4ZQAAAAAA_eMAAA&S=AQAAAh_Nw4LgdxYG3dY9AeXN5uM",
-        "domain": "yahoo.com",
-        "path": "/",
-        "expires": "2024-12-04T07:44:25.447Z",
+        "expires": "2024-04-07T06:22:23.522Z",
         "httpOnly": true,
         "secure": true,
         "sameSite": "None",
         "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "khaos",
-        "value": "LPROGD4W-1-65C4",
-        "domain": "rubiconproject.com",
-        "path": "/",
-        "expires": "2024-12-04T01:44:25.450Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "audit",
-        "value": "1|TcubGuJLaoShv3oPp8hQ/UOEzWqaS11gXdqHOttXypAVJXvVZt6eiI5AQO8T6fvQjvuMdbWGWw4iZ07GJqnMnujPGTiJ9gcmpmvllXEtYN4=",
-        "domain": "rubiconproject.com",
-        "path": "/",
-        "expires": "2024-12-04T01:44:25.450Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
+        "third_party": false
       }
     ],
     "fb_pixel_events": [],

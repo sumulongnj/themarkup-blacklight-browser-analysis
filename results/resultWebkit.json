@@ -1,14 +1,14 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://mb.com.ph",
-  "uri_dest": "https://mb.com.ph/",
+  "uri_ins": "http://facebook.com",
+  "uri_dest": "https://www.facebook.com/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@6039534c4de655057d6cc1188ced1c67"
+    "_guid": "request@a766774979c3edd3b636ea54a203cf08"
   },
   "secure_connection": {},
-  "host": "mb.com.ph",
+  "host": "facebook.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -33,76 +33,23 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2023-12-05T01:44:54.629Z",
-  "end_time": "2023-12-05T01:45:21.923Z",
+  "start_time": "2024-01-08T06:22:35.791Z",
+  "end_time": "2024-01-08T06:22:44.234Z",
   "browsing_history": [
-    "https://mb.com.ph/",
-    "https://mb.com.ph/2023/12/5/i-give-you-praise-father"
+    "https://www.facebook.com/",
+    "https://www.facebook.com/settings"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "mb.com.ph",
-        "rev2.mb.com.ph",
-        "api.mb.com.ph",
-        "admin.mb.com.ph"
+        "facebook.com",
+        "www.facebook.com"
       ],
       "third_party": [
-        "cdn.jsdelivr.net",
-        "www.youtube.com",
-        "securepubads.g.doubleclick.net",
-        "static.chartbeat.com",
-        "www.googletagmanager.com",
-        "pagead2.googlesyndication.com",
-        "anymind360.com",
-        "cdn.taboola.com",
-        "ads.pubmatic.com",
-        "s.imgsynd.com",
-        "srv2.weatherwidget.org",
-        "rumcdn.geoedge.be",
-        "tag.adbro.me",
-        "c.amazon-adsystem.com",
-        "analytics.google.com",
-        "stats.g.doubleclick.net",
-        "www.google.com.ph",
-        "hbopenbid.pubmatic.com",
-        "fastlane.rubiconproject.com",
-        "targeting.unrulymedia.com",
-        "tlx.3lift.com",
-        "prebid.ad.smaato.net",
-        "prebid.media.net",
-        "rtb.openx.net",
-        "ib.adnxs.com",
-        "htlb.casalemedia.com",
-        "a.teads.tv",
-        "prg-apac.smartadserver.com",
-        "bs.yandex.ru",
-        "bidder.criteo.com",
-        "ads.playground.xyz",
-        "fonts.gstatic.com",
-        "tags.crwdcntrl.net",
-        "cdn.prod.uidapi.com",
-        "cdn.id5-sync.com",
-        "oa.openxcdn.net",
-        "cdn-ima.33across.com",
-        "static.criteo.net",
-        "googleads.g.doubleclick.net",
-        "static.doubleclick.net",
-        "jnn-pa.googleapis.com",
-        "www.google.com",
-        "yt3.ggpht.com",
-        "rr5---sn-jvhja5g3-hoal7.googlevideo.com",
-        "i.ytimg.com",
-        "c.ltmsphrcl.net",
-        "oajs.openx.net",
-        "gum.criteo.com",
-        "mug.criteo.com",
-        "google-bidout-d.openx.net",
-        "csm.sg1.as.criteo.net",
-        "play.google.com",
-        "storage.googleapis.com",
-        "firebase.googleapis.com",
-        "firebaseinstallations.googleapis.com"
+        "static.xx.fbcdn.net",
+        "fbcdn.net",
+        "fbsbx.com",
+        "connect.facebook.net"
       ]
     }
   },
@@ -110,44 +57,31 @@
     "behaviour_event_listeners": {
       "MOUSE": {
         "web-inspector://bootstrap.js": [
-          "scroll",
+          "dblclick",
           "click",
+          "mouseup",
           "mousedown",
           "mousemove",
-          "mouseup"
+          "scroll"
         ]
       },
       "TOUCH": {
         "web-inspector://bootstrap.js": [
-          "touchstart",
-          "touchend"
-        ]
-      },
-      "SENSOR": {
-        "web-inspector://bootstrap.js": [
-          "orientationchange"
+          "touchcancel",
+          "touchend",
+          "touchstart"
         ]
       },
       "KEYBOARD": {
         "web-inspector://bootstrap.js": [
-          "keyup",
           "keydown"
         ]
       }
     },
     "canvas_fingerprinters": {
-      "data_url": {
-        "web-inspector://bootstrap.js": [
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAByCAYAAACSo7vmAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAcgAAAABHUAfhAAAAZUlEQVQoFZWRUQ6AMAhDcXr/IxvlmfiUEDP3QVpaSsginm8ZJ+tKpDCyiPRNCJj1OatQeoUyW3oT9HtM1bNAJXl9X96ZjQJ1KQgU8tgB6qhmET6paLv/7Y9lZMBelhNaelIWXXsPxjwCi8MdRyEAAAAASUVORK5CYII=",
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAYAAAAbb8MkAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAMQAAAABYAyV4AAAAQUlEQVQIHWNgQAYcTECeAIjgg7P4QSywBDOIxQQiECw0Lk4JRpA2FhABZoG1IfSiaUNIoKlDSIBMYQJx/5GulwkAxroCCbLFif0AAAAASUVORK5CYII="
-        ]
-      },
+      "data_url": {},
       "fingerprinters": [],
-      "styles": {
-        "web-inspector://bootstrap.js": [
-          "{}"
-        ]
-      },
+      "styles": {},
       "texts": {}
     },
     "canvas_font_fingerprinters": {
@@ -156,109 +90,61 @@
     },
     "cookies": [
       {
-        "name": "_pbjs_userid_consent_data",
-        "value": "3524755945110770",
-        "domain": "mb.com.ph",
+        "name": "fr",
+        "value": "0bmnUWGo9XdoapPTA..Blm5St.Th.AAA.0.0.Blm5Sw.AWUwsqqlBWM",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "2024-01-04T01:45:19.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "_cfuvid",
-        "value": "Xgd7uI5Vw9CO7tb4BFtw1Gqe6Rn21nZk2_C4XsYnMJo-1701740696596-0-604800000",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "1969-12-31T23:59:59.000Z",
+        "expires": "2024-04-07T06:22:40.000Z",
         "httpOnly": true,
-        "secure": false,
+        "secure": true,
         "sameSite": "None",
         "type": "unknown",
         "third_party": false
       },
       {
-        "name": "_ga_CBC2KJ1P72",
-        "value": "GS1.1.1701740697.1.1.1701740719.38.0.0",
-        "domain": "mb.com.ph",
+        "name": "sb",
+        "value": "rZSbZXXYQK0i_I3VPPf8WiUD",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "2025-01-08T01:45:19.000Z",
+        "expires": "2025-02-11T06:22:37.000Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "wd",
+        "value": "1280x720",
+        "domain": "facebook.com",
+        "path": "/",
+        "expires": "2024-01-15T06:22:40.000Z",
         "httpOnly": false,
-        "secure": false,
+        "secure": true,
         "sameSite": "None",
         "type": "js",
         "third_party": false
       },
       {
-        "name": "_ga",
-        "value": "GA1.1.1858684970.1701740698",
-        "domain": "mb.com.ph",
+        "name": "datr",
+        "value": "rZSbZYRaxjRvOVJCTA_CXgbP",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "2025-01-08T01:44:57.000Z",
-        "httpOnly": false,
-        "secure": false,
+        "expires": "2025-02-11T06:22:39.000Z",
+        "httpOnly": true,
+        "secure": true,
         "sameSite": "None",
-        "type": "js",
+        "type": "unknown",
         "third_party": false
       },
       {
-        "name": "_cc_id",
-        "value": "eb9b983235a24f67b26921e693d2be73",
-        "domain": "mb.com.ph",
+        "name": "_js_datr",
+        "value": "rZSbZYRaxjRvOVJCTA_CXgbP",
+        "domain": "facebook.com",
         "path": "/",
-        "expires": "2024-08-31T01:45:00.000Z",
+        "expires": "2025-02-11T06:22:40.000Z",
         "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "panoramaId_expiry",
-        "value": "1701827100266",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "2023-12-06T01:45:00.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "Lax",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "cto_bundle",
-        "value": "jV5Q919seDVXaDhVYjJ6cjVWU0pwRkhxTUZTM0tyZjNubnF0UjJqVkFibWxvNXA3V2hONlJLemRSRmhTSGM2OFEyYkxSJTJCVjZweG1tSmJxTU03aXB6OVBOVkcxRTBFOHYzcjJDZGxHWnVDNyUyQjJyaCUyQjV6eGhHejVheU1sS2JHWnQ2VDR4anpOcTZtVSUyRmNIUDNaSzltd2lhMHZQb2tMeERQV3ZYNkp6cTRyV0VhYXVoayUzRA",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "1969-12-31T23:59:59.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "cto_bidid",
-        "value": "AuCJ5l9iVVFyWmtuU0ZmMVBUd2gzUVloTVB4ZG9ybmZibzF1MjkzM2JaZTRIJTJCJTJGMEVjcjQ2VlZtS3piMlVaaWl0aDh0JTJGbW1KYXM2NVJGOFN2MEx5TXZqYyUyQiUyRnk0aEhYd0Q1bzhwU3ZqdDdSZHBXeVklM0Q",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "1969-12-31T23:59:59.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "_ga_ZE7K67ER6R",
-        "value": "GS1.1.1701740711.1.1.1701740719.52.0.0",
-        "domain": "mb.com.ph",
-        "path": "/",
-        "expires": "2025-01-08T01:45:19.000Z",
-        "httpOnly": false,
-        "secure": false,
+        "secure": true,
         "sameSite": "None",
         "type": "js",
         "third_party": false

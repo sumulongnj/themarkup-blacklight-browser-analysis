@@ -65,7 +65,6 @@ function saveProcessedResultsToMySQL(processedData, website, browser) {
         } else {
             console.log(`Inserted data for ${website} (${browser}) into the database.`);
         }
-        connection.end();
     });
 }
 

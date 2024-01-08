@@ -1,14 +1,14 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://facebook.com",
-  "uri_dest": "https://www.facebook.com/",
+  "uri_ins": "http://mb.com.ph",
+  "uri_dest": "https://mb.com.ph/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@a766774979c3edd3b636ea54a203cf08"
+    "_guid": "request@6844f697d9fc2cdae150ec0b9f90f5ae"
   },
   "secure_connection": {},
-  "host": "facebook.com",
+  "host": "mb.com.ph",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -33,23 +33,94 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-01-08T06:22:35.791Z",
-  "end_time": "2024-01-08T06:22:44.234Z",
+  "start_time": "2024-01-08T06:39:10.497Z",
+  "end_time": "2024-01-08T06:39:37.064Z",
   "browsing_history": [
-    "https://www.facebook.com/",
-    "https://www.facebook.com/settings"
+    "https://mb.com.ph/",
+    "https://mb.com.ph/"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "facebook.com",
-        "www.facebook.com"
+        "mb.com.ph",
+        "rev2.mb.com.ph",
+        "ps.mb.com.ph",
+        "um.mb.com.ph",
+        "api.mb.com.ph",
+        "admin.mb.com.ph"
       ],
       "third_party": [
-        "static.xx.fbcdn.net",
-        "fbcdn.net",
-        "fbsbx.com",
-        "connect.facebook.net"
+        "cdn.jsdelivr.net",
+        "www.youtube.com",
+        "securepubads.g.doubleclick.net",
+        "static.chartbeat.com",
+        "www.googletagmanager.com",
+        "pagead2.googlesyndication.com",
+        "anymind360.com",
+        "cdn.izooto.com",
+        "cdn.taboola.com",
+        "ads.pubmatic.com",
+        "s.imgsynd.com",
+        "srv2.weatherwidget.org",
+        "rumcdn.geoedge.be",
+        "tag.adbro.me",
+        "ping.chartbeat.net",
+        "pm-widget.taboola.com",
+        "c.amazon-adsystem.com",
+        "googleads.g.doubleclick.net",
+        "mab.chartbeat.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.com.ph",
+        "gum.criteo.com",
+        "ads.playground.xyz",
+        "bs.yandex.ru",
+        "hbopenbid.pubmatic.com",
+        "targeting.unrulymedia.com",
+        "prebid.ad.smaato.net",
+        "a.teads.tv",
+        "bidder.criteo.com",
+        "ib.adnxs.com",
+        "rtb.openx.net",
+        "prebid.media.net",
+        "tlx.3lift.com",
+        "htlb.casalemedia.com",
+        "prg-apac.smartadserver.com",
+        "fastlane.rubiconproject.com",
+        "config.aps.amazon-adsystem.com",
+        "aax.amazon-adsystem.com",
+        "fonts.gstatic.com",
+        "tags.crwdcntrl.net",
+        "cdn.prod.uidapi.com",
+        "cdn.id5-sync.com",
+        "oa.openxcdn.net",
+        "cdn-ima.33across.com",
+        "static.criteo.net",
+        "csm.sg1.as.criteo.net",
+        "c.ltmsphrcl.net",
+        "id5-sync.com",
+        "oajs.openx.net",
+        "s.amazon-adsystem.com",
+        "static.doubleclick.net",
+        "jnn-pa.googleapis.com",
+        "www.google.com",
+        "yt3.ggpht.com",
+        "rr4---sn-jvhja5g3-hoae6.googlevideo.com",
+        "i.ytimg.com",
+        "44f18774082d42ba1a58766b4a42dd6f.safeframe.googlesyndication.com",
+        "google-bidout-d.openx.net",
+        "tpc.googlesyndication.com",
+        "cdn.ampproject.org",
+        "sbp.izooto.com",
+        "prod.tahoe-analytics.publishers.advertising.a2z.com",
+        "storage.googleapis.com",
+        "trc-events.taboola.com",
+        "play.google.com",
+        "4c3d5591db4e3e92b1b7860f70bef9db.safeframe.googlesyndication.com",
+        "r8---sn-v2u0n-hxa6.googlevideo.com",
+        "r7---sn-v2u0n-hxa6.googlevideo.com",
+        "67639b1d4c23a8336e4ac47706c74e86.safeframe.googlesyndication.com",
+        "fonts.googleapis.com"
       ]
     }
   },
@@ -57,31 +128,45 @@
     "behaviour_event_listeners": {
       "MOUSE": {
         "web-inspector://bootstrap.js": [
-          "dblclick",
+          "scroll",
           "click",
-          "mouseup",
-          "mousedown",
           "mousemove",
-          "scroll"
-        ]
-      },
-      "TOUCH": {
-        "web-inspector://bootstrap.js": [
-          "touchcancel",
-          "touchend",
-          "touchstart"
+          "mouseup",
+          "mousedown"
         ]
       },
       "KEYBOARD": {
         "web-inspector://bootstrap.js": [
-          "keydown"
+          "keydown",
+          "keyup",
+          "input"
+        ]
+      },
+      "TOUCH": {
+        "web-inspector://bootstrap.js": [
+          "touchend",
+          "touchstart"
+        ]
+      },
+      "SENSOR": {
+        "web-inspector://bootstrap.js": [
+          "orientationchange"
         ]
       }
     },
     "canvas_fingerprinters": {
-      "data_url": {},
+      "data_url": {
+        "web-inspector://bootstrap.js": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAByCAYAAACSo7vmAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAcgAAAABHUAfhAAAAZUlEQVQoFZWRUQ6AMAhDcXr/IxvlmfiUEDP3QVpaSsginm8ZJ+tKpDCyiPRNCJj1OatQeoUyW3oT9HtM1bNAJXl9X96ZjQJ1KQgU8tgB6qhmET6paLv/7Y9lZMBelhNaelIWXXsPxjwCi8MdRyEAAAAASUVORK5CYII=",
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAxCAYAAAAbb8MkAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAAaADAAQAAAABAAAAMQAAAABYAyV4AAAAQUlEQVQIHWNgQAYcTECeAIjgg7P4QSywBDOIxQQiECw0Lk4JRpA2FhABZoG1IfSiaUNIoKlDSIBMYQJx/5GulwkAxroCCbLFif0AAAAASUVORK5CYII="
+        ]
+      },
       "fingerprinters": [],
-      "styles": {},
+      "styles": {
+        "web-inspector://bootstrap.js": [
+          "{}"
+        ]
+      },
       "texts": {}
     },
     "canvas_font_fingerprinters": {
@@ -90,35 +175,35 @@
     },
     "cookies": [
       {
-        "name": "fr",
-        "value": "0bmnUWGo9XdoapPTA..Blm5St.Th.AAA.0.0.Blm5Sw.AWUwsqqlBWM",
-        "domain": "facebook.com",
+        "name": "_pbjs_userid_consent_data",
+        "value": "3524755945110770",
+        "domain": "mb.com.ph",
         "path": "/",
-        "expires": "2024-04-07T06:22:40.000Z",
+        "expires": "2024-02-07T06:39:34.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cfuvid",
+        "value": "wRKtxBWUph7KKbd7ya6smgJZCFsvac0itFNccem_3Qc-1704695951709-0-604800000",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "1969-12-31T23:59:59.000Z",
         "httpOnly": true,
-        "secure": true,
+        "secure": false,
         "sameSite": "None",
         "type": "unknown",
         "third_party": false
       },
       {
-        "name": "sb",
-        "value": "rZSbZXXYQK0i_I3VPPf8WiUD",
-        "domain": "facebook.com",
+        "name": "_cb",
+        "value": "CHwchsDbroW3BtmvFS",
+        "domain": "mb.com.ph",
         "path": "/",
-        "expires": "2025-02-11T06:22:37.000Z",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": false
-      },
-      {
-        "name": "wd",
-        "value": "1280x720",
-        "domain": "facebook.com",
-        "path": "/",
-        "expires": "2024-01-15T06:22:40.000Z",
+        "expires": "2025-02-06T06:39:34.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -126,23 +211,119 @@
         "third_party": false
       },
       {
-        "name": "datr",
-        "value": "rZSbZYRaxjRvOVJCTA_CXgbP",
-        "domain": "facebook.com",
+        "name": "_chartbeat2",
+        "value": ".1704695952670.1704695974183.1.BjpedBCdK_SDv4so18b4NzCfyi0.1",
+        "domain": "mb.com.ph",
         "path": "/",
-        "expires": "2025-02-11T06:22:39.000Z",
-        "httpOnly": true,
+        "expires": "2025-02-06T06:39:34.000Z",
+        "httpOnly": false,
         "secure": true,
         "sameSite": "None",
-        "type": "unknown",
+        "type": "js",
         "third_party": false
       },
       {
-        "name": "_js_datr",
-        "value": "rZSbZYRaxjRvOVJCTA_CXgbP",
-        "domain": "facebook.com",
+        "name": "_ga_CBC2KJ1P72",
+        "value": "GS1.1.1704695952.1.1.1704695976.36.0.0",
+        "domain": "mb.com.ph",
         "path": "/",
-        "expires": "2025-02-11T06:22:40.000Z",
+        "expires": "2025-02-11T06:39:36.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.1.642401479.1704695953",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2025-02-11T06:39:12.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cc_id",
+        "value": "2a2eb3f0aef92c86f753a160f1f78562",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2024-10-04T06:39:14.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "panoramaId_expiry",
+        "value": "1704782354104",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2024-01-09T06:39:14.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cto_bundle",
+        "value": "iPRnjF8xVWdrSSUyQkxMZlpFYmJiWThLbjVXVTRlYkZsVzFPSWolMkZ2JTJCeDZsQyUyRnglMkZkMnlzMXJTcnBSTEY5b2YyOThsQ2E4MDg0YkhXaDVOZ0drVXZ6T2V4WDh0aFp6dU9hRXRia2M0NkVxMDVybUZ5aldsU285dElPVFdMYzE5cWx2dTNrT3k",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2025-02-01T06:39:36.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__gads",
+        "value": "ID=8a6ad1d8e5db656e:T=1704695954:RT=1704695954:S=ALNI_MZrqw1Mhj0Z4CcUJiJgokcUwq3YZw",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2025-02-01T06:39:14.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "__gpi",
+        "value": "UID=00000cd39b46394c:T=1704695954:RT=1704695954:S=ALNI_MaVN35r-cG0cr7kkxIq7Us1xWGReg",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2025-02-01T06:39:14.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "cto_bidid",
+        "value": "yI9eiV9wMTR3SW1Wa2twbyUyRng2S0c0Y2x3RTc4T20lMkJvcDJxJTJGdTlCaU8zTkxnZW5MdTRCN3U2RmdTMmhnUTBmSnNKMk9IRWE1WCUyRkNTa3FHQ2VzaHRnejJnbGtsV0NabmxrcEVaZkp3dEdEQXQycE9VJTNE",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "1969-12-31T23:59:59.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cb_svref",
+        "value": "external",
+        "domain": "mb.com.ph",
+        "path": "/",
+        "expires": "2024-01-08T07:09:34.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",

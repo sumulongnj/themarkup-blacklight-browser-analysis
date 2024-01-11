@@ -67,14 +67,14 @@
             if (!result.canvasFingerprinting) {
                 output += 'Tracking that evades cookie blockers not found.<br><br>';
             } else {
-                output += 'Tracking that evades cookie blockers found.<br><br>';
+                output += 'This website loads trackers on your computer that are designed to evade third-party cookie blockers.<br><br>';
             }
     
             // 4. Session Recording
             if (!result.sessionRecording) {
                 output += 'Session recording services not found on this website.<br><br>';
             } else {
-                output += 'Session recording services found on this website.<br><br>';
+                output += 'This website could be monitoring your keystrokes and mouse clicks.<br><br>';
             }
     
             // 5. Key Logging
@@ -88,7 +88,7 @@
             if (!result.fbPixel) {
                 output += 'Facebook Pixel not found on this website.<br><br>';
             } else {
-                output += 'Facebook Pixel found on this website.<br><br>';
+                output += 'When you visit this site, it tells Facebook.<br><br>';
             }
     
             // 7. Google Analytics

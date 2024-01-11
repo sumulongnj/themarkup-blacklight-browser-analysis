@@ -57,9 +57,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                         return [4 /*yield*/, fetch('/scan', {
                                 method: 'POST',
                                 headers: {
-                                    'Content-Type': 'application/json'
+                                    'Content-Type': 'application/json',
                                 },
-                                body: JSON.stringify({ url: url })
+                                body: JSON.stringify({ url: url }),
                             })];
                     case 2:
                         response = _b.sent();
@@ -114,14 +114,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                 output += 'Tracking that evades cookie blockers not found.<br><br>';
             }
             else {
-                output += 'Tracking that evades cookie blockers found.<br><br>';
+                output += 'This website loads trackers on your computer that are designed to evade third-party cookie blockers.<br><br>';
             }
             // 4. Session Recording
             if (!result.sessionRecording) {
                 output += 'Session recording services not found on this website.<br><br>';
             }
             else {
-                output += 'Session recording services found on this website.<br><br>';
+                output += 'This website could be monitoring your keystrokes and mouse clicks.<br><br>';
             }
             // 5. Key Logging
             if (!result.keyLogging) {
@@ -135,7 +135,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                 output += 'Facebook Pixel not found on this website.<br><br>';
             }
             else {
-                output += 'Facebook Pixel found on this website.<br><br>';
+                output += 'When you visit this site, it tells Facebook.<br><br>';
             }
             // 7. Google Analytics
             if (!result.googleAnalytics) {

@@ -1,6 +1,7 @@
 const express = require('express');
 const { devices } = require('playwright');
 const { collectChromium, collectFirefox, collectWebkit } = require('./src'); // Update with your path to the collector script
+const { collect } = require('./control');
 const path = require('path');
 const fs = require('fs').promises;
 
@@ -13,7 +14,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public', { extensions: ['html', 'js'] }));
 
 function processResults(result) {
-    const adTrackers = result.reports.third_party_trackers.length || 0;
+    const uniqueFilters = new Set();
+    const adTrackers = result.reports.third_party_trackers.reduce((count, tracker) => {
+        const filter = tracker.data.filter;
+        if (!uniqueFilters.has(filter)) {
+            uniqueFilters.add(filter);
+            return count + 1;
+        }
+        return count;
+    }, 0);
+
     const thirdPartyCookies = result.reports.cookies.filter(cookies => cookies['third_party']).length || 0;
 
     let canvasFingerprinting;
@@ -29,15 +39,19 @@ function processResults(result) {
         canvasFingerprinting = false;
     }
 
-    const sessionRecording = result.reports.session_recorders.length > 0;
-    const keyLogging = result.reports.key_logging.length > 0;
+    const sessionRecording = Object.keys(result.reports.session_recorders).length > 0;
+    const keyLogging = Object.keys(result.reports.key_logging).length > 0;
     const fbPixel = result.reports.fb_pixel_events.length > 0;
 
-    const googleAnalytics = Array.isArray(result.hosts.requests) && result.hosts.requests.some(request =>
-        request.startsWith('stats.g.doubleclick') && request.includes('UA-')
-    );
+    const hasGoogleAnalyticsRequest = result.reports.third_party_trackers.some(tracker => {
+        const url = tracker.url.toLowerCase();
+        const isDoubleClick = url.includes('stats.g.doubleclick');
+        const hasUAGoogleIdentifier = tracker.data.query && tracker.data.query.tid && tracker.data.query.tid.startsWith('UA-');
+        return isDoubleClick && hasUAGoogleIdentifier;
+    });
+    const googleAnalytics = !!hasGoogleAnalyticsRequest;
 
-    const executionTime = new Date(result.end_time).getTime() - new Date(result.start_time).getTime();
+    const executionTime = (new Date(result.end_time).getTime() - new Date(result.start_time).getTime()) / 1000;
 
     return {
         adTrackers,
@@ -64,7 +78,7 @@ app.post('/scan', async (req, res) => {
 
     try {
 
-        const resultChromium = await collectChromium(`http://${url}`, config);
+        const resultChromium = await collect(`http://${url}`, config);
         const resultFirefox = await collectFirefox(`http://${url}`, config);
         const resultWebkit = await collectWebkit(`http://${url}`, config);
 

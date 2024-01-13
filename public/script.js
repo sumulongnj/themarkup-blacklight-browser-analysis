@@ -57,9 +57,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                         return [4 /*yield*/, fetch('/scan', {
                                 method: 'POST',
                                 headers: {
-                                    'Content-Type': 'application/json',
+                                    'Content-Type': 'application/json'
                                 },
-                                body: JSON.stringify({ url: url }),
+                                body: JSON.stringify({ url: url })
                             })];
                     case 2:
                         response = _b.sent();
@@ -96,14 +96,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             var output = '';
             // 1. Ad Trackers
             if (result.adTrackers > 0) {
-                output += "".concat(result.adTrackers, " ad tracker(s) found on this site.<br><br>");
+                output += "<span class=\"found\">".concat(result.adTrackers, " ad tracker(s) found on this site.</span><br><br>");
             }
             else {
                 output += 'Ad trackers not found on this site.<br><br>';
             }
             // 2. Third-party Cookies
             if (result.thirdPartyCookies > 0) {
-                output += "".concat(result.thirdPartyCookies, " third-party cookie(s) found.<br><br>");
+                output += "<span class=\"found\">".concat(result.thirdPartyCookies, " third-party cookie(s) found.</span><br><br>");
             }
             else {
                 output += 'Third-party cookies not found.<br><br>';
@@ -114,38 +114,38 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                 output += 'Tracking that evades cookie blockers not found.<br><br>';
             }
             else {
-                output += 'This website loads trackers on your computer that are designed to evade third-party cookie blockers.<br><br>';
+                output += '<span class="found">This website loads trackers on your computer that are designed to evade third-party cookie blockers.</span><br><br>';
             }
             // 4. Session Recording
             if (!result.sessionRecording) {
                 output += 'Session recording services not found on this website.<br><br>';
             }
             else {
-                output += 'This website could be monitoring your keystrokes and mouse clicks.<br><br>';
+                output += '<span class="found">This website could be monitoring your keystrokes and mouse clicks.</span><br><br>';
             }
             // 5. Key Logging
             if (!result.keyLogging) {
                 output += 'We did not find this website capturing keystrokes.<br><br>';
             }
             else {
-                output += 'We found this website capturing keystrokes.<br><br>';
+                output += '<span class="found">We found this website capturing keystrokes.</span><br><br>';
             }
             // 6. Facebook Pixel
             if (!result.fbPixel) {
                 output += 'Facebook Pixel not found on this website.<br><br>';
             }
             else {
-                output += 'When you visit this site, it tells Facebook.<br><br>';
+                output += '<span class="found">When you visit this site, it tells Facebook.</span><br><br>';
             }
             // 7. Google Analytics
             if (!result.googleAnalytics) {
                 output += 'Google Analytics\' "remarketing audience" feature not found.<br><br>';
             }
             else {
-                output += 'Google Analytics\' "remarketing audience" feature found.<br><br>';
+                output += '<span class="found">This site allows Google Analytics to follow you across the internet.</span><br><br>';
             }
             // Execution Time Calculation
-            output += "Execution time: ".concat(result.executionTime, " milliseconds");
+            output += "<span class=\"w3-tag\">Execution time: ".concat(result.executionTime, " seconds</span>");
             // Displaying the results
             resultsDiv.innerHTML = "<pre>".concat(output, "</pre>");
         }

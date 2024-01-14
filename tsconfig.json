@@ -29,7 +29,7 @@
     /* Experimental Options */
     // "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
     // "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */,
-    "lib": ["es2017", "dom"],
+    "lib": ["ESNext", "dom"],
     "types": ["jest", "node", "puppeteer", "winston"],
     "typeRoots": ["node_modules/@types", "src/types"]
   },

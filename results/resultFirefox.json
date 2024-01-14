@@ -1,14 +1,14 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://twitter.com",
-  "uri_dest": "https://twitter.com/",
+  "uri_ins": "http://example.com",
+  "uri_dest": "http://example.com/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@7d4883b733b7440966077112301fd050"
+    "_guid": "request@099d5a8ee48b1c5cb882ac164ceabd8a"
   },
   "secure_connection": {},
-  "host": "twitter.com",
+  "host": "example.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -33,68 +33,21 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-01-13T05:22:04.835Z",
-  "end_time": "2024-01-13T05:22:19.240Z",
+  "start_time": "2024-01-13T08:55:04.277Z",
+  "end_time": "2024-01-13T08:55:10.830Z",
   "browsing_history": [
-    "https://twitter.com/",
-    "https://twitter.com/tos"
+    "http://example.com/"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "twitter.com",
-        "api.twitter.com",
-        "analytics.twitter.com",
-        "platform.twitter.com",
-        "fonts.twitter.com",
-        "syndication.twitter.com"
+        "example.com"
       ],
-      "third_party": [
-        "abs.twimg.com",
-        "accounts.google.com",
-        "static.ads-twitter.com",
-        "appleid.cdn-apple.com",
-        "www.google-analytics.com",
-        "t.co",
-        "fonts.gstatic.com",
-        "play.google.com",
-        "cdn.cms-twdigitalassets.com"
-      ]
+      "third_party": []
     }
   },
   "reports": {
-    "behaviour_event_listeners": {
-      "MOUSE": {
-        "debugger eval code": [
-          "scroll",
-          "click",
-          "mousedown",
-          "mousemove",
-          "select",
-          "mouseup"
-        ]
-      },
-      "KEYBOARD": {
-        "debugger eval code": [
-          "keydown",
-          "keyup",
-          "keypress"
-        ]
-      },
-      "SENSOR": {
-        "debugger eval code": [
-          "orientationchange"
-        ]
-      },
-      "TOUCH": {
-        "debugger eval code": [
-          "touchend",
-          "touchcancel",
-          "touchmove",
-          "touchstart"
-        ]
-      }
-    },
+    "behaviour_event_listeners": {},
     "canvas_fingerprinters": {
       "data_url": {},
       "fingerprinters": [],
@@ -105,229 +58,10 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [
-      {
-        "name": "guest_id_marketing",
-        "value": "v1%3A170512332848085141",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2026-01-12T05:22:08.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "guest_id_ads",
-        "value": "v1%3A170512332848085141",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2026-01-12T05:22:08.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "guest_id",
-        "value": "v1%3A170512332848085141",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2026-01-12T05:22:08.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": false
-      },
-      {
-        "name": "personalization_id",
-        "value": "\"v1_JWuekNwB2+KLTFC0MXrF6w==\"",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2026-01-12T05:22:08.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "gt",
-        "value": "1746039907758620726",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2024-01-13T07:52:08.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "_ga",
-        "value": "GA1.2.594708367.1705123330",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2026-01-12T05:22:10.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "_gid",
-        "value": "GA1.2.2032646635.1705123330",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2024-01-14T05:22:10.000Z",
-        "httpOnly": false,
-        "secure": false,
-        "sameSite": "None",
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "ct0",
-        "value": "f38bdd0838ad0c734ec5d6d9ef208753",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2024-01-13T11:22:14.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": false
-      },
-      {
-        "name": "muc_ads",
-        "value": "0ea7264c-7cd4-4b96-b6ad-6ee35ff14ffe",
-        "domain": "t.co",
-        "path": "/",
-        "expires": "2026-01-12T05:22:10.000Z",
-        "httpOnly": false,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      },
-      {
-        "name": "NID",
-        "value": "511=SvYRbi3NoAkKNF2LtrZph_1eTgEQoCHlnlFjmpLEo9rmEevAzcatJeQ9Fae2HzdtvqbQ-6_zCtcaEo038WJ8_IbjpAkhrcj9mUSnYYqtdOaOJ_1UWYlkQ2OxINCZbmOuPutG7tAqFCO-nEFyvCD9_MPwSIVIo3XA6M1Ff7Pz2uA",
-        "domain": "google.com",
-        "path": "/",
-        "expires": "2024-07-14T05:22:15.000Z",
-        "httpOnly": true,
-        "secure": true,
-        "sameSite": "None",
-        "type": "unknown",
-        "third_party": true
-      }
-    ],
+    "cookies": [],
     "fb_pixel_events": [],
     "key_logging": {},
     "session_recorders": {},
-    "third_party_trackers": [
-      {
-        "data": {
-          "filter": "||google.com/log?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "authuser": 0,
-            "format": "json",
-            "hasfast": true
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=atpm4AETdADOSLozFDkqBg&channel_id=9062bcafde96fa57ed357c06817998556ca957a8e513a42327f89554c5d4a1b8&origin=https%3A%2F%2Ftwitter.com&is_itp=true",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
-      },
-      {
-        "data": {
-          "filter": "||google.com/log?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "authuser": 0,
-            "format": "json",
-            "hasfast": true
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signup_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_330891_349661&as=atpm4AETdADOSLozFDkqBg&hl=en",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
-      },
-      {
-        "data": {
-          "filter": "/adsct?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "bci": 4,
-            "eci": 3,
-            "event": {},
-            "event_id": "1099d74a-b958-4251-9009-4ece9197667c",
-            "integration": "advertiser",
-            "p_id": "Twitter",
-            "p_user_id": 0,
-            "pl_id": "93f22b10-a0fb-407d-9ceb-b2ddb1539aa5",
-            "tw_document_href": "https://twitter.com/",
-            "tw_iframe_status": 0,
-            "txn_id": "ogf5s",
-            "type": "javascript",
-            "version": "2.3.29"
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://twitter.com/",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=1099d74a-b958-4251-9009-4ece9197667c&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=93f22b10-a0fb-407d-9ceb-b2ddb1539aa5&tw_document_href=https%3A%2F%2Ftwitter.com%2F&tw_iframe_status=0&txn_id=ogf5s&type=javascript&version=2.3.29"
-      },
-      {
-        "data": {
-          "filter": ".google-analytics.com/",
-          "listName": "easyprivacy.txt",
-          "query": {}
-        },
-        "stack": [
-          {
-            "fileName": "https://twitter.com/",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://www.google-analytics.com/analytics.js"
-      },
-      {
-        "data": {
-          "filter": "||ads-twitter.com^",
-          "listName": "easylist.txt",
-          "query": {}
-        },
-        "stack": [
-          {
-            "fileName": "https://twitter.com/",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://static.ads-twitter.com/uwt.js"
-      }
-    ]
+    "third_party_trackers": []
   }
 }

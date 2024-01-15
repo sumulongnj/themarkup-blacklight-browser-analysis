@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2017",
     "outDir": "build",
-    "rootDirs": ["src", "control"],
+    "rootDirs": ["src", "control", "public"],
     "moduleResolution": "node",
     "module": "commonjs",
     "declaration": true,
@@ -46,6 +46,7 @@
   "include": [
     "src/**/*.ts",
     "control/**/*.ts",
+    "public/**/*.ts",
     "server.ts",
     "tests/utils.ts",
     "tests/types.ts"

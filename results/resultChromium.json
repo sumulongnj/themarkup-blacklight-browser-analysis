@@ -1,11 +1,13 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://example.com",
-  "uri_dest": "http://example.com/",
-  "uri_redirects": [],
+  "uri_ins": "http://hotjar.com",
+  "uri_dest": "https://www.hotjar.com/",
+  "uri_redirects": [
+    "http://hotjar.com/"
+  ],
   "secure_connection": {},
-  "host": "example.com",
+  "host": "hotjar.com",
   "config": {
     "cleareCache": true,
     "captureHar": true,
@@ -30,21 +32,172 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-01-14T10:19:52.398Z",
-  "end_time": "2024-01-14T10:19:58.448Z",
+  "start_time": "2024-01-15T03:57:38.305Z",
+  "end_time": "2024-01-15T03:58:05.656Z",
   "browsing_history": [
-    "http://example.com/"
+    "https://www.hotjar.com/",
+    "https://www.hotjar.com/google-analytics/glossary"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "example.com"
+        "hotjar.com",
+        "www.hotjar.com",
+        "static.hotjar.com",
+        "script.hotjar.com"
       ],
-      "third_party": []
+      "third_party": [
+        "images.ctfassets.net",
+        "www.googletagmanager.com",
+        "js.partnerstack.com",
+        "unpkg.com",
+        "cdn.optimizely.com",
+        "grsm.io",
+        "cdn.cookielaw.org",
+        "t.contentsquare.net",
+        "static.ada.support",
+        "www.google-analytics.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.com.ph",
+        "www.google.com",
+        "partnerlinks.io",
+        "rollout.eu.ada.support",
+        "ca.contentsquare.net",
+        "srm.ba.contentsquare.net",
+        "hotjar.eu.ada.support",
+        "geolocation.onetrust.com",
+        "k-aeu1.contentsquare.net",
+        "bat.bing.com",
+        "snap.licdn.com",
+        "static.ads-twitter.com",
+        "googleads.g.doubleclick.net",
+        "connect.facebook.net",
+        "privacyportal-eu.onetrust.com",
+        "t.co",
+        "analytics.twitter.com",
+        "cdn.segment.com",
+        "api.segment.io",
+        "px.ads.linkedin.com",
+        "fast.appcues.com",
+        "content.hotjar.io",
+        "www.facebook.com",
+        "www.linkedin.com",
+        "google.com"
+      ]
     }
   },
   "reports": {
-    "behaviour_event_listeners": {},
+    "behaviour_event_listeners": {
+      "TOUCH": {
+        "https://t.contentsquare.net/uxa/cae5a0f6523cc.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/pages/_app-2769b34a6114ca41.js": [
+          "touchstart"
+        ],
+        "https://hotjar.eu.ada.support/embed/button/b0e29e3/index.js": [
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "MOUSE": {
+        "https://t.contentsquare.net/uxa/cae5a0f6523cc.js": [
+          "scroll",
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ],
+        "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js": [
+          "mousedown"
+        ],
+        "https://script.hotjar.com/survey-v2.9572727e44d225c2acab.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://script.hotjar.com/preact-incoming-feedback.8917ef65a56484395694.js": [
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com": [
+          "click"
+        ],
+        "https://script.hotjar.com/modules.01a61edd76e9459a4476.js": [
+          "mousedown",
+          "scroll",
+          "mousemove",
+          "click"
+        ],
+        "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtag/js?id=AW-697111050": [
+          "click"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3": [
+          "scroll",
+          "click"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/4663-fc9adc539b41bb7f.js": [
+          "scroll"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/main-6a3419558338bed6.js": [
+          "click"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/5817-ee9bcbbeeaa29351.js": [
+          "scroll"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/pages/_app-2769b34a6114ca41.js": [
+          "scroll",
+          "click"
+        ],
+        "https://hotjar.eu.ada.support/embed/button/b0e29e3/index.js": [
+          "mouseup",
+          "mousedown",
+          "mousemove"
+        ]
+      },
+      "KEYBOARD": {
+        "https://t.contentsquare.net/uxa/cae5a0f6523cc.js": [
+          "keydown",
+          "keyup"
+        ],
+        "https://script.hotjar.com/survey-v2.9572727e44d225c2acab.js": [
+          "keypress"
+        ],
+        "https://script.hotjar.com/preact-incoming-feedback.8917ef65a56484395694.js": [
+          "keypress"
+        ],
+        "https://script.hotjar.com/modules.01a61edd76e9459a4476.js": [
+          "input",
+          "keypress"
+        ],
+        "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js": [
+          "input",
+          "keyup"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/main-6a3419558338bed6.js": [
+          "keydown"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/pages/_app-2769b34a6114ca41.js": [
+          "keydown",
+          "input"
+        ],
+        "https://hotjar.eu.ada.support/embed/button/b0e29e3/index.js": [
+          "keydown"
+        ],
+        "https://www.hotjar.com/_next/static/chunks/4719-a9f0b852ce0f26dd.js": [
+          "keydown"
+        ]
+      }
+    },
     "canvas_fingerprinters": {
       "data_url": {},
       "fingerprinters": [],
@@ -55,10 +208,3820 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [],
-    "fb_pixel_events": [],
+    "cookies": [
+      {
+        "name": "NEXT_LOCALE",
+        "value": "en",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-02-14T03:57:55.861Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mktg_homepage_hero_image_multiproduct_assignment",
+        "value": "control",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-03-15T03:57:43.016Z",
+        "size": 55,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "hj_visitor",
+        "value": "new",
+        "domain": "www.hotjar.com",
+        "path": "/",
+        "expires": -1,
+        "size": 13,
+        "httpOnly": false,
+        "secure": false,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.649776180.1705291067",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-16T03:57:56.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dc_gtm_UA-51401671-1",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T03:58:46.000Z",
+        "size": 22,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ps_mode",
+        "value": "trackingV1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:57:56.000Z",
+        "size": 17,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_c",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-13T13:57:48.000Z",
+        "size": 6,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.600206123.1705291074",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:57:54.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "test_cookie",
+        "value": "CheckForPermission",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2024-01-15T04:12:54.592Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_ga_BY4EGTPHRR",
+        "value": "GS1.1.1705291066.1.1.1705291076.50.0.0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-18T03:57:56.523Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1606691530.1705291067",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-18T03:57:56.585Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_id",
+        "value": "9c19da5e-6096-a987-c93d-4110c153de83.1705291068.1.1705291076.1705291068.1.1739455068077.1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-13T13:57:48.000Z",
+        "size": 95,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_s",
+        "value": "3.5.0.1705292876672",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:27:56.000Z",
+        "size": 24,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_KNDFS1XWFR",
+        "value": "GS1.2.1705291067.1.0.1705291076.51.0.0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-18T03:57:56.807Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Mon+Jan+15+2024+11%3A57%3A57+GMT%2B0800+(Philippine+Standard+Time)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=68168bb1-3999-4ed7-84a1-529964358ebd&interactionCount=1&landingPath=NotLandingPage&groups=0%3A1%2C1%3A1%2C2%3A1%2C3%3A1&AwaitingReconsent=false",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:57:57.000Z",
+        "size": 320,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "8b2c546a-6d4d-43eb-8e5f-0e45c3cba780",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:03.000Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetsid",
+        "value": "44bf3080b35a11ee84aa2928cd9bd780",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-16T03:57:57.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "44bfd7c0b35a11eeb2c733783463127e",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-08T03:57:57.000Z",
+        "size": 39,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_CBJypskrRdXsXPHTLb4dUA==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-02-18T03:57:58.146Z",
+        "size": 47,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "muc_ads",
+        "value": "2eb36e20-af80-42ac-a9b9-64b00a0375bd",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2025-02-18T03:57:58.146Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "026206F415E96594314512F3147464FD",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2025-02-08T03:57:58.206Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2024-01-22T03:57:58.206Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_hjFirstSeen",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:27:59.000Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjIncludedInSessionSample_14",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:27:59.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSessionUser_14",
+        "value": "eyJpZCI6IjUzZTBiMWUwLTU5NmUtNTEyMy04ODhmLTY1MTc5YjRiMTJiOCIsImNyZWF0ZWQiOjE3MDUyOTEwNzk0NDYsImV4aXN0aW5nIjp0cnVlfQ==",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:57:59.000Z",
+        "size": 133,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjAbsoluteSessionInProgress",
+        "value": "0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:27:59.000Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSession_14",
+        "value": "eyJpZCI6ImQ3MmQwY2I0LTJhNzUtNGIyZC1hYjJkLWIwZDA2NGFiNmIwZCIsImMiOjE3MDUyOTEwNzk0NjUsInMiOjEsInIiOjEsInNiIjowfQ==",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:27:59.000Z",
+        "size": 125,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1705291079708.414484195",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:57:59.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "li_sugr",
+        "value": "9bd1a905-d01d-4a82-9009-46b19e9029ac",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:02.079Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&c3bb04db-3995-4329-8460-97d9d5b93b2d\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:02.079Z",
+        "size": 49,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=VGST09:s=V:r=V:a=V:p=V:g=2770:u=1:x=1:i=1705291079:t=1705377479:v=2:sig=AQGZaG8B9ePf-NIn8pyC9uSirFfui3ju\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-01-16T03:57:59.811Z",
+        "size": 112,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UserMatchHistory",
+        "value": "AQJMOJtDWLjotgAAAY0LROHQSGFh6eHBAMlLssk4vR0Y5kLWEt34_wRO4NPw7u8lZJVGc6Yk8UNZ2A",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-02-14T03:58:00.619Z",
+        "size": 94,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "value": "AQKwlD-FEJOC0gAAAY0LROHQOPGhHuspKRQQsQu5OqBDNcXYW02fBYCGpIIqZopVeBgRFSLKUd8Hm1vwq2Rm6g",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-02-14T03:58:00.619Z",
+        "size": 106,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bscookie",
+        "value": "\"v=1&2024011503580081fa924b-0b1c-4664-8df5-e88688bb14e4AQEtgKUwerCWQMpO488o7Bj6_XcLq-lw\"",
+        "domain": "www.linkedin.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:01.348Z",
+        "size": 96,
+        "httpOnly": true,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=0&expire=1705291985070",
+        "domain": "www.hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:13:05.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Strict",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.hotjar.com/google-analytics/glossary/",
+        "raw": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&rl=&if=false&ts=1705291079715&sw=375&sh=812&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291079708.414484195&cs_est=true&ler=empty&it=1705291078432&coo=false&rqm=GET"
+      }
+    ],
     "key_logging": {},
-    "session_recorders": {},
-    "third_party_trackers": []
+    "session_recorders": {
+      "script.hotjar.com": [
+        "script.hotjar.com/Roboto-Regular.422781.woff2",
+        "script.hotjar.com/Roboto-Medium.ef8bb0.woff2",
+        "script.hotjar.com/survey-v2.9572727e44d225c2acab.js",
+        "script.hotjar.com/preact-incoming-feedback.8917ef65a56484395694.js",
+        "script.hotjar.com/modules.01a61edd76e9459a4476.js"
+      ],
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-14.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_hdyz0knEwiwr4lK2oaoW_WQHvybpCA",
+            "cv": 11,
+            "data": "event=form_start",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1295150852,
+            "rmt_tld": 1,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291083844&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&data=event%3Dform_start&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_hdyz0knEwiwr4lK2oaoW_WQHvybpCA&random=1295150852&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_hdyz0knEwiwr4lK2oaoW_WQHvybpCA",
+            "cv": 11,
+            "data": "event=form_start",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1295150852,
+            "rmt_tld": 0,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291083844&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&data=event%3Dform_start&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_hdyz0knEwiwr4lK2oaoW_WQHvybpCA&random=1295150852&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5878,
+            "pn": 3,
+            "sn": 1,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://srm.ba.contentsquare.net/exist?v=13.77.2&pid=5878&pn=3&sn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 600206123.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=form_start",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291083844,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291083844,
+            "rfmt": 3,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291083844&cv=11&fst=1705291083844&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&hn=www.googleadservices.com&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&auid=600206123.1705291074&uamb=0&uaw=0&data=event%3Dform_start&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "auid": 600206123.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "hn": "www.googleadservices.com",
+            "uamb": 0,
+            "uaw": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://google.com/ccm/form-data/697111050?gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&hn=www.googleadservices.com&auid=600206123.1705291074&uamb=0&uaw=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "auid": 600206123.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "hn": "www.googleadservices.com",
+            "uamb": 0,
+            "uaw": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://google.com/pagead/form-data/697111050?gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&hn=www.googleadservices.com&auid=600206123.1705291074&uamb=0&uaw=0"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_p": 1705291076062,
+            "_s": 1,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/google-analytics/glossary/",
+            "dma": 0,
+            "dt": "Google Analytics Glossary: GA Terms And Their Definition",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291067,
+            "sr": "375x812",
+            "tfd": 7963,
+            "tid": "G-KNDFS1XWFR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291076062&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=375x812&cid=1606691530.1705291067&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&dt=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&sid=1705291067&sct=1&seg=0&en=Color%20Mode&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=7963"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1705291076062,
+            "_s": 1,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/google-analytics/glossary/",
+            "dma": 0,
+            "dt": "Google Analytics Glossary: GA Terms And Their Definition",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291066,
+            "sr": "375x812",
+            "tfd": 7275,
+            "tid": "G-BY4EGTPHRR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291076062&gcd=11l1l1l1l1&dma=0&cid=1606691530.1705291067&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&sid=1705291066&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&dt=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&_s=1&tfd=7275"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "liSync": true,
+            "pid": 98542,
+            "time": 1705291077949,
+            "url": "https://www.hotjar.com/google-analytics/glossary/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291077949&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&cookiesTest=true&liSync=true"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_7x4_XUHzZdmzeP-w2agaSVURnOGdyg",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=53e0b1e0;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2130727546,
+            "rmt_tld": 1,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291079494&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D53e0b1e0%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_7x4_XUHzZdmzeP-w2agaSVURnOGdyg&random=2130727546&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_7x4_XUHzZdmzeP-w2agaSVURnOGdyg",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=53e0b1e0;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2130727546,
+            "rmt_tld": 0,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291079494&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D53e0b1e0%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_7x4_XUHzZdmzeP-w2agaSVURnOGdyg&random=2130727546&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291077949,
+            "url": "https://www.hotjar.com/google-analytics/glossary/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291077949&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.hotjar.com/google-analytics/glossary/",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1705291079708.414484195",
+            "id": 259210877621442,
+            "if": false,
+            "it": 1705291078432,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1705291079715,
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&rl=&if=false&ts=1705291079715&sw=375&sh=812&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291079708.414484195&cs_est=true&ler=empty&it=1705291078432&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gzip": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://content.hotjar.io/?gzip=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 600206123.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=53e0b1e0;non_interaction=true",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291079494,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291079494,
+            "rfmt": 3,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291079494&cv=11&fst=1705291079494&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&hn=www.googleadservices.com&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&auid=600206123.1705291074&uamb=0&uaw=0&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D53e0b1e0%3Bnon_interaction%3Dtrue&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/p"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.hotjar.com",
+            "r": "stable",
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/79878.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-BY4EGTPHRR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/962/909319ad4a6af2ed4035.js"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291077949,
+            "url": "https://www.hotjar.com/google-analytics/glossary/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291077949&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/8f12d1b4d7e7076c4f68.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 2747,
+            "mid": "8bb6fea8-105a-49e8-922b-790874750370",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.hotjar.com/google-analytics/glossary/",
+            "pi": 0,
+            "r": "",
+            "rn": 425917,
+            "sc": 30,
+            "sh": 812,
+            "sid": "44bf3080b35a11ee84aa2928cd9bd780",
+            "sv": 1,
+            "sw": 375,
+            "ti": 5739677,
+            "tl": "Google Analytics Glossary: GA Terms And Their Definition",
+            "tm": "gtm002",
+            "vid": "44bfd7c0b35a11eeb2c733783463127e",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=8bb6fea8-105a-49e8-922b-790874750370&sid=44bf3080b35a11ee84aa2928cd9bd780&vid=44bfd7c0b35a11eeb2c733783463127e&vids=1&msclkid=N&pi=0&lg=en-US&sw=375&sh=812&sc=30&nwd=1&tl=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&p=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&r=&lt=2747&evt=pageLoad&sv=1&rn=425917"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_NbaSKjspo7Hk7eTSI7xahxtQXURIfA",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1325983772,
+            "rmt_tld": 1,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291077359&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_NbaSKjspo7Hk7eTSI7xahxtQXURIfA&random=1325983772&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_NbaSKjspo7Hk7eTSI7xahxtQXURIfA",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1325983772,
+            "rmt_tld": 0,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291077359&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_NbaSKjspo7Hk7eTSI7xahxtQXURIfA&random=1325983772&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_aogFC3mUQKlpCEH8WB1-nfeN_AG_1g",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 4193213487,
+            "rmt_tld": 1,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291077290&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_aogFC3mUQKlpCEH8WB1-nfeN_AG_1g&random=4193213487&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_aogFC3mUQKlpCEH8WB1-nfeN_AG_1g",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 4193213487,
+            "rmt_tld": 0,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291077290&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_aogFC3mUQKlpCEH8WB1-nfeN_AG_1g&random=4193213487&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 600206123.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291077359,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291077359,
+            "rfmt": 3,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291077359&cv=11&fst=1705291077359&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&hn=www.googleadservices.com&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&auid=600206123.1705291074&uamb=0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "7839d105-a90b-4ab4-97d3-8e04a14a6533",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "479a0259-20a6-40b7-b49f-7025cb4f60c0",
+            "tw_document_href": "https://www.hotjar.com/google-analytics/glossary/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=7839d105-a90b-4ab4-97d3-8e04a14a6533&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=479a0259-20a6-40b7-b49f-7025cb4f60c0&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "7839d105-a90b-4ab4-97d3-8e04a14a6533",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "479a0259-20a6-40b7-b49f-7025cb4f60c0",
+            "tw_document_href": "https://www.hotjar.com/google-analytics/glossary/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=7839d105-a90b-4ab4-97d3-8e04a14a6533&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=479a0259-20a6-40b7-b49f-7025cb4f60c0&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 600206123.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291077290,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291077290,
+            "rfmt": 3,
+            "tiba": "Google Analytics Glossary: GA Terms And Their Definition",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.hotjar.com/google-analytics/glossary/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291077290&cv=11&fst=1705291077290&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&hn=www.googleadservices.com&frm=0&tiba=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&auid=600206123.1705291074&uamb=0&uaw=0&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5878,
+            "pn": 3,
+            "sn": 1,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://srm.ba.contentsquare.net/exist?v=13.77.2&pid=5878&pn=3&sn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 3890,
+            "dr": "",
+            "dw": 375,
+            "ex": "",
+            "hd": 1705291076,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 3,
+            "pvt": "n",
+            "r": 617223,
+            "sh": 812,
+            "sn": 1,
+            "sw": 375,
+            "uc": 1,
+            "url": "https://www.hotjar.com/google-analytics/glossary/",
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2",
+            "wh": 812,
+            "ww": 375
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=9c19da5e-6096-a987-c93d-4110c153de83&sn=1&hd=1705291076&pn=3&dw=375&dh=3890&ww=375&wh=812&sw=375&sh=812&dr=&url=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=617223"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 649776180.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 574465383,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 1606691530.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/google-analytics/glossary/",
+            "dma": 0,
+            "dt": "Google Analytics Glossary: GA Terms And Their Definition",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "30-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1436401558
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=574465383&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fgoogle-analytics%2Fglossary%2F&ul=en-us&de=UTF-8&dt=Google%20Analytics%20Glossary%3A%20GA%20Terms%20And%20Their%20Definition&sd=30-bit&sr=375x812&vp=375x812&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=1606691530.1705291067&tid=UA-51401671-1&_gid=649776180.1705291067&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1436401558"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/google-analytics/glossary/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/m"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "dc": 1923,
+            "di": 478,
+            "fl": 1924,
+            "hd": 1705291072,
+            "hlm": true,
+            "mdh": 7660,
+            "pid": 5878,
+            "pn": 2,
+            "sn": 1,
+            "sr": 91,
+            "str": 385,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=2&uu=9c19da5e-6096-a987-c93d-4110c153de83&sn=1&hd=1705291072&pid=5878&sr=91&mdh=7660&hlm=true&str=385&di=478&dc=1923&fl=1924&ct=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_p": 1705291072215,
+            "_s": 1,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291067,
+            "sr": "375x812",
+            "tfd": 4170,
+            "tid": "G-KNDFS1XWFR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291072215&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=375x812&cid=1606691530.1705291067&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sid=1705291067&sct=1&seg=0&en=Color%20Mode&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=4170"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "hlm": true,
+            "pid": 5878,
+            "pn": 2,
+            "rt": 5,
+            "sn": 1,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://k-aeu1.contentsquare.net/v2/recording?rt=5&v=13.77.2&pid=5878&pn=2&sn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83&hlm=true&ct=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 3175,
+            "_p": 1705291072215,
+            "_s": 2,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "user_engagement",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291066,
+            "sr": "375x812",
+            "tfd": 4151,
+            "tid": "G-BY4EGTPHRR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723&_p=1705291072215&gcd=11l1l1l1l1&dma=0&cid=1606691530.1705291067&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=2&sid=1705291066&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=user_engagement&_et=3175&tfd=4151"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1705291072215,
+            "_s": 1,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291066,
+            "sr": "375x812",
+            "tfd": 4150,
+            "tid": "G-BY4EGTPHRR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291072215&gcd=11l1l1l1l1&dma=0&cid=1606691530.1705291067&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&sid=1705291066&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&_s=1&tfd=4150"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_KveTnEfEeuSDylkGnxyUruVgwT60lA",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 4164627390,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291074460&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_KveTnEfEeuSDylkGnxyUruVgwT60lA&random=4164627390&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_KveTnEfEeuSDylkGnxyUruVgwT60lA",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 4164627390,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291074460&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_KveTnEfEeuSDylkGnxyUruVgwT60lA&random=4164627390&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_oxJx_GWL1FQ20tNmb1kyrciGjYGTLA",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3875469455,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291074198&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_oxJx_GWL1FQ20tNmb1kyrciGjYGTLA&random=3875469455&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_oxJx_GWL1FQ20tNmb1kyrciGjYGTLA",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3875469455,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 812,
+            "u_w": 375,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291074198&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_oxJx_GWL1FQ20tNmb1kyrciGjYGTLA&random=3875469455&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 600206123.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291074460,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291074460,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291074460&cv=11&fst=1705291074460&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=600206123.1705291074&uamb=0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "ee3bd760-8273-4195-bcae-c1f1d461d275",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "a077f857-1aba-4409-8d00-af12d67d25cd",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=ee3bd760-8273-4195-bcae-c1f1d461d275&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=a077f857-1aba-4409-8d00-af12d67d25cd&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "ee3bd760-8273-4195-bcae-c1f1d461d275",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "a077f857-1aba-4409-8d00-af12d67d25cd",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=ee3bd760-8273-4195-bcae-c1f1d461d275&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=a077f857-1aba-4409-8d00-af12d67d25cd&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://privacyportal-eu.onetrust.com/request/v1/consentreceipts"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 600206123.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291074198,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291074198,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291074198&cv=11&fst=1705291074198&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=600206123.1705291074&uamb=0&uaw=0&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5878,
+            "pn": 2,
+            "sn": 1,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://srm.ba.contentsquare.net/exist?v=13.77.2&pid=5878&pn=2&sn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 7660,
+            "dr": "",
+            "dw": 375,
+            "ex": "",
+            "hd": 1705291072,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 2,
+            "pvt": "n",
+            "r": 888147,
+            "sh": 812,
+            "sn": 1,
+            "sw": 375,
+            "uc": 1,
+            "url": "https://www.hotjar.com/",
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2",
+            "wh": 812,
+            "ww": 375
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=9c19da5e-6096-a987-c93d-4110c153de83&sn=1&hd=1705291072&pn=2&dw=375&dh=7660&ww=375&wh=812&sw=375&sh=812&dr=&url=https%3A%2F%2Fwww.hotjar.com%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=888147"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 649776180.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 4738935,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 1606691530.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "30-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1867636528
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=4738935&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&ul=en-us&de=UTF-8&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sd=30-bit&sr=375x812&vp=375x812&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=1606691530.1705291067&tid=UA-51401671-1&_gid=649776180.1705291067&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1867636528"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "/mixpanel.$domain=~mixpanel.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://images.ctfassets.net/lh3zuq09vnm2/vHHaKAaEeQuNcucdWM50V/23351da3b1ad9d7483ddf11aed64b4b7/Mixpanel.svg"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "dc": 5935,
+            "di": 2162,
+            "fl": 5936,
+            "hd": 1705291068,
+            "hlm": true,
+            "mdh": 7660,
+            "pid": 5878,
+            "pn": 1,
+            "sn": 1,
+            "sr": 11,
+            "str": 931,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83&sn=1&hd=1705291068&pid=5878&str=931&di=2162&dc=5935&fl=5936&sr=11&mdh=7660&hlm=true&ct=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "hlm": true,
+            "let": 1705291071900,
+            "pid": 5878,
+            "pn": 1,
+            "rst": 1705291068116,
+            "rt": 5,
+            "sn": 1,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://k-aeu1.contentsquare.net/v2/recording?rt=5&rst=1705291068116&let=1705291071900&v=13.77.2&pid=5878&pn=1&sn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83&hlm=true&ct=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 5246,
+            "_p": 1705291063553,
+            "_s": 3,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "user_engagement",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291066,
+            "sr": "375x812",
+            "tfd": 10421,
+            "tid": "G-BY4EGTPHRR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723&_p=1705291063553&gcd=11l1l1l1l1&dma=0&cid=1606691530.1705291067&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=3&sid=1705291066&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=user_engagement&_et=5246&tfd=10421"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 5,
+            "_p": 1705291063553,
+            "_s": 2,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "page_view",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291066,
+            "sr": "375x812",
+            "tfd": 10165,
+            "tid": "G-BY4EGTPHRR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "up.color_mode": "Light",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291063553&gcd=11l1l1l1l1&dma=0&cid=1606691530.1705291067&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=2&sid=1705291066&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=page_view&_et=5&up.color_mode=Light&tfd=10165"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "pid": 5878,
+            "pn": 1,
+            "sn": 1,
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://srm.ba.contentsquare.net/exist?v=13.77.2&pid=5878&pn=1&sn=1&uu=9c19da5e-6096-a987-c93d-4110c153de83"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 7660,
+            "dr": "",
+            "dw": 375,
+            "ex": "",
+            "hd": 1705291068,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 1,
+            "pvt": "n",
+            "r": 228820,
+            "sh": 812,
+            "sn": 1,
+            "sw": 375,
+            "uc": 1,
+            "url": "https://www.hotjar.com/",
+            "uu": "9c19da5e-6096-a987-c93d-4110c153de83",
+            "v": "13.77.2",
+            "wh": 812,
+            "ww": 375
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=9c19da5e-6096-a987-c93d-4110c153de83&sn=1&hd=1705291068&pn=1&dw=375&dh=7660&ww=375&wh=812&sw=375&sh=812&dr=&url=https%3A%2F%2Fwww.hotjar.com%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=228820"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-KNDFS1XWFR",
+            "v": 1,
+            "z": 446588024
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-KNDFS1XWFR&cid=1606691530.1705291067&gtm=45je41a0v9136024140&aip=1&dma=0&gcd=11l1l1l1l2&z=446588024"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "tid": "G-KNDFS1XWFR",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-KNDFS1XWFR&cid=1606691530.1705291067&gtm=45je41a0v9136024140&aip=1&dma=0&gcd=11l1l1l1l2"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1705291063553,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291067,
+            "sr": "375x812",
+            "tfd": 5596,
+            "tid": "G-KNDFS1XWFR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291063553&_gaz=1&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=375x812&cid=1606691530.1705291067&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sid=1705291067&sct=1&seg=0&en=Color%20Mode&_fv=1&_ss=1&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=5596"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "jid": 628360365,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1792218906
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j101&tid=UA-51401671-1&cid=1606691530.1705291067&jid=628360365&_u=YCDAgEABAAAAAGAAI~&z=1792218906"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "jid": 628360365,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1792218906
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j101&tid=UA-51401671-1&cid=1606691530.1705291067&jid=628360365&_u=YCDAgEABAAAAAGAAI~&z=1792218906"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 649776180.1705291,
+            "_r": 3,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "gjid": 136975330,
+            "jid": 628360365,
+            "t": "dc",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1869852291
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-51401671-1&cid=1606691530.1705291067&jid=628360365&gjid=136975330&_gid=649776180.1705291067&_u=YCDAgEABAAAAAGAAI~&z=1869852291"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 649776180.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YCDAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 201952162,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 1606691530.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": 136975330,
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": 628360365,
+            "ni": 1,
+            "sd": "30-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1516845047
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=201952162&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&ul=en-us&de=UTF-8&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sd=30-bit&sr=375x812&vp=375x812&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=YCDAgEABAAAAACAAI~&jid=628360365&gjid=136975330&cid=1606691530.1705291067&tid=UA-51401671-1&_gid=649776180.1705291067&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1516845047"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-BY4EGTPHRR",
+            "v": 1,
+            "z": 1199008280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-BY4EGTPHRR&cid=1606691530.1705291067&gtm=45je41a0v9111464723z872246917&aip=1&dma=0&gcd=11l1l1l1l1&z=1199008280"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1606691530.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "tid": "G-BY4EGTPHRR",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-BY4EGTPHRR&cid=1606691530.1705291067&gtm=45je41a0v9111464723z872246917&aip=1&dma=0&gcd=11l1l1l1l1"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1705291063553,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 1606691530.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "page_view",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291066,
+            "sr": "375x812",
+            "tfd": 5146,
+            "tid": "G-BY4EGTPHRR",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291063553&_gaz=1&gcd=11l1l1l1l1&dma=0&cid=1606691530.1705291067&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&sid=1705291066&sct=1&seg=0&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=5146"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "/mixpanel.$domain=~mixpanel.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://images.ctfassets.net/lh3zuq09vnm2/vHHaKAaEeQuNcucdWM50V/23351da3b1ad9d7483ddf11aed64b4b7/Mixpanel.svg"
+      }
+    ]
   }
 }

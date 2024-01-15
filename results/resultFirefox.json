@@ -1,14 +1,14 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://example.com",
-  "uri_dest": "http://example.com/",
+  "uri_ins": "http://hotjar.com",
+  "uri_dest": "https://www.hotjar.com/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@913d1afa2fb033652649227b3e316e80"
+    "_guid": "request@a9e38a02625b3587049716eb6f4649a3"
   },
   "secure_connection": {},
-  "host": "example.com",
+  "host": "hotjar.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -33,21 +33,91 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-01-14T10:19:58.454Z",
-  "end_time": "2024-01-14T10:20:02.634Z",
+  "start_time": "2024-01-15T03:58:05.729Z",
+  "end_time": "2024-01-15T03:58:32.155Z",
   "browsing_history": [
-    "http://example.com/"
+    "https://www.hotjar.com/",
+    "https://www.hotjar.com/guides"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "example.com"
+        "hotjar.com",
+        "www.hotjar.com",
+        "static.hotjar.com",
+        "script.hotjar.com"
       ],
-      "third_party": []
+      "third_party": [
+        "images.ctfassets.net",
+        "videos.ctfassets.net",
+        "unpkg.com",
+        "cdn.optimizely.com",
+        "js.partnerstack.com",
+        "www.googletagmanager.com",
+        "cdn.cookielaw.org",
+        "t.contentsquare.net",
+        "static.ada.support",
+        "www.google-analytics.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.com.ph",
+        "ca.contentsquare.net",
+        "grsm.io",
+        "rollout.eu.ada.support",
+        "www.google.com",
+        "partnerlinks.io",
+        "hotjar.eu.ada.support",
+        "geolocation.onetrust.com",
+        "bat.bing.com",
+        "snap.licdn.com",
+        "static.ads-twitter.com",
+        "googleads.g.doubleclick.net",
+        "connect.facebook.net",
+        "t.co",
+        "analytics.twitter.com",
+        "cdn.segment.com",
+        "px.ads.linkedin.com",
+        "rum.browser-intake-datadoghq.eu",
+        "privacyportal-eu.onetrust.com",
+        "api.segment.io",
+        "fast.appcues.com",
+        "www.facebook.com",
+        "vc.hotjar.io",
+        "content.hotjar.io",
+        "www.linkedin.com",
+        "google.com"
+      ]
     }
   },
   "reports": {
-    "behaviour_event_listeners": {},
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "debugger eval code": [
+          "dblclick",
+          "click",
+          "mouseup",
+          "mousedown",
+          "mousemove",
+          "scroll"
+        ]
+      },
+      "TOUCH": {
+        "debugger eval code": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      },
+      "KEYBOARD": {
+        "debugger eval code": [
+          "keypress",
+          "input",
+          "keyup",
+          "keydown"
+        ]
+      }
+    },
     "canvas_fingerprinters": {
       "data_url": {},
       "fingerprinters": [],
@@ -58,10 +128,3891 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [],
-    "fb_pixel_events": [],
+    "cookies": [
+      {
+        "name": "IDE",
+        "value": "AHWqTUlHfx--yyRKrehunca4axw9R-oicholpPNC1_bKAmNOEXk24MN_bcCaR8JA",
+        "domain": "doubleclick.net",
+        "path": "/",
+        "expires": "2026-01-14T03:58:20.000Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_vJGLc6EFhMQoaKDPoqk+NA==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2026-01-14T03:58:24.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "mktg_homepage_hero_image_multiproduct_assignment",
+        "value": "variation1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-03-15T03:58:09.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "hj_visitor",
+        "value": "new",
+        "domain": "www.hotjar.com",
+        "path": "/",
+        "expires": "1969-12-31T23:59:59.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dc_gtm_UA-51401671-1",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T03:59:11.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_c",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-13T13:58:11.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1619942246.1705291096",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:16.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "NEXT_LOCALE",
+        "value": "en",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-02-14T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_BY4EGTPHRR",
+        "value": "GS1.1.1705291091.1.1.1705291102.49.0.0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2026-01-14T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_id",
+        "value": "5035ff90-bb96-aafa-fccd-bce7c2477283.1705291091.1.1705291102.1705291091.1.1739455091289.1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-13T13:58:11.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_s",
+        "value": "3.0.0.1705292902774",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1654297885.1705291091",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2026-01-14T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.497870145.1705291091",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-16T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ps_mode",
+        "value": "trackingV1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_KNDFS1XWFR",
+        "value": "GS1.2.1705291091.1.0.1705291102.49.0.0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2026-01-14T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetsid",
+        "value": "50c9ee30b35a11ee83caaff306dd7aad",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-16T03:58:23.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "50cb1210b35a11ee9d79a596e23be085",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-08T03:58:23.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Mon+Jan+15+2024+11%3A58%3A23+GMT%2B0800+(Philippine+Standard+Time)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=67609dc7-e0ae-45c1-b7f5-0e4b37902efb&interactionCount=1&landingPath=NotLandingPage&groups=0%3A1%2C1%3A1%2C2%3A1%2C3%3A1&AwaitingReconsent=false",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:23.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1705291104692.773972526",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:24.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjFirstSeen",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:25.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjIncludedInSessionSample_14",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:25.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSessionUser_14",
+        "value": "eyJpZCI6IjFjYjdjMjc2LThiNTQtNTgzMS04NzFjLWYwYmQ2Yzk2OGVhMSIsImNyZWF0ZWQiOjE3MDUyOTExMDUwNDIsImV4aXN0aW5nIjp0cnVlfQ==",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:25.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjAbsoluteSessionInProgress",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:25.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSession_14",
+        "value": "eyJpZCI6IjNhYmM1ZjVhLWZhMWQtNDEyMi1iYjJkLTg1MzY5OTU5YzYwMCIsImMiOjE3MDUyOTExMDUwNDYsInMiOjEsInIiOjEsInNiIjowfQ==",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:25.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "7b0fd9e0-0d3b-40b7-a652-46773b18eada",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:27.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=0&expire=1705292011178",
+        "domain": "www.hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:13:31.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "lidc",
+        "value": "\"b=OGST09:s=O:r=O:a=O:p=O:g=2693:u=1:x=1:i=1705291104:t=1705377504:v=2:sig=AQHbCVbUTlskaKINNRY8lJ81B5IvFP2m\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-01-16T03:58:24.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "UserMatchHistory",
+        "value": "AQJVgWGKuWL-agAAAY0LRUZ4CZPRNseb9XSzy3sT7zmh46TI5Fc-gbiEXhrnz55ovkyk7Xs-Isl9Wg",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-02-14T03:58:26.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "AnalyticsSyncHistory",
+        "value": "AQKHB8HtCrhIPwAAAY0LRUZ4-vsMEKnvyLbksXzWQQZLTT8aJFuUxt_6kN2ghUHGwk5nOgkU3iHt-8sHcBdR4w",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-02-14T03:58:26.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bscookie",
+        "value": "\"v=1&2024011503582674d83444-ffbc-4b8d-850e-fe23a7479211AQH-4FeZplZ2OEZ83UpfuXoYW1Am3eiz\"",
+        "domain": "www.linkedin.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:26.000Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "li_sugr",
+        "value": "1bcc766c-b850-47a5-b635-67c5c5a9ece4",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:27.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "bcookie",
+        "value": "\"v=2&d870abfe-214f-4563-8cda-338a2fd823d7\"",
+        "domain": "linkedin.com",
+        "path": "/",
+        "expires": "2025-01-14T03:58:27.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "muc_ads",
+        "value": "461fa335-c11e-4179-ac87-5870b64ef562",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2026-01-14T03:58:24.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "0C048E61C3B46C442FD69A66C2296D91",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2025-02-08T03:58:19.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "bat.bing.com",
+        "path": "/",
+        "expires": "2024-01-22T03:58:19.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MSPTC",
+        "value": "4wiX0Cv7rG15PeRPAvV-Q-67vzq87nsNgmYzhG-PJpc",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2025-02-08T03:58:22.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.hotjar.com/guides/",
+        "raw": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&rl=&if=false&ts=1705291104695&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291104692.773972526&cs_est=true&ler=empty&it=1705291104234&coo=false&rqm=GET"
+      }
+    ],
     "key_logging": {},
-    "session_recorders": {},
-    "third_party_trackers": []
+    "session_recorders": {
+      "script.hotjar.com": [
+        "script.hotjar.com/Roboto-Regular.422781.woff2",
+        "script.hotjar.com/Roboto-Medium.ef8bb0.woff2",
+        "script.hotjar.com/survey-v2.9572727e44d225c2acab.js",
+        "script.hotjar.com/preact-incoming-feedback.8917ef65a56484395694.js",
+        "script.hotjar.com/modules.01a61edd76e9459a4476.js"
+      ],
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-14.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_Rgeb8AUK6JpSpDrCnIasxaUjtryk81dRd85vXTheCC4bqI-4",
+            "cv": 11,
+            "data": "event=form_start",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1335781410,
+            "rmt_tld": 1,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291109907&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&data=event%3Dform_start&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_Rgeb8AUK6JpSpDrCnIasxaUjtryk81dRd85vXTheCC4bqI-4&random=1335781410&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_Rgeb8AUK6JpSpDrCnIasxaUjtryk81dRd85vXTheCC4bqI-4",
+            "cv": 11,
+            "data": "event=form_start",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1335781410,
+            "rmt_tld": 0,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291109907&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&data=event%3Dform_start&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_Rgeb8AUK6JpSpDrCnIasxaUjtryk81dRd85vXTheCC4bqI-4&random=1335781410&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "pid": 5878,
+            "pn": 3,
+            "sn": 1,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/api-errors?v=13.77.2&pid=5878&pn=3&sn=1&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=form_start",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291109907,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291109907,
+            "rfmt": 3,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291109907&cv=11&fst=1705291109907&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&hn=www.googleadservices.com&frm=0&tiba=Guides%20%7C%20Hotjar&auid=1619942246.1705291096&data=event%3Dform_start&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "auid": 1619942246.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "hn": "www.googleadservices.com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://google.com/pagead/form-data/697111050?gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&hn=www.googleadservices.com&auid=1619942246.1705291096"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 2,
+            "dc": 1419,
+            "di": 1158,
+            "fl": 1419,
+            "hd": 1705291102,
+            "mdh": 7789,
+            "pid": 5878,
+            "pn": 3,
+            "sn": 1,
+            "sr": 87,
+            "str": 973,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=3&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291102&pid=5878&str=973&di=1158&dc=1419&fl=1419&sr=87&mdh=7789&ct=2"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_p": 1705291102369,
+            "_s": 1,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/guides/",
+            "dma": 0,
+            "dt": "Guides | Hotjar",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 6925,
+            "tid": "G-KNDFS1XWFR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291102369&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=1280x720&cid=1654297885.1705291091&ir=1&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&dt=Guides%20%7C%20Hotjar&sid=1705291091&sct=1&seg=0&en=Color%20Mode&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=6925"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1705291102369,
+            "_s": 1,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/guides/",
+            "dma": 0,
+            "dt": "Guides | Hotjar",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 6529,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291102369&gcd=11l1l1l1l1&dma=0&cid=1654297885.1705291091&ul=en-us&sr=1280x720&sid=1705291091&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&dt=Guides%20%7C%20Hotjar&_s=1&tfd=6529"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "liSync": true,
+            "pid": 98542,
+            "time": 1705291103425,
+            "url": "https://www.hotjar.com/guides/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291103425&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&cookiesTest=true&liSync=true"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291103425,
+            "url": "https://www.hotjar.com/guides/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291103425&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_Y1g3wIpCR9SHigca1ZEzDg_YfEZuwaw6kanKtJGaF8Qmdmqy",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=1cb7c276;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 227051221,
+            "rmt_tld": 1,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291105059&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D1cb7c276%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_Y1g3wIpCR9SHigca1ZEzDg_YfEZuwaw6kanKtJGaF8Qmdmqy&random=227051221&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_Y1g3wIpCR9SHigca1ZEzDg_YfEZuwaw6kanKtJGaF8Qmdmqy",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=1cb7c276;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 227051221,
+            "rmt_tld": 0,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291105059&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D1cb7c276%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_Y1g3wIpCR9SHigca1ZEzDg_YfEZuwaw6kanKtJGaF8Qmdmqy&random=227051221&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gzip": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://content.hotjar.io/?gzip=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=1cb7c276;non_interaction=true",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291105059,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291105059,
+            "rfmt": 3,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291105059&cv=11&fst=1705291105059&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&hn=www.googleadservices.com&frm=0&tiba=Guides%20%7C%20Hotjar&auid=1619942246.1705291096&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D1cb7c276%3Bnon_interaction%3Dtrue&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "r": 0.05598670706120079,
+            "s": 0.25
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://vc.hotjar.io/sessions/14?s=0.25&r=0.05598670706120079"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.hotjar.com/guides/",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1705291104692.773972526",
+            "id": 259210877621442,
+            "if": false,
+            "it": 1705291104234,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 720,
+            "sw": 1280,
+            "ts": 1705291104695,
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&rl=&if=false&ts=1705291104695&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291104692.773972526&cs_est=true&ler=empty&it=1705291104234&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/p"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/79878.js"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.hotjar.com",
+            "r": "stable",
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-BY4EGTPHRR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/962/909319ad4a6af2ed4035.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/8f12d1b4d7e7076c4f68.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_TLggmOHh5CPiWEcFAtlmwZOxZe6CtFzyLWz8OtWXHFOmel-z",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3009842894,
+            "rmt_tld": 1,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291103364&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_TLggmOHh5CPiWEcFAtlmwZOxZe6CtFzyLWz8OtWXHFOmel-z&random=3009842894&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_TLggmOHh5CPiWEcFAtlmwZOxZe6CtFzyLWz8OtWXHFOmel-z",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3009842894,
+            "rmt_tld": 0,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291103364&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_TLggmOHh5CPiWEcFAtlmwZOxZe6CtFzyLWz8OtWXHFOmel-z&random=3009842894&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_aYbSbYkbcmthq-oXIRITCOuN_i09f7FzmhCEpoYCaI7pnQOD",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2503323612,
+            "rmt_tld": 1,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291103318&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_aYbSbYkbcmthq-oXIRITCOuN_i09f7FzmhCEpoYCaI7pnQOD&random=2503323612&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_aYbSbYkbcmthq-oXIRITCOuN_i09f7FzmhCEpoYCaI7pnQOD",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2503323612,
+            "rmt_tld": 0,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291103318&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&frm=0&tiba=Guides%20%7C%20Hotjar&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_aYbSbYkbcmthq-oXIRITCOuN_i09f7FzmhCEpoYCaI7pnQOD&random=2503323612&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "e7d03ab7-14b4-4ff3-8bb1-289371859f86",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "60664957-e98e-4773-9833-d61255fcba61",
+            "tw_document_href": "https://www.hotjar.com/guides/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=e7d03ab7-14b4-4ff3-8bb1-289371859f86&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=60664957-e98e-4773-9833-d61255fcba61&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "e7d03ab7-14b4-4ff3-8bb1-289371859f86",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "60664957-e98e-4773-9833-d61255fcba61",
+            "tw_document_href": "https://www.hotjar.com/guides/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=e7d03ab7-14b4-4ff3-8bb1-289371859f86&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=60664957-e98e-4773-9833-d61255fcba61&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291103425,
+            "url": "https://www.hotjar.com/guides/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291103425&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 1692,
+            "mid": "64548c87-ad2a-4f53-8627-81de6d9108e4",
+            "msclkid": "N",
+            "p": "https://www.hotjar.com/guides/",
+            "pi": 0,
+            "r": "",
+            "rn": 807747,
+            "sc": 24,
+            "sh": 720,
+            "sid": "50c9ee30b35a11ee83caaff306dd7aad",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "Guides | Hotjar",
+            "tm": "gtm002",
+            "vid": "50cb1210b35a11ee9d79a596e23be085",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=64548c87-ad2a-4f53-8627-81de6d9108e4&sid=50c9ee30b35a11ee83caaff306dd7aad&vid=50cb1210b35a11ee9d79a596e23be085&vids=0&msclkid=N&pi=0&lg=en-US&sw=1280&sh=720&sc=24&tl=Guides%20%7C%20Hotjar&p=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&r=&lt=1692&evt=pageLoad&sv=1&rn=807747"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291103364,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291103364,
+            "rfmt": 3,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291103364&cv=11&fst=1705291103364&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&hn=www.googleadservices.com&frm=0&tiba=Guides%20%7C%20Hotjar&auid=1619942246.1705291096&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291103318,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291103318,
+            "rfmt": 3,
+            "tiba": "Guides | Hotjar",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/guides/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291103318&cv=11&fst=1705291103318&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&hn=www.googleadservices.com&frm=0&tiba=Guides%20%7C%20Hotjar&auid=1619942246.1705291096&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 497870145.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 1477369967,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 1654297885.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/guides/",
+            "dma": 0,
+            "dt": "Guides | Hotjar",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 1575703126
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=1477369967&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&ul=en-us&de=UTF-8&dt=Guides%20%7C%20Hotjar&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=1654297885.1705291091&tid=UA-51401671-1&_gid=497870145.1705291091&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1575703126"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 7789,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291102,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 3,
+            "pvt": "n",
+            "r": 810065,
+            "sh": 720,
+            "sn": 1,
+            "sw": 1280,
+            "uc": 1,
+            "url": "https://www.hotjar.com/guides/",
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291102&pn=3&dw=1280&dh=7789&ww=1280&wh=720&sw=1280&sh=720&dr=&url=https%3A%2F%2Fwww.hotjar.com%2Fguides%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=810065"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/guides/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "dc": 1768,
+            "di": 1098,
+            "fl": 1768,
+            "hd": 1705291100,
+            "hlm": true,
+            "mdh": 5673,
+            "pid": 5878,
+            "pn": 2,
+            "sn": 1,
+            "sr": 98,
+            "str": 891,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=2&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291100&pid=5878&str=891&di=1098&dc=1768&fl=1768&sr=98&mdh=5673&hlm=true&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageHide",
+            "mid": "5d615ea1-268d-4359-a548-25e79e079d44",
+            "msclkid": "N",
+            "sid": "50c9ee30b35a11ee83caaff306dd7aad",
+            "ti": 5739677,
+            "tm": "gtm002",
+            "vid": "50cb1210b35a11ee9d79a596e23be085",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=5739677&tm=gtm002&Ver=2&mid=5d615ea1-268d-4359-a548-25e79e079d44&sid=50c9ee30b35a11ee83caaff306dd7aad&vid=50cb1210b35a11ee9d79a596e23be085&vids=0&msclkid=N&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_p": 1705291099337,
+            "_s": 1,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 4109,
+            "tid": "G-KNDFS1XWFR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291099337&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=1280x720&cid=1654297885.1705291091&ir=1&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sid=1705291091&sct=1&seg=0&en=Color%20Mode&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=4109"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 2421,
+            "_p": 1705291099337,
+            "_s": 2,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "user_engagement",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 4107,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723&_p=1705291099337&gcd=11l1l1l1l1&dma=0&cid=1654297885.1705291091&ul=en-us&sr=1280x720&_s=2&sid=1705291091&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=user_engagement&_et=2421&tfd=4107"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1705291099337,
+            "_s": 1,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 4107,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291099337&gcd=11l1l1l1l1&dma=0&cid=1654297885.1705291091&ul=en-us&sr=1280x720&sid=1705291091&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&_s=1&tfd=4107"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/m"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_MqednpjAVGOgRn2TjhzAz0eQL5oEIAFTNM5P69413ex4Tcug",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2838209508,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291100575&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_MqednpjAVGOgRn2TjhzAz0eQL5oEIAFTNM5P69413ex4Tcug&random=2838209508&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_MqednpjAVGOgRn2TjhzAz0eQL5oEIAFTNM5P69413ex4Tcug",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2838209508,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291100575&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_MqednpjAVGOgRn2TjhzAz0eQL5oEIAFTNM5P69413ex4Tcug&random=2838209508&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "pid": 5878,
+            "pn": 2,
+            "sn": 1,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/api-errors?v=13.77.2&pid=5878&pn=2&sn=1&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&ct=0"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_B28Q_SGinj9KqSmj_Z9Oix8TX7GUjqaIImuzExtEpLrkGf7Z",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3785337910,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291100492&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_B28Q_SGinj9KqSmj_Z9Oix8TX7GUjqaIImuzExtEpLrkGf7Z&random=3785337910&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSKQAvHhf_B28Q_SGinj9KqSmj_Z9Oix8TX7GUjqaIImuzExtEpLrkGf7Z",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3785337910,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291100492&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSKQAvHhf_B28Q_SGinj9KqSmj_Z9Oix8TX7GUjqaIImuzExtEpLrkGf7Z&random=3785337910&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291100699,
+            "url": "https://www.hotjar.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291100699&url=https%3A%2F%2Fwww.hotjar.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "88d470ec-a4ba-4229-a5c1-074c2491a435",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "88f6844b-422d-43fd-a7dc-b3f15784f32a",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=88d470ec-a4ba-4229-a5c1-074c2491a435&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=88f6844b-422d-43fd-a7dc-b3f15784f32a&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "88d470ec-a4ba-4229-a5c1-074c2491a435",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "88f6844b-422d-43fd-a7dc-b3f15784f32a",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=88d470ec-a4ba-4229-a5c1-074c2491a435&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=88f6844b-422d-43fd-a7dc-b3f15784f32a&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291100575,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291100575,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291100575&cv=11&fst=1705291100575&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1619942246.1705291096&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 1797,
+            "mid": "5d615ea1-268d-4359-a548-25e79e079d44",
+            "msclkid": "N",
+            "p": "https://www.hotjar.com/",
+            "pi": 0,
+            "r": "",
+            "rn": 850129,
+            "sc": 24,
+            "sh": 720,
+            "sid": "50c9ee30b35a11ee83caaff306dd7aad",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "tm": "gtm002",
+            "vid": "50cb1210b35a11ee9d79a596e23be085",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=5d615ea1-268d-4359-a548-25e79e079d44&sid=50c9ee30b35a11ee83caaff306dd7aad&vid=50cb1210b35a11ee9d79a596e23be085&vids=0&msclkid=N&pi=0&lg=en-US&sw=1280&sh=720&sc=24&tl=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&p=https%3A%2F%2Fwww.hotjar.com%2F&r=&lt=1797&evt=pageLoad&sv=1&rn=850129"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291100492,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291100492,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291100492&cv=11&fst=1705291100492&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1619942246.1705291096&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 2,
+            "dc": 1768,
+            "di": 1098,
+            "fl": 1768,
+            "hd": 1705291100,
+            "mdh": 5673,
+            "pid": 5878,
+            "pn": 2,
+            "sn": 1,
+            "sr": 82,
+            "str": 891,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=2&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291100&pid=5878&str=891&di=1098&dc=1768&fl=1768&sr=82&mdh=5673&ct=2"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 5673,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291100,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 2,
+            "pvt": "n",
+            "r": 739058,
+            "sh": 720,
+            "sn": 1,
+            "sw": 1280,
+            "uc": 1,
+            "url": "https://www.hotjar.com/",
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291100&pn=2&dw=1280&dh=5673&ww=1280&wh=720&sw=1280&sh=720&dr=&url=https%3A%2F%2Fwww.hotjar.com%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=739058"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 497870145.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 1344260551,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 1654297885.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 1863040163
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=1344260551&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&ul=en-us&de=UTF-8&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=1654297885.1705291091&tid=UA-51401671-1&_gid=497870145.1705291091&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1863040163"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "dc": 4281,
+            "di": 2158,
+            "fl": 4281,
+            "hd": 1705291091,
+            "hlm": true,
+            "mdh": 5673,
+            "pid": 5878,
+            "pn": 1,
+            "sn": 1,
+            "sr": 13,
+            "str": 927,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=1&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291091&pid=5878&sr=13&mdh=5673&hlm=true&str=927&di=2158&dc=4281&fl=4281&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageHide",
+            "mid": "7d228556-f3fa-4081-a555-680608e08f70",
+            "msclkid": "N",
+            "sid": "50c9ee30b35a11ee83caaff306dd7aad",
+            "ti": 5739677,
+            "tm": "gtm002",
+            "vid": "50cb1210b35a11ee9d79a596e23be085",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=5739677&tm=gtm002&Ver=2&mid=7d228556-f3fa-4081-a555-680608e08f70&sid=50c9ee30b35a11ee83caaff306dd7aad&vid=50cb1210b35a11ee9d79a596e23be085&vids=1&msclkid=N&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 7929,
+            "_p": 1705291090086,
+            "_s": 3,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "user_engagement",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 10940,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723&_p=1705291090086&gcd=11l1l1l1l1&dma=0&cid=1654297885.1705291091&ul=en-us&sr=1280x720&_s=3&sid=1705291091&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=user_engagement&_et=7929&tfd=10940"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/m"
+      },
+      {
+        "data": {
+          "filter": "||browser-intake-datadoghq.eu^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "batch_time": 1705291098226,
+            "dd-api-key": "pubde7bd5208cdce3be9ada6a0d49166181",
+            "dd-evp-origin": "browser",
+            "dd-evp-origin-version": "4.50.1",
+            "dd-request-id": "a7d120bf-a703-4575-9172-080dd84c3ece",
+            "ddsource": "browser",
+            "ddtags": "sdk_version:4.50.1,api:beacon,env:live,service:hotjar-com"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://rum.browser-intake-datadoghq.eu/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A4.50.1%2Capi%3Abeacon%2Cenv%3Alive%2Cservice%3Ahotjar-com&dd-api-key=pubde7bd5208cdce3be9ada6a0d49166181&dd-evp-origin-version=4.50.1&dd-evp-origin=browser&dd-request-id=a7d120bf-a703-4575-9172-080dd84c3ece&batch_time=1705291098226"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 4586,
+            "mid": "7d228556-f3fa-4081-a555-680608e08f70",
+            "msclkid": "N",
+            "p": "https://www.hotjar.com/",
+            "pi": 0,
+            "r": "",
+            "rn": 275182,
+            "sc": 24,
+            "sh": 720,
+            "sid": "50c9ee30b35a11ee83caaff306dd7aad",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "tm": "gtm002",
+            "vid": "50cb1210b35a11ee9d79a596e23be085",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=7d228556-f3fa-4081-a555-680608e08f70&sid=50c9ee30b35a11ee83caaff306dd7aad&vid=50cb1210b35a11ee9d79a596e23be085&vids=1&msclkid=N&pi=0&lg=en-US&sw=1280&sh=720&sc=24&tl=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&p=https%3A%2F%2Fwww.hotjar.com%2F&r=&lt=4586&evt=pageLoad&sv=1&rn=275182"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291097870,
+            "url": "https://www.hotjar.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291097870&url=https%3A%2F%2Fwww.hotjar.com%2F"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_zi1Q10vwWSzdQ1H5EDwVa0ldjvSwDg",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1708289392,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291096280&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_zi1Q10vwWSzdQ1H5EDwVa0ldjvSwDg&random=1708289392&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_zi1Q10vwWSzdQ1H5EDwVa0ldjvSwDg",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1708289392,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291096280&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_zi1Q10vwWSzdQ1H5EDwVa0ldjvSwDg&random=1708289392&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_6oVzUeH3ia8ysN4S8_di5jyoHl5vWw",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1607981286,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291095939&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_6oVzUeH3ia8ysN4S8_di5jyoHl5vWw&random=1607981286&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_6oVzUeH3ia8ysN4S8_di5jyoHl5vWw",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1607981286,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291095939&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_6oVzUeH3ia8ysN4S8_di5jyoHl5vWw&random=1607981286&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291096280,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291096280,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291096280&cv=11&fst=1705291096280&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1619942246.1705291096&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 1,
+            "_p": 1705291090086,
+            "_s": 2,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "page_view",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 7994,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "up.color_mode": "Light",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291090086&gcd=11l1l1l1l1&dma=0&cid=1654297885.1705291091&ul=en-us&sr=1280x720&_s=2&sid=1705291091&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=page_view&_et=1&up.color_mode=Light&tfd=7994"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "1068bbd1-1005-44e2-8e3e-17e55bc8f7c6",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "6f7a3dd4-8bd4-4ed8-8492-2c790f88395f",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=1068bbd1-1005-44e2-8e3e-17e55bc8f7c6&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=6f7a3dd4-8bd4-4ed8-8492-2c790f88395f&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "1068bbd1-1005-44e2-8e3e-17e55bc8f7c6",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "6f7a3dd4-8bd4-4ed8-8492-2c790f88395f",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=1068bbd1-1005-44e2-8e3e-17e55bc8f7c6&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=6f7a3dd4-8bd4-4ed8-8492-2c790f88395f&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1619942246.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291095939,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291095939,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291095939&cv=11&fst=1705291095939&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1619942246.1705291096&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "pid": 5878,
+            "pn": 1,
+            "sn": 1,
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/api-errors?v=13.77.2&pid=5878&pn=1&sn=1&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "jid": 974372552,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1554175175
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j101&tid=UA-51401671-1&cid=1654297885.1705291091&jid=974372552&_u=YCDAgEABAAAAAGAAI~&z=1554175175"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "jid": 974372552,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1554175175
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j101&tid=UA-51401671-1&cid=1654297885.1705291091&jid=974372552&_u=YCDAgEABAAAAAGAAI~&z=1554175175"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-KNDFS1XWFR",
+            "v": 1,
+            "z": 1429471739
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-KNDFS1XWFR&cid=1654297885.1705291091&gtm=45je41a0v9136024140&aip=1&dma=0&gcd=11l1l1l1l2&z=1429471739"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "tid": "G-KNDFS1XWFR",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-KNDFS1XWFR&cid=1654297885.1705291091&gtm=45je41a0v9136024140&aip=1&dma=0&gcd=11l1l1l1l2"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1705291090086,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 3724,
+            "tid": "G-KNDFS1XWFR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291090086&_gaz=1&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=1280x720&cid=1654297885.1705291091&ir=1&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sid=1705291091&sct=1&seg=0&en=Color%20Mode&_fv=1&_ss=1&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=3724"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 5673,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291091,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 1,
+            "pvt": "n",
+            "r": 917471,
+            "sh": 720,
+            "sn": 1,
+            "sw": 1280,
+            "uc": 1,
+            "url": "https://www.hotjar.com/",
+            "uu": "5035ff90-bb96-aafa-fccd-bce7c2477283",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=5035ff90-bb96-aafa-fccd-bce7c2477283&sn=1&hd=1705291091&pn=1&dw=1280&dh=5673&ww=1280&wh=720&sw=1280&sh=720&dr=&url=https%3A%2F%2Fwww.hotjar.com%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=917471"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 497870145.1705291,
+            "_r": 3,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "gjid": 171705675,
+            "jid": 974372552,
+            "t": "dc",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1818047682
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-51401671-1&cid=1654297885.1705291091&jid=974372552&gjid=171705675&_gid=497870145.1705291091&_u=YCDAgEABAAAAAGAAI~&z=1818047682"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 497870145.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YCDAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 103668481,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 1654297885.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": 171705675,
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": 974372552,
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 1019608982
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=103668481&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&ul=en-us&de=UTF-8&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=YCDAgEABAAAAACAAI~&jid=974372552&gjid=171705675&cid=1654297885.1705291091&tid=UA-51401671-1&_gid=497870145.1705291091&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1019608982"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-BY4EGTPHRR",
+            "v": 1,
+            "z": 753237225
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-BY4EGTPHRR&cid=1654297885.1705291091&gtm=45je41a0v9111464723z872246917&aip=1&dma=0&gcd=11l1l1l1l1&z=753237225"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "aip": 1,
+            "cid": 1654297885.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "tid": "G-BY4EGTPHRR",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-BY4EGTPHRR&cid=1654297885.1705291091&gtm=45je41a0v9111464723z872246917&aip=1&dma=0&gcd=11l1l1l1l1"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1705291090086,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 1654297885.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "page_view",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291091,
+            "sr": "1280x720",
+            "tfd": 2981,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291090086&_gaz=1&gcd=11l1l1l1l1&dma=0&cid=1654297885.1705291091&ul=en-us&sr=1280x720&_s=1&sid=1705291091&sct=1&seg=0&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2981"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "/mixpanel.$domain=~mixpanel.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://images.ctfassets.net/lh3zuq09vnm2/vHHaKAaEeQuNcucdWM50V/23351da3b1ad9d7483ddf11aed64b4b7/Mixpanel.svg"
+      }
+    ]
   }
 }

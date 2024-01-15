@@ -1,14 +1,14 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://example.com",
-  "uri_dest": "http://example.com/",
+  "uri_ins": "http://hotjar.com",
+  "uri_dest": "https://www.hotjar.com/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@c77228f188bed0fd67858379e9841f78"
+    "_guid": "request@7059a3bc1c2698460611f13884a570cf"
   },
   "secure_connection": {},
-  "host": "example.com",
+  "host": "hotjar.com",
   "config": {
     "clearCache": true,
     "captureHar": true,
@@ -33,21 +33,88 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-01-14T10:20:02.637Z",
-  "end_time": "2024-01-14T10:20:05.222Z",
+  "start_time": "2024-01-15T03:58:32.267Z",
+  "end_time": "2024-01-15T03:59:01.124Z",
   "browsing_history": [
-    "http://example.com/"
+    "https://www.hotjar.com/",
+    "https://www.hotjar.com/website-problems"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "example.com"
+        "hotjar.com",
+        "www.hotjar.com",
+        "static.hotjar.com",
+        "script.hotjar.com"
       ],
-      "third_party": []
+      "third_party": [
+        "images.ctfassets.net",
+        "unpkg.com",
+        "cdn.optimizely.com",
+        "www.googletagmanager.com",
+        "js.partnerstack.com",
+        "videos.ctfassets.net",
+        "cdn.cookielaw.org",
+        "t.contentsquare.net",
+        "static.ada.support",
+        "www.google-analytics.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.com.ph",
+        "ca.contentsquare.net",
+        "www.google.com",
+        "rollout.eu.ada.support",
+        "grsm.io",
+        "hotjar.eu.ada.support",
+        "geolocation.onetrust.com",
+        "partnerlinks.io",
+        "bat.bing.com",
+        "snap.licdn.com",
+        "static.ads-twitter.com",
+        "googleads.g.doubleclick.net",
+        "connect.facebook.net",
+        "t.co",
+        "analytics.twitter.com",
+        "cdn.segment.com",
+        "fast.appcues.com",
+        "api.segment.io",
+        "px.ads.linkedin.com",
+        "content.hotjar.io",
+        "privacyportal-eu.onetrust.com",
+        "www.facebook.com",
+        "metrics.hotjar.io"
+      ]
     }
   },
   "reports": {
-    "behaviour_event_listeners": {},
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "web-inspector://bootstrap.js": [
+          "scroll",
+          "mousemove",
+          "click",
+          "mousedown",
+          "dblclick",
+          "mouseup"
+        ]
+      },
+      "KEYBOARD": {
+        "web-inspector://bootstrap.js": [
+          "keypress",
+          "input",
+          "keyup",
+          "keydown"
+        ]
+      },
+      "TOUCH": {
+        "web-inspector://bootstrap.js": [
+          "touchcancel",
+          "touchend",
+          "touchstart",
+          "touchmove"
+        ]
+      }
+    },
     "canvas_fingerprinters": {
       "data_url": {},
       "fingerprinters": [],
@@ -58,10 +125,4819 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [],
-    "fb_pixel_events": [],
+    "cookies": [
+      {
+        "name": "hj_visitor",
+        "value": "new",
+        "domain": "www.hotjar.com",
+        "path": "/",
+        "expires": "1969-12-31T23:59:59.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_dd_s",
+        "value": "rum=0&expire=1705292040437",
+        "domain": "www.hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:14:00.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Strict",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NEXT_LOCALE",
+        "value": "en",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-02-14T03:58:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "mktg_homepage_hero_image_multiproduct_assignment",
+        "value": "variation1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-03-15T03:58:34.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_ga_BY4EGTPHRR",
+        "value": "GS1.1.1705291116.1.1.1705291138.38.0.0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-18T03:58:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.935360378.1705291116",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-18T03:58:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.1191910064.1705291116",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-16T03:58:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_dc_gtm_UA-51401671-1",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T03:59:36.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_c",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-13T13:58:36.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_id",
+        "value": "16a05aef-4a44-a21d-d8da-6a87bbd7195b.1705291116.1.1705291138.1705291116.1.1739455116584.1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-13T13:58:36.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cs_s",
+        "value": "4.0.0.1705292938574",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_KNDFS1XWFR",
+        "value": "GS1.2.1705291116.1.0.1705291138.38.0.0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-18T03:58:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ps_mode",
+        "value": "trackingV1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:58.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Mon+Jan+15+2024+11%3A59%3A00+GMT%2B0800+(Philippine+Standard+Time)&version=202309.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=39b7fb42-0da6-43f4-8253-8003d0d19b8f&interactionCount=1&landingPath=NotLandingPage&groups=0%3A1%2C1%3A1%2C2%3A1%2C3%3A1&AwaitingReconsent=false",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:59:00.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1906773875.1705291121",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:41.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "f656cf3b-1f3f-402b-bc97-2259e7a03cd9",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:59:00.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSessionUser_14",
+        "value": "eyJpZCI6IjgwN2U0MmU1LWVkMmUtNTE4My05YTllLTFlYzQ1YzUyNzZjYSIsImNyZWF0ZWQiOjE3MDUyOTExMjM0NjcsImV4aXN0aW5nIjp0cnVlfQ==",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-01-14T03:59:00.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjFirstSeen",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:43.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjIncludedInSessionSample_14",
+        "value": "1",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:29:00.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjSession_14",
+        "value": "eyJpZCI6Ijk0NmM2NzA1LWYwMmQtNDhmNC04NmJhLTQwYTY1NzA4YWMwYyIsImMiOjE3MDUyOTExMjM0NzEsInMiOjEsInIiOjEsInNiIjowfQ==",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:28:43.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_hjAbsoluteSessionInProgress",
+        "value": "0",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-15T04:29:00.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1705291123617.763465696",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-04-14T03:58:59.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetsid",
+        "value": "5f4775d0b35a11eebc406578ed1f587b",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2024-01-16T03:58:59.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "5f47c890b35a11ee8c3821a27e99432f",
+        "domain": "hotjar.com",
+        "path": "/",
+        "expires": "2025-02-08T03:58:59.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      }
+    ],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.hotjar.com/website-problems/",
+        "raw": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&rl=&if=false&ts=1705291139088&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291123617.763465696&cs_est=true&ler=empty&it=1705291138993&coo=false&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.hotjar.com/website-problems/",
+        "raw": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&rl=&if=false&ts=1705291128828&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291123617.763465696&cs_est=true&ler=empty&it=1705291128772&coo=false&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.hotjar.com/",
+        "raw": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2F&rl=&if=false&ts=1705291125677&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291123617.763465696&cs_est=true&ler=empty&it=1705291125542&coo=false&rqm=GET"
+      }
+    ],
     "key_logging": {},
-    "session_recorders": {},
-    "third_party_trackers": []
+    "session_recorders": {
+      "script.hotjar.com": [
+        "script.hotjar.com/survey-v2.9572727e44d225c2acab.js",
+        "script.hotjar.com/preact-incoming-feedback.8917ef65a56484395694.js",
+        "script.hotjar.com/modules.01a61edd76e9459a4476.js"
+      ],
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-14.js"
+      ]
+    },
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_iJz3wRrUU4nBrwvaty6pIaqcwwnE0w",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2781301464,
+            "rmt_tld": 1,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291140841&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_iJz3wRrUU4nBrwvaty6pIaqcwwnE0w&random=2781301464&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_iJz3wRrUU4nBrwvaty6pIaqcwwnE0w",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2781301464,
+            "rmt_tld": 0,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291140841&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_iJz3wRrUU4nBrwvaty6pIaqcwwnE0w&random=2781301464&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gzip": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://content.hotjar.io/?gzip=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291140841,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291140841,
+            "rfmt": 3,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291140841&cv=11&fst=1705291140841&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&hn=www.googleadservices.com&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&auid=1906773875.1705291121&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/p"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/79878.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-BY4EGTPHRR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/962/909319ad4a6af2ed4035.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/8f12d1b4d7e7076c4f68.js"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "pid": 5878,
+            "pn": 4,
+            "sn": 1,
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/api-errors?v=13.77.2&pid=5878&pn=4&sn=1&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291139074,
+            "url": "https://www.hotjar.com/website-problems/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291139074&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 2,
+            "hd": 1705291138,
+            "mdh": 14445,
+            "pid": 5878,
+            "pn": 4,
+            "sn": 1,
+            "sr": 93,
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=4&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291138&pid=5878&sr=93&mdh=14445&ct=2"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_UNjpkkXo9DoaXbiH8b3Qei6156ZkwQ",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1432488290,
+            "rmt_tld": 1,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291139028&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_UNjpkkXo9DoaXbiH8b3Qei6156ZkwQ&random=1432488290&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_UNjpkkXo9DoaXbiH8b3Qei6156ZkwQ",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1432488290,
+            "rmt_tld": 0,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291139028&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_UNjpkkXo9DoaXbiH8b3Qei6156ZkwQ&random=1432488290&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_Sar3PZhZC5GfyUgPz0M9BcX91T7eyw",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2031242983,
+            "rmt_tld": 1,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291138972&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_Sar3PZhZC5GfyUgPz0M9BcX91T7eyw&random=2031242983&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_Sar3PZhZC5GfyUgPz0M9BcX91T7eyw",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 2031242983,
+            "rmt_tld": 0,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291138972&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_Sar3PZhZC5GfyUgPz0M9BcX91T7eyw&random=2031242983&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "bf8be4b9-b694-4873-94d5-5228823d43fa",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "b723a220-a685-45e5-9d61-9ca33031ce9e",
+            "tw_document_href": "https://www.hotjar.com/website-problems/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=bf8be4b9-b694-4873-94d5-5228823d43fa&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b723a220-a685-45e5-9d61-9ca33031ce9e&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "bf8be4b9-b694-4873-94d5-5228823d43fa",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "b723a220-a685-45e5-9d61-9ca33031ce9e",
+            "tw_document_href": "https://www.hotjar.com/website-problems/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=bf8be4b9-b694-4873-94d5-5228823d43fa&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b723a220-a685-45e5-9d61-9ca33031ce9e&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.hotjar.com/website-problems/",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1705291123617.763465696",
+            "id": 259210877621442,
+            "if": false,
+            "it": 1705291138993,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 720,
+            "sw": 1280,
+            "ts": 1705291139088,
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&rl=&if=false&ts=1705291139088&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291123617.763465696&cs_est=true&ler=empty&it=1705291138993&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291139074,
+            "url": "https://www.hotjar.com/website-problems/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291139074&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 1460,
+            "mid": "f329d619-0306-47bd-bf19-0d319b798fe3",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.hotjar.com/website-problems/",
+            "pi": 918639831,
+            "r": "",
+            "rn": 704511,
+            "sc": 24,
+            "sh": 720,
+            "sid": "5f4775d0b35a11eebc406578ed1f587b",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "9 Common Website Problems and How to Fix Them",
+            "tm": "gtm002",
+            "vid": "5f47c890b35a11ee8c3821a27e99432f",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=f329d619-0306-47bd-bf19-0d319b798fe3&sid=5f4775d0b35a11eebc406578ed1f587b&vid=5f47c890b35a11ee8c3821a27e99432f&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&p=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&r=&lt=1460&evt=pageLoad&sv=1&rn=704511"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291139028,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291139028,
+            "rfmt": 3,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291139028&cv=11&fst=1705291139028&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&hn=www.googleadservices.com&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&auid=1906773875.1705291121&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.hotjar.com",
+            "r": "stable",
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291138972,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291138972,
+            "rfmt": 3,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291138972&cv=11&fst=1705291138972&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&hn=www.googleadservices.com&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&auid=1906773875.1705291121&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 14445,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291138,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 4,
+            "pvt": "n",
+            "r": 764554,
+            "sh": 900,
+            "sn": 1,
+            "sw": 1440,
+            "uc": 1,
+            "url": "https://www.hotjar.com/website-problems/",
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291138&pn=4&dw=1280&dh=14445&ww=1280&wh=720&sw=1440&sh=900&dr=&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=764554"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1191910064.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 2034687803,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 935360378.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/website-problems/",
+            "dma": 0,
+            "dt": "9 Common Website Problems and How to Fix Them",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 410742143
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=2034687803&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&ul=en-us&de=UTF-8&dt=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=935360378.1705291116&tid=UA-51401671-1&_gid=1191910064.1705291116&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=410742143"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "dc": 788,
+            "di": 566,
+            "fl": 788,
+            "hd": 1705291128,
+            "hlm": true,
+            "mdh": 14445,
+            "pid": 5878,
+            "pn": 3,
+            "sn": 1,
+            "sr": 5,
+            "str": 462,
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=3&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291128&pid=5878&str=462&di=566&dc=788&fl=788&sr=5&mdh=14445&hlm=true&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageHide",
+            "mid": "c331efd8-e09d-46e9-bc91-8c4c2750f642",
+            "msclkid": "N",
+            "sid": "5f4775d0b35a11eebc406578ed1f587b",
+            "ti": 5739677,
+            "tm": "gtm002",
+            "vid": "5f47c890b35a11ee8c3821a27e99432f",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=5739677&tm=gtm002&Ver=2&mid=c331efd8-e09d-46e9-bc91-8c4c2750f642&sid=5f4775d0b35a11eebc406578ed1f587b&vid=5f47c890b35a11ee8c3821a27e99432f&vids=0&msclkid=N&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 9807,
+            "_p": 1705291128053,
+            "_s": 2,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/website-problems/",
+            "dma": 0,
+            "dt": "9 Common Website Problems and How to Fix Them",
+            "en": "user_engagement",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 11250,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "up.hjuid": "807e42e5",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723&_p=1705291128053&gcd=11l1l1l1l1&dma=0&cid=935360378.1705291116&ul=en-us&sr=1280x720&_s=2&sid=1705291116&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&dt=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&en=user_engagement&_et=9807&up.hjuid=807e42e5&tfd=11250"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "debug": true,
+            "v": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.hotjar.io/?v=6&debug=true"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_p": 1705291128053,
+            "_s": 1,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/website-problems/",
+            "dma": 0,
+            "dt": "9 Common Website Problems and How to Fix Them",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 6640,
+            "tid": "G-KNDFS1XWFR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291128053&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=1280x720&cid=935360378.1705291116&ir=1&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&dt=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&sid=1705291116&sct=1&seg=0&en=Color%20Mode&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=6640"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1705291128053,
+            "_s": 1,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/website-problems/",
+            "dma": 0,
+            "dt": "9 Common Website Problems and How to Fix Them",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 6404,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291128053&gcd=11l1l1l1l1&dma=0&cid=935360378.1705291116&ul=en-us&sr=1280x720&sid=1705291116&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&dt=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&_s=1&tfd=6404"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "debug": true,
+            "v": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://metrics.hotjar.io/?v=6&debug=true"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/p"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/wa/"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "cookiesTest": true,
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291128811,
+            "url": "https://www.hotjar.com/website-problems/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291128811&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&cookiesTest=true"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_QnevLiflqdGWPgtSq9y4srKnxcDRpg",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3211390516,
+            "rmt_tld": 1,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291130228&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_QnevLiflqdGWPgtSq9y4srKnxcDRpg&random=3211390516&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_QnevLiflqdGWPgtSq9y4srKnxcDRpg",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3211390516,
+            "rmt_tld": 0,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291130228&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_QnevLiflqdGWPgtSq9y4srKnxcDRpg&random=3211390516&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/p"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gzip": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://content.hotjar.io/?gzip=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291130228,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291130228,
+            "rfmt": 3,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291130228&cv=11&fst=1705291130228&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&hn=www.googleadservices.com&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&auid=1906773875.1705291121&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/79878.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-BY4EGTPHRR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/962/909319ad4a6af2ed4035.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/8f12d1b4d7e7076c4f68.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_oA68ONEdfPTJ7KZItw5euwKPgfMN8A",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 798575313,
+            "rmt_tld": 1,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291128788&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_oA68ONEdfPTJ7KZItw5euwKPgfMN8A&random=798575313&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_oA68ONEdfPTJ7KZItw5euwKPgfMN8A",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 798575313,
+            "rmt_tld": 0,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291128788&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_oA68ONEdfPTJ7KZItw5euwKPgfMN8A&random=798575313&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_FoqOqybOeBknu4Fa3j3O492pqpN9KA",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 641093037,
+            "rmt_tld": 1,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291128741&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_FoqOqybOeBknu4Fa3j3O492pqpN9KA&random=641093037&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_FoqOqybOeBknu4Fa3j3O492pqpN9KA",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 641093037,
+            "rmt_tld": 0,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291128741&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_FoqOqybOeBknu4Fa3j3O492pqpN9KA&random=641093037&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "37619e15-2cbf-4e62-be98-f8a12a206d36",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "03ebe0b9-de1e-4e71-a132-984db3d1e8ed",
+            "tw_document_href": "https://www.hotjar.com/website-problems/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=37619e15-2cbf-4e62-be98-f8a12a206d36&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=03ebe0b9-de1e-4e71-a132-984db3d1e8ed&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "37619e15-2cbf-4e62-be98-f8a12a206d36",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "03ebe0b9-de1e-4e71-a132-984db3d1e8ed",
+            "tw_document_href": "https://www.hotjar.com/website-problems/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=37619e15-2cbf-4e62-be98-f8a12a206d36&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=03ebe0b9-de1e-4e71-a132-984db3d1e8ed&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.hotjar.com/website-problems/",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1705291123617.763465696",
+            "id": 259210877621442,
+            "if": false,
+            "it": 1705291128772,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 720,
+            "sw": 1280,
+            "ts": 1705291128828,
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&rl=&if=false&ts=1705291128828&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291123617.763465696&cs_est=true&ler=empty&it=1705291128772&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291128811,
+            "url": "https://www.hotjar.com/website-problems/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291128811&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 1482,
+            "mid": "c331efd8-e09d-46e9-bc91-8c4c2750f642",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.hotjar.com/website-problems/",
+            "pi": 918639831,
+            "r": "",
+            "rn": 29025,
+            "sc": 24,
+            "sh": 720,
+            "sid": "5f4775d0b35a11eebc406578ed1f587b",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "9 Common Website Problems and How to Fix Them",
+            "tm": "gtm002",
+            "vid": "5f47c890b35a11ee8c3821a27e99432f",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=c331efd8-e09d-46e9-bc91-8c4c2750f642&sid=5f4775d0b35a11eebc406578ed1f587b&vid=5f47c890b35a11ee8c3821a27e99432f&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&p=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&r=&lt=1482&evt=pageLoad&sv=1&rn=29025"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291128788,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291128788,
+            "rfmt": 3,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291128788&cv=11&fst=1705291128788&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&hn=www.googleadservices.com&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&auid=1906773875.1705291121&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.hotjar.com",
+            "r": "stable",
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291128741,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291128741,
+            "rfmt": 3,
+            "tiba": "9 Common Website Problems and How to Fix Them",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/website-problems/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291128741&cv=11&fst=1705291128741&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&hn=www.googleadservices.com&frm=0&tiba=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&auid=1906773875.1705291121&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 14445,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291128,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 3,
+            "pvt": "n",
+            "r": 694730,
+            "sh": 900,
+            "sn": 1,
+            "sw": 1440,
+            "uc": 1,
+            "url": "https://www.hotjar.com/website-problems/",
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291128&pn=3&dw=1280&dh=14445&ww=1280&wh=720&sw=1440&sh=900&dr=&url=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=694730"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1191910064.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 173867054,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 935360378.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/website-problems/",
+            "dma": 0,
+            "dt": "9 Common Website Problems and How to Fix Them",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 1230681532
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=173867054&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2Fwebsite-problems%2F&ul=en-us&de=UTF-8&dt=9%20Common%20Website%20Problems%20and%20How%20to%20Fix%20Them&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=935360378.1705291116&tid=UA-51401671-1&_gid=1191910064.1705291116&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=1230681532"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/website-problems/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 2,
+            "hd": 1705291125,
+            "mdh": 5657,
+            "pid": 5878,
+            "pn": 2,
+            "sn": 1,
+            "sr": 82,
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=2&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291125&pid=5878&sr=82&mdh=5657&ct=2"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_S9kIwR7V1nufEqcNR__1PYElKvQMIg",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1508435647,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291125572&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_S9kIwR7V1nufEqcNR__1PYElKvQMIg&random=1508435647&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_S9kIwR7V1nufEqcNR__1PYElKvQMIg",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 1508435647,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291125572&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_S9kIwR7V1nufEqcNR__1PYElKvQMIg&random=1508435647&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_gnLNuIkS-9Q2giA5WcEtrW7UY9jmxA",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3518821971,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291125524&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_gnLNuIkS-9Q2giA5WcEtrW7UY9jmxA&random=3518821971&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_gnLNuIkS-9Q2giA5WcEtrW7UY9jmxA",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 3518821971,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291125524&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_gnLNuIkS-9Q2giA5WcEtrW7UY9jmxA&random=3518821971&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "3ef0b0c3-2d92-47cf-aafb-132b99c0bf95",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "60039ab4-adf6-4652-9d57-79d60c3afaa8",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=3ef0b0c3-2d92-47cf-aafb-132b99c0bf95&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=60039ab4-adf6-4652-9d57-79d60c3afaa8&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "3ef0b0c3-2d92-47cf-aafb-132b99c0bf95",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "60039ab4-adf6-4652-9d57-79d60c3afaa8",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=3ef0b0c3-2d92-47cf-aafb-132b99c0bf95&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=60039ab4-adf6-4652-9d57-79d60c3afaa8&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.hotjar.com/",
+            "ec": 0,
+            "ev": "PageView",
+            "fbp": "fb.1.1705291123617.763465696",
+            "id": 259210877621442,
+            "if": false,
+            "it": 1705291125542,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 720,
+            "sw": 1280,
+            "ts": 1705291125677,
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=259210877621442&ev=PageView&dl=https%3A%2F%2Fwww.hotjar.com%2F&rl=&if=false&ts=1705291125677&sw=1280&sh=720&v=2.9.140&r=stable&ec=0&o=4126&fbp=fb.1.1705291123617.763465696&cs_est=true&ler=empty&it=1705291125542&coo=false&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291125656,
+            "url": "https://www.hotjar.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291125656&url=https%3A%2F%2Fwww.hotjar.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 1263,
+            "mid": "d955c2d1-c492-4abc-b22a-c0e30644413e",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.hotjar.com/",
+            "pi": 918639831,
+            "r": "",
+            "rn": 878629,
+            "sc": 24,
+            "sh": 720,
+            "sid": "5f4775d0b35a11eebc406578ed1f587b",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "tm": "gtm002",
+            "vid": "5f47c890b35a11ee8c3821a27e99432f",
+            "vids": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=d955c2d1-c492-4abc-b22a-c0e30644413e&sid=5f4775d0b35a11eebc406578ed1f587b&vid=5f47c890b35a11ee8c3821a27e99432f&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&p=https%3A%2F%2Fwww.hotjar.com%2F&r=&lt=1263&evt=pageLoad&sv=1&rn=878629"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291125572,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291125572,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291125572&cv=11&fst=1705291125572&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1906773875.1705291121&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.hotjar.com",
+            "r": "stable",
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291125524,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291125524,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291125524&cv=11&fst=1705291125524&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1906773875.1705291121&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 5657,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291125,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 2,
+            "pvt": "n",
+            "r": 823964,
+            "sh": 900,
+            "sn": 1,
+            "sw": 1440,
+            "uc": 1,
+            "url": "https://www.hotjar.com/",
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291125&pn=2&dw=1280&dh=5657&ww=1280&wh=720&sw=1440&sh=900&dr=&url=https%3A%2F%2Fwww.hotjar.com%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=823964"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1191910064.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 132829372,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 935360378.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": "",
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 157631268
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=132829372&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&ul=en-us&de=UTF-8&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=QCCAgEABAAAAACAAI~&jid=&gjid=&cid=935360378.1705291116&tid=UA-51401671-1&_gid=1191910064.1705291116&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=157631268"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "/mixpanel.$domain=~mixpanel.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://images.ctfassets.net/lh3zuq09vnm2/vHHaKAaEeQuNcucdWM50V/23351da3b1ad9d7483ddf11aed64b4b7/Mixpanel.svg"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "dc": 3958,
+            "di": 1310,
+            "fl": 3959,
+            "hd": 1705291116,
+            "hlm": true,
+            "mdh": 5657,
+            "pid": 5878,
+            "pn": 1,
+            "sn": 1,
+            "sr": 13,
+            "str": 585,
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/v2/events?v=13.77.2&pn=1&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291116&pid=5878&sr=13&mdh=5657&hlm=true&str=585&di=1310&dc=3958&fl=3959&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageHide",
+            "mid": "713a4a5b-ff8f-480d-b250-bcac3681da91",
+            "msclkid": "N",
+            "sid": "5f4775d0b35a11eebc406578ed1f587b",
+            "ti": 5739677,
+            "tm": "gtm002",
+            "vid": "5f47c890b35a11ee8c3821a27e99432f",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/actionp/0?ti=5739677&tm=gtm002&Ver=2&mid=713a4a5b-ff8f-480d-b250-bcac3681da91&sid=5f4775d0b35a11eebc406578ed1f587b&vid=5f47c890b35a11ee8c3821a27e99432f&vids=1&msclkid=N&evt=pageHide"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 8358,
+            "_p": 1705291115281,
+            "_s": 3,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "user_engagement",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 11220,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "up.hjuid": "807e42e5",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723&_p=1705291115281&gcd=11l1l1l1l1&dma=0&cid=935360378.1705291116&ul=en-us&sr=1280x720&_s=3&sid=1705291116&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=user_engagement&_et=8358&up.hjuid=807e42e5&tfd=11220"
+      },
+      {
+        "data": {
+          "filter": "||onetrust.com^$ping",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://privacyportal-eu.onetrust.com/request/v1/consentreceipts"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "gzip": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://content.hotjar.io/?gzip=1"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=detect_user;event_category=Hotjar;event_label=807e42e5;non_interaction=true",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291123480,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291123480,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291123480&cv=11&fst=1705291123480&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1906773875.1705291121&data=event%3Ddetect_user%3Bevent_category%3DHotjar%3Bevent_label%3D807e42e5%3Bnon_interaction%3Dtrue&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads.linkedin.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {
+            "fmt": "js",
+            "pid": 98542,
+            "time": 1705291122963,
+            "url": "https://www.hotjar.com/",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=98542&time=1705291122963&url=https%3A%2F%2Fwww.hotjar.com%2F"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.hotjar.com",
+            "r": "stable",
+            "v": "2.9.140"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/259210877621442?v=2.9.140&r=stable&domain=www.hotjar.com"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/t"
+      },
+      {
+        "data": {
+          "filter": "||segment.io^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://api.segment.io/v1/p"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/generic/main/4.60.65/appcues.main.2e1a7af3d1edc109498384420a442364dde6b93c.js"
+      },
+      {
+        "data": {
+          "filter": "||fast.appcues.com^$script,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://fast.appcues.com/79878.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "G-BY4EGTPHRR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/962/909319ad4a6af2ed4035.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/next-integrations/actions/google-analytics-4-web/8f12d1b4d7e7076c4f68.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "Ver": 2,
+            "evt": "pageLoad",
+            "lg": "en-US",
+            "lt": 4648,
+            "mid": "713a4a5b-ff8f-480d-b250-bcac3681da91",
+            "msclkid": "N",
+            "nwd": 1,
+            "p": "https://www.hotjar.com/",
+            "pi": 918639831,
+            "r": "",
+            "rn": 865653,
+            "sc": 24,
+            "sh": 720,
+            "sid": "5f4775d0b35a11eebc406578ed1f587b",
+            "sv": 1,
+            "sw": 1280,
+            "ti": 5739677,
+            "tl": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "tm": "gtm002",
+            "vid": "5f47c890b35a11ee8c3821a27e99432f",
+            "vids": 1
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/action/0?ti=5739677&tm=gtm002&Ver=2&mid=713a4a5b-ff8f-480d-b250-bcac3681da91&sid=5f4775d0b35a11eebc406578ed1f587b&vid=5f47c890b35a11ee8c3821a27e99432f&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&p=https%3A%2F%2Fwww.hotjar.com%2F&r=&lt=4648&evt=pageLoad&sv=1&rn=865653"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/p/action/5739677.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js"
+      },
+      {
+        "data": {
+          "filter": "||segment.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.segment.com/analytics.js/v1/g8Y7cpfGC4EhnMZjwbdsW57ZJNJ5GOr1/analytics.min.js"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 5,
+            "_p": 1705291115281,
+            "_s": 2,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "page_view",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 7853,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "up.color_mode": "Light",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291115281&gcd=11l1l1l1l1&dma=0&cid=935360378.1705291116&ul=en-us&sr=1280x720&_s=2&sid=1705291116&sct=1&seg=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=page_view&_et=5&up.color_mode=Light&tfd=7853"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_5tkTgdROBVcLA5lg211QIX6K1nVIRw",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 71806375,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/697111050/?random=1705291120950&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_5tkTgdROBVcLA5lg211QIX6K1nVIRw&random=71806375&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_5tkTgdROBVcLA5lg211QIX6K1nVIRw",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 71806375,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/697111050/?random=1705291120950&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&data=event%3Dgtag.config&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_5tkTgdROBVcLA5lg211QIX6K1nVIRw&random=71806375&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "/pagead/1p-user-list/*",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_0SP5BZOMRD7kPB_mGiWWd8mFezQy0Q",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 194694902,
+            "rmt_tld": 1,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/pagead/1p-user-list/966406048/?random=1705291120730&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_0SP5BZOMRD7kPB_mGiWWd8mFezQy0Q&random=194694902&rmt_tld=1&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||google.com/pagead/",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "bg": "ffffff",
+            "cid": "CAQSGwAvHhf_0SP5BZOMRD7kPB_mGiWWd8mFezQy0Q",
+            "cv": 11,
+            "fmt": 3,
+            "frm": 0,
+            "fst": 1705287600000,
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "ipr": "y",
+            "is_vtc": 1,
+            "random": 194694902,
+            "rmt_tld": 0,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/pagead/1p-user-list/966406048/?random=1705291120730&cv=11&fst=1705287600000&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&fmt=3&is_vtc=1&cid=CAQSGwAvHhf_0SP5BZOMRD7kPB_mGiWWd8mFezQy0Q&random=194694902&rmt_tld=0&ipr=y"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "data": "event=gtag.config",
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291120950,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45be41a0v9101041124",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291120950,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/697111050/?random=1705291120950&cv=11&fst=1705291120950&bg=ffffff&guid=ON&async=1&gtm=45be41a0v9101041124&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1906773875.1705291121&data=event%3Dgtag.config&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||analytics.twitter.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "14c3c400-dd5d-44fa-ab01-037d153954cb",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "22cf9179-c842-4e49-9d77-a4c0fbf49343",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.twitter.com/i/adsct?bci=3&eci=2&event_id=14c3c400-dd5d-44fa-ab01-037d153954cb&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=22cf9179-c842-4e49-9d77-a4c0fbf49343&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 3,
+            "eci": 2,
+            "event_id": "14c3c400-dd5d-44fa-ab01-037d153954cb",
+            "events": [
+              [
+                "pageview",
+                {}
+              ]
+            ],
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "22cf9179-c842-4e49-9d77-a4c0fbf49343",
+            "tw_document_href": "https://www.hotjar.com/",
+            "tw_iframe_status": 0,
+            "tw_order_quantity": 0,
+            "tw_sale_amount": 0,
+            "txn_id": "o3k2d",
+            "type": "javascript",
+            "version": "2.3.29"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/i/adsct?bci=3&eci=2&event_id=14c3c400-dd5d-44fa-ab01-037d153954cb&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=22cf9179-c842-4e49-9d77-a4c0fbf49343&tw_document_href=https%3A%2F%2Fwww.hotjar.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_sale_amount=0&txn_id=o3k2d&type=javascript&version=2.3.29"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "AW-697111050"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-697111050"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "async": 1,
+            "auid": 1906773875.1705291,
+            "bg": "ffffff",
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1705291120730,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45He41a0v72246917",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "random": 1705291120730,
+            "rfmt": 3,
+            "tiba": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "u_h": 720,
+            "u_w": 1280,
+            "url": "https://www.hotjar.com/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/966406048/?random=1705291120730&cv=11&fst=1705291120730&bg=ffffff&guid=ON&async=1&gtm=45He41a0v72246917&gcd=11l1l1l1l1&dma=0&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.hotjar.com%2F&hn=www.googleadservices.com&frm=0&tiba=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&auid=1906773875.1705291121&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      },
+      {
+        "data": {
+          "filter": ".lms-analytics/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js"
+      },
+      {
+        "data": {
+          "filter": "||bat.bing.com^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://bat.bing.com/bat.js"
+      },
+      {
+        "data": {
+          "filter": "||partnerlinks.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://partnerlinks.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "ct": 0,
+            "pid": 5878,
+            "pn": 1,
+            "sn": 1,
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/api-errors?v=13.77.2&pid=5878&pn=1&sn=1&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&ct=0"
+      },
+      {
+        "data": {
+          "filter": "||grsm.io^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://grsm.io/pr/gpk/pk_HDCuSpqCvRchgZRqaqZIpVPfPv3cAKMj"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-KNDFS1XWFR",
+            "v": 1,
+            "z": 222565747
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-KNDFS1XWFR&cid=935360378.1705291116&gtm=45je41a0v9136024140&aip=1&dma=0&gcd=11l1l1l1l2&z=222565747"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "tid": "G-KNDFS1XWFR",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-KNDFS1XWFR&cid=935360378.1705291116&gtm=45je41a0v9136024140&aip=1&dma=0&gcd=11l1l1l1l2"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_ee": 1,
+            "_eu": "EBAI",
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1705291115281,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "Color Mode",
+            "ep.event_category": "User",
+            "ep.event_label": "Light",
+            "ep.ua_dimension_9": "Light",
+            "ep.value": 0,
+            "gcd": "11l1l1l1l2",
+            "gtm": "45je41a0v9136024140",
+            "ir": 1,
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 3394,
+            "tid": "G-KNDFS1XWFR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-KNDFS1XWFR&gtm=45je41a0v9136024140&_p=1705291115281&_gaz=1&gcd=11l1l1l1l2&dma=0&ul=en-us&sr=1280x720&cid=935360378.1705291116&ir=1&_eu=EBAI&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sid=1705291116&sct=1&seg=0&en=Color%20Mode&_fv=1&_ss=1&_ee=1&ep.ua_dimension_9=Light&ep.event_category=User&ep.event_label=Light&ep.value=0&tfd=3394"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "jid": 1871658102,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1566045632
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j101&tid=UA-51401671-1&cid=935360378.1705291116&jid=1871658102&_u=YCDAgEABAAAAAGAAI~&z=1566045632"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "jid": 1871658102,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1566045632
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j101&tid=UA-51401671-1&cid=935360378.1705291116&jid=1871658102&_u=YCDAgEABAAAAAGAAI~&z=1566045632"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_slc": 1,
+            "cx": "c",
+            "id": "G-KNDFS1XWFR"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-KNDFS1XWFR&cx=c&_slc=1"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "dh": 5657,
+            "dr": "",
+            "dw": 1280,
+            "ex": "",
+            "hd": 1705291116,
+            "la": "en-US",
+            "pid": 5878,
+            "pn": 1,
+            "pvt": "n",
+            "r": 344110,
+            "sh": 900,
+            "sn": 1,
+            "sw": 1440,
+            "uc": 1,
+            "url": "https://www.hotjar.com/",
+            "uu": "16a05aef-4a44-a21d-d8da-6a87bbd7195b",
+            "v": "13.77.2",
+            "wh": 720,
+            "ww": 1280
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ca.contentsquare.net/pageview?pid=5878&uu=16a05aef-4a44-a21d-d8da-6a87bbd7195b&sn=1&hd=1705291116&pn=1&dw=1280&dh=5657&ww=1280&wh=720&sw=1440&sh=900&dr=&url=https%3A%2F%2Fwww.hotjar.com%2F&uc=1&la=en-US&v=13.77.2&pvt=n&ex=&r=344110"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 1191910064.1705291,
+            "_r": 3,
+            "_u": "YCDAgEABAAAAAGAAI~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "gjid": 208912312,
+            "jid": 1871658102,
+            "t": "dc",
+            "tid": "UA-51401671-1",
+            "v": 1,
+            "z": 1302523734
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-51401671-1&cid=935360378.1705291116&jid=1871658102&gjid=208912312&_gid=1191910064.1705291116&_u=YCDAgEABAAAAAGAAI~&z=1302523734"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1191910064.1705291,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YCDAgEABAAAAACAAI~",
+            "_v": "j101",
+            "a": 244067068,
+            "aip": 1,
+            "cd9": "Light",
+            "cid": 935360378.1705291,
+            "de": "UTF-8",
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "ea": "Color Mode",
+            "ec": "User",
+            "el": "Light",
+            "ev": 0,
+            "gcd": "11l1l1l1l1",
+            "gjid": 208912312,
+            "gtm": "45He41a0n71N4F4J3v72246917",
+            "je": 0,
+            "jid": 1871658102,
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "1280x720",
+            "t": "event",
+            "tid": "UA-51401671-1",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "1280x720",
+            "z": 545820529
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=244067068&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.hotjar.com%2F&ul=en-us&de=UTF-8&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&sd=24-bit&sr=1280x720&vp=1280x720&je=0&ec=User&ea=Color%20Mode&el=Light&ev=0&_u=YCDAgEABAAAAACAAI~&jid=1871658102&gjid=208912312&cid=935360378.1705291116&tid=UA-51401671-1&_gid=1191910064.1705291116&_slc=1&gtm=45He41a0n71N4F4J3v72246917&cd9=Light&gcd=11l1l1l1l1&dma=0&z=545820529"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-BY4EGTPHRR",
+            "v": 1,
+            "z": 1756289453
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-BY4EGTPHRR&cid=935360378.1705291116&gtm=45je41a0v9111464723z872246917&aip=1&dma=0&gcd=11l1l1l1l1&z=1756289453"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "aip": 1,
+            "cid": 935360378.1705291,
+            "dma": 0,
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "tid": "G-BY4EGTPHRR",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-BY4EGTPHRR&cid=935360378.1705291116&gtm=45je41a0v9111464723z872246917&aip=1&dma=0&gcd=11l1l1l1l1"
+      },
+      {
+        "data": {
+          "filter": "://analytics.*/collect",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_nsi": 1,
+            "_p": 1705291115281,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 935360378.1705291,
+            "dl": "https://www.hotjar.com/",
+            "dma": 0,
+            "dt": "Hotjar: Website Heatmaps & Behavior Analytics Tools",
+            "en": "page_view",
+            "gcd": "11l1l1l1l1",
+            "gtm": "45je41a0v9111464723z872246917",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1705291116,
+            "sr": "1280x720",
+            "tfd": 2842,
+            "tid": "G-BY4EGTPHRR",
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-BY4EGTPHRR&gtm=45je41a0v9111464723z872246917&_p=1705291115281&_gaz=1&gcd=11l1l1l1l1&dma=0&cid=935360378.1705291116&ul=en-us&sr=1280x720&_s=1&sid=1705291116&sct=1&seg=0&dl=https%3A%2F%2Fwww.hotjar.com%2F&dt=Hotjar%3A%20Website%20Heatmaps%20%26%20Behavior%20Analytics%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2842"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||contentsquare.net^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.contentsquare.net/uxa/cae5a0f6523cc.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-BY4EGTPHRR",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BY4EGTPHRR&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||partnerstack.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://js.partnerstack.com/v1/"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-N4F4J3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N4F4J3"
+      },
+      {
+        "data": {
+          "filter": "||optimizely.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.optimizely.com/datafiles/HgHVKrf9ZD2dsZYVFb9JnD.json/tag.js"
+      },
+      {
+        "data": {
+          "filter": "/optimizely-",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://unpkg.com/@optimizely/optimizely-sdk@3.5.0/dist/optimizely.browser.umd.min.js"
+      },
+      {
+        "data": {
+          "filter": "/mixpanel.$domain=~mixpanel.com",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.hotjar.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://images.ctfassets.net/lh3zuq09vnm2/vHHaKAaEeQuNcucdWM50V/23351da3b1ad9d7483ddf11aed64b4b7/Mixpanel.svg"
+      }
+    ]
   }
 }

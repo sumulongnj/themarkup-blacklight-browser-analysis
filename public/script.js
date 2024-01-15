@@ -38,6 +38,10 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     var _this = this;
     var scanForm = document.getElementById('scanForm');
     var loadingSpinner = document.getElementById('loadingSpinner');
+    var downloadButton = document.getElementById('downloadButton');
+    if (downloadButton) {
+        downloadButton.style.display = 'none';
+    }
     if (scanForm) {
         scanForm.addEventListener('submit', function (event) { return __awaiter(_this, void 0, void 0, function () {
             var formData, url, response, _a, processedChromium, processedFirefox, processedWebkit, error_1;
@@ -46,7 +50,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                     case 0:
                         event.preventDefault();
                         if (loadingSpinner) {
-                            loadingSpinner.style.display = 'block'; // Show loading spinner
+                            loadingSpinner.style.display = 'block';
                         }
                         formData = new FormData(event.target);
                         url = formData.get('url');
@@ -57,9 +61,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                         return [4 /*yield*/, fetch('/scan', {
                                 method: 'POST',
                                 headers: {
-                                    'Content-Type': 'application/json'
+                                    'Content-Type': 'application/json',
                                 },
-                                body: JSON.stringify({ url: url })
+                                body: JSON.stringify({ url: url }),
                             })];
                     case 2:
                         response = _b.sent();
@@ -70,6 +74,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                     case 3:
                         _a = _b.sent(), processedChromium = _a.processedChromium, processedFirefox = _a.processedFirefox, processedWebkit = _a.processedWebkit;
                         displayInspectionResults(processedChromium, processedFirefox, processedWebkit);
+                        if (downloadButton) {
+                            downloadButton.style.display = 'inline-block';
+                        }
                         return [3 /*break*/, 5];
                     case 4:
                         error_1 = _b.sent();
@@ -84,6 +91,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                 }
             });
         }); });
+    }
+    if (downloadButton) {
+        downloadButton.addEventListener('click', downloadResults);
     }
     function displayInspectionResults(processedChromium, processedFirefox, processedWebkit) {
         displayResult('resultsChromium', processedChromium);
@@ -145,10 +155,64 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                 output += '<span class="found">This site allows Google Analytics to follow you across the internet.</span><br><br>';
             }
             // Execution Time Calculation
-            output += "<span class=\"w3-tag\">Execution time: ".concat(result.executionTime, " seconds</span>");
+            output += "<span class=\"w3-tag w3-center\">Execution time: ".concat(result.executionTime, " seconds</span>");
             // Displaying the results
             resultsDiv.innerHTML = "<pre>".concat(output, "</pre>");
         }
+    }
+    function downloadResults() {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a, resultChromium, resultFirefox, resultWebkit, _b, dataChromium, dataFirefox, dataWebkit, blobChromium, blobFirefox, blobWebkit, error_2;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0:
+                        _c.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, Promise.all([
+                                fetch('/results/resultChromium.json'),
+                                fetch('/results/resultFirefox.json'),
+                                fetch('/results/resultWebkit.json')
+                            ])];
+                    case 1:
+                        _a = _c.sent(), resultChromium = _a[0], resultFirefox = _a[1], resultWebkit = _a[2];
+                        // Check if the requests were successful
+                        if (!resultChromium.ok || !resultFirefox.ok || !resultWebkit.ok) {
+                            throw new Error('Failed to download JSON files');
+                        }
+                        return [4 /*yield*/, Promise.all([
+                                resultChromium.json(),
+                                resultFirefox.json(),
+                                resultWebkit.json()
+                            ])];
+                    case 2:
+                        _b = _c.sent(), dataChromium = _b[0], dataFirefox = _b[1], dataWebkit = _b[2];
+                        blobChromium = new Blob([JSON.stringify(dataChromium, null, 2)], { type: 'application/json' });
+                        blobFirefox = new Blob([JSON.stringify(dataFirefox, null, 2)], { type: 'application/json' });
+                        blobWebkit = new Blob([JSON.stringify(dataWebkit, null, 2)], { type: 'application/json' });
+                        // Create download links for each file
+                        downloadFile(blobChromium, 'resultChromium.json');
+                        downloadFile(blobFirefox, 'resultFirefox.json');
+                        downloadFile(blobWebkit, 'resultWebkit.json');
+                        return [3 /*break*/, 4];
+                    case 3:
+                        error_2 = _c.sent();
+                        console.error('Error downloading files:', error_2.message);
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    }
+    // Define the downloadFile function
+    function downloadFile(blob, filename) {
+        // Create an <a> element to trigger the download
+        var link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = filename;
+        // Append the link to the document and trigger the download
+        document.body.appendChild(link);
+        link.click();
+        // Remove the link from the document
+        document.body.removeChild(link);
     }
     function handleScanError(error) {
         console.error('Error:', error.message);

@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public', { extensions: ['html', 'js'] }));
+app.use('/results', express.static(path.join(__dirname, 'results')));
 
 function processResults(result) {
     const uniqueFilters = new Set();
@@ -46,7 +47,11 @@ function processResults(result) {
     const hasGoogleAnalyticsRequest = result.reports.third_party_trackers.some(tracker => {
         const url = tracker.url.toLowerCase();
         const isDoubleClick = url.includes('stats.g.doubleclick');
-        const hasUAGoogleIdentifier = tracker.data.query && tracker.data.query.tid && tracker.data.query.tid.startsWith('UA-');
+
+        // Check if tracker.data and tracker.data.query are both defined and tracker.data.query is an object
+        const hasUAGoogleIdentifier = tracker.data && tracker.data.query && typeof tracker.data.query === 'object' &&
+            tracker.data.query.tid && typeof tracker.data.query.tid === 'string' && tracker.data.query.tid.startsWith('UA-');
+
         return isDoubleClick && hasUAGoogleIdentifier;
     });
     const googleAnalytics = !!hasGoogleAnalyticsRequest;
@@ -101,6 +106,19 @@ app.post('/scan', async (req, res) => {
         res.status(500).json({ error: 'Scan failed' });
     }
 });
+
+app.get('/results/:filename', (req, res) => {
+    const filename = req.params.filename;
+    const filePath = path.join(__dirname, 'results', filename);
+
+    console.log(filename);
+    console.log(filePath);
+
+    res.setHeader('Content-Type', 'application/json');
+
+    res.sendFile(filePath);
+});
+
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);

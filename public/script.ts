@@ -1,12 +1,17 @@
 (function () {
   const scanForm = document.getElementById('scanForm');
   const loadingSpinner = document.getElementById('loadingSpinner');
+  const downloadButton = document.getElementById('downloadButton');
+
+  if (downloadButton) {
+    downloadButton.style.display = 'none';
+  }
 
   if (scanForm) {
     scanForm.addEventListener('submit', async (event) => {
       event.preventDefault();
       if (loadingSpinner) {
-        loadingSpinner.style.display = 'block'; // Show loading spinner
+        loadingSpinner.style.display = 'block';
       }
 
       const formData = new FormData(event.target as HTMLFormElement);
@@ -28,6 +33,10 @@
 
           const { processedChromium, processedFirefox, processedWebkit } = await response.json();
           displayInspectionResults(processedChromium, processedFirefox, processedWebkit);
+
+          if (downloadButton) {
+            downloadButton.style.display = 'inline-block';
+          }
         } catch (error) {
           handleScanError(error);
         }
@@ -36,6 +45,10 @@
         }
       }
     });
+  }
+
+  if (downloadButton) {
+    downloadButton.addEventListener('click', downloadResults);
   }
 
   function displayInspectionResults(processedChromium, processedFirefox, processedWebkit) {
@@ -106,6 +119,57 @@
       resultsDiv.innerHTML = `<pre>${output}</pre>`;
     }
   }
+
+  async function downloadResults() {
+    try {
+      // Fetch the JSON files from the server
+      const [resultChromium, resultFirefox, resultWebkit] = await Promise.all([
+        fetch('/results/resultChromium.json'),
+        fetch('/results/resultFirefox.json'),
+        fetch('/results/resultWebkit.json')
+      ]);
+
+      // Check if the requests were successful
+      if (!resultChromium.ok || !resultFirefox.ok || !resultWebkit.ok) {
+        throw new Error('Failed to download JSON files');
+      }
+
+      // Get the JSON data from the responses
+      const [dataChromium, dataFirefox, dataWebkit] = await Promise.all([
+        resultChromium.json(),
+        resultFirefox.json(),
+        resultWebkit.json()
+      ]);
+
+      // Create a Blob for each file
+      const blobChromium = new Blob([JSON.stringify(dataChromium, null, 2)], { type: 'application/json' });
+      const blobFirefox = new Blob([JSON.stringify(dataFirefox, null, 2)], { type: 'application/json' });
+      const blobWebkit = new Blob([JSON.stringify(dataWebkit, null, 2)], { type: 'application/json' });
+
+      // Create download links for each file
+      downloadFile(blobChromium, 'resultChromium.json');
+      downloadFile(blobFirefox, 'resultFirefox.json');
+      downloadFile(blobWebkit, 'resultWebkit.json');
+    } catch (error) {
+      console.error('Error downloading files:', error.message);
+    }
+  }
+
+  // Define the downloadFile function
+  function downloadFile(blob, filename) {
+    // Create an <a> element to trigger the download
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = filename;
+
+    // Append the link to the document and trigger the download
+    document.body.appendChild(link);
+    link.click();
+
+    // Remove the link from the document
+    document.body.removeChild(link);
+  }
+
 
   function handleScanError(error) {
     console.error('Error:', error.message);

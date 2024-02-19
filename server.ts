@@ -70,7 +70,8 @@ function processResults(result) {
     };
 }
 
-app.post('/scan', async (req, res) => {
+// Chromium route
+app.post('/scan/chromium', async (req, res) => {
     const { url } = req.body;
 
     const config = {
@@ -79,31 +80,83 @@ app.post('/scan', async (req, res) => {
         outDir: path.join(__dirname, 'demo-dir'),
     };
 
-    console.log(`Beginning scan of ${url}`);
+    console.log(`Beginning scan of ${url} in Chromium`);
 
     try {
-
         const resultChromium = await collect(`http://${url}`, config);
-        const resultFirefox = await collectFirefox(`http://${url}`, config);
-        const resultWebkit = await collectWebkit(`http://${url}`, config);
-
         const processedChromium = processResults(resultChromium);
-        const processedFirefox = processResults(resultFirefox);
-        const processedWebkit = processResults(resultWebkit);
 
+        // Send processed result for Chromium immediately
+        res.json({ result: processedChromium });
 
         // Additional logic for handling the processed results and responses
         const resultsDirectory = path.join(__dirname, 'results');
         await fs.mkdir(resultsDirectory, { recursive: true });
 
         await fs.writeFile(path.join(resultsDirectory, 'resultChromium.json'), JSON.stringify(resultChromium, null, 2));
-        await fs.writeFile(path.join(resultsDirectory, 'resultFirefox.json'), JSON.stringify(resultFirefox, null, 2));
-        await fs.writeFile(path.join(resultsDirectory, 'resultWebkit.json'), JSON.stringify(resultWebkit, null, 2));
-
-        res.json({ processedChromium, processedFirefox, processedWebkit });
     } catch (error) {
-        console.error('Scan failed:', error.message);
-        res.status(500).json({ error: 'Scan failed' });
+        console.error('Chromium scan failed:', error.message);
+        res.status(500).json({ error: 'Chromium scan failed' });
+    }
+});
+
+// Firefox route
+app.post('/scan/firefox', async (req, res) => {
+    const { url } = req.body;
+
+    const config = {
+        numPages: 1,
+        headless: true,
+        outDir: path.join(__dirname, 'demo-dir'),
+    };
+
+    console.log(`Beginning scan of ${url} in Firefox`);
+
+    try {
+        const resultFirefox = await collectFirefox(`http://${url}`, config);
+        const processedFirefox = processResults(resultFirefox);
+
+        // Send processed result for Firefox immediately
+        res.json({ result: processedFirefox });
+
+        // Additional logic for handling the processed results and responses
+        const resultsDirectory = path.join(__dirname, 'results');
+        await fs.mkdir(resultsDirectory, { recursive: true });
+
+        await fs.writeFile(path.join(resultsDirectory, 'resultFirefox.json'), JSON.stringify(resultFirefox, null, 2));
+    } catch (error) {
+        console.error('Firefox scan failed:', error.message);
+        res.status(500).json({ error: 'Firefox scan failed' });
+    }
+});
+
+// Webkit route
+app.post('/scan/webkit', async (req, res) => {
+    const { url } = req.body;
+
+    const config = {
+        numPages: 1,
+        headless: true,
+        outDir: path.join(__dirname, 'demo-dir'),
+    };
+
+    console.log(`Beginning scan of ${url} in Webkit`);
+
+    try {
+        const resultWebkit = await collectWebkit(`http://${url}`, config);
+        const processedWebkit = processResults(resultWebkit);
+
+        // Send processed result for Webkit immediately
+        res.json({ result: processedWebkit });
+
+        // Additional logic for handling the processed results and responses
+        const resultsDirectory = path.join(__dirname, 'results');
+        await fs.mkdir(resultsDirectory, { recursive: true });
+
+        await fs.writeFile(path.join(resultsDirectory, 'resultWebkit.json'), JSON.stringify(resultWebkit, null, 2));
+    } catch (error) {
+        console.error('Webkit scan failed:', error.message);
+        res.status(500).json({ error: 'Webkit scan failed' });
     }
 });
 

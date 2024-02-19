@@ -59,11 +59,7 @@ export const setupHttpCookieCapture = async (page, eventHandler) => {
 };
 
 export const clearCookiesCache = async (page: Page) => {
-    // Clear cookies
     await page.context().clearCookies();
-
-    // Clear cache
-    await page.context().storageState();
 };
 
 export const getHTTPCookies = (events, url): any[] => {

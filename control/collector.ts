@@ -19,6 +19,7 @@ import { setUpThirdPartyTrackersInspector } from './third-party-trackers';
 import { clearDir } from './utils';
 
 export type CollectorOptions = Partial<typeof DEFAULT_OPTIONS>;
+export let chosenLink;
 
 const DEFAULT_OPTIONS = {
     outDir: join(process.cwd(), 'bl-tmp'),
@@ -266,6 +267,8 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
 
     // try {
     for (const link of output.browsing_history.slice(1)) {
+        chosenLink = link;
+
         logger.log('info', `browsing now to ${link}`, { type: 'Browser' });
         if (didBrowserDisconnect) {
             return {

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2017",
     "outDir": "build",
-    "rootDirs": ["src", "control", "public"],
+    "rootDirs": ["src", "src/control", "public"],
     "moduleResolution": "node",
     "module": "commonjs",
     "declaration": true,
@@ -45,12 +45,12 @@
   },
   "include": [
     "src/**/*.ts",
-    "control/**/*.ts",
+    "src/control/**/*.ts",
     "public/**/*.ts",
     "server.ts",
     "tests/utils.ts",
     "tests/types.ts"
-  ],
+, "src/collector.ts"  ],
   "exclude": [
     "node_modules",
     "**/*.spec.ts",

@@ -1,13 +1,13 @@
 {
   "status": "success",
   "args": "Blacklight Inspection",
-  "uri_ins": "http://twitter.com",
-  "uri_dest": "https://twitter.com/",
+  "uri_ins": "http://spot.ph",
+  "uri_dest": "https://www.spot.ph/",
   "uri_redirects": [
-    "http://twitter.com/"
+    "http://spot.ph/"
   ],
   "secure_connection": {},
-  "host": "twitter.com",
+  "host": "spot.ph",
   "config": {
     "cleareCache": true,
     "captureHar": true,
@@ -32,73 +32,172 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-02-19T00:19:52.594Z",
-  "end_time": "2024-02-19T00:20:05.286Z",
+  "start_time": "2024-02-19T05:20:25.638Z",
+  "end_time": "2024-02-19T05:20:44.868Z",
   "browsing_history": [
-    "https://twitter.com/",
-    "https://twitter.com/login"
+    "https://www.spot.ph/",
+    "https://www.spot.ph/author/Louise-Lizan?ref=article_author"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "twitter.com",
-        "api.twitter.com",
-        "analytics.twitter.com"
+        "spot.ph",
+        "www.spot.ph"
       ],
       "third_party": [
-        "abs.twimg.com",
+        "www.googletagservices.com",
+        "cdn.jsdelivr.net",
+        "fonts.googleapis.com",
         "accounts.google.com",
-        "appleid.cdn-apple.com",
-        "static.ads-twitter.com",
-        "t.co",
+        "ajax.cloudflare.com",
+        "cdn.adpushup.com",
         "fonts.gstatic.com",
+        "images.summitmedia-digital.com",
+        "webpush.summitmedia-digital.com",
+        "idstatic.summitmedia-digital.com",
+        "static.chartbeat.com",
+        "xhr.invl.co",
+        "prod.uidapi.com",
+        "ad.crwdcntrl.net",
+        "cdn.tailwindcss.com",
+        "tags.crwdcntrl.net",
+        "www.googletagmanager.com",
+        "c.ltmsphrcl.net",
+        "ads.pubmatic.com",
+        "c.amazon-adsystem.com",
+        "platform.twitter.com",
+        "static.hotjar.com",
+        "sb.scorecardresearch.com",
+        "assets.pinterest.com",
+        "connect.facebook.net",
         "www.google-analytics.com",
-        "play.google.com"
+        "www.googleadservices.com",
+        "www.clarity.ms",
+        "track.omguk.com",
+        "sdk.mrf.io",
+        "pagead2.googlesyndication.com",
+        "www.facebook.com",
+        "www.gstatic.com",
+        "securepubads.g.doubleclick.net",
+        "events.newsroom.bi",
+        "api.summitmedia-digital.com",
+        "experiences.mrf.io",
+        "c.clarity.ms",
+        "stats.g.doubleclick.net",
+        "syndication.twitter.com",
+        "analytics.google.com",
+        "www.google.com.ph",
+        "statics.dmcdn.net",
+        "w.clarity.ms",
+        "log.pinterest.com",
+        "c.bing.com",
+        "geo.dailymotion.com",
+        "api.dailymotion.com",
+        "pebed.dm-event.net",
+        "s1.dmcdn.net",
+        "s2.dmcdn.net",
+        "apiwishlist.summitmedia-digital.com",
+        "static1.dmcdn.net",
+        "imasdk.googleapis.com",
+        "www.dailymotion.com",
+        "vendorlist.dmcdn.net",
+        "speedtest.dailymotion.com",
+        "s0.2mdn.net"
       ]
     }
   },
   "reports": {
     "behaviour_event_listeners": {
       "MOUSE": {
+        "https://imasdk.googleapis.com/js/core/bridge3.621.0_en.html": [
+          "mousedown"
+        ],
+        "https://static1.dmcdn.net/playerv5/dmp.photon_app.f72b871323af9ce946c0.js": [
+          "mousedown"
+        ],
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": [
+          "mousemove",
+          "scroll",
+          "mousedown"
+        ],
+        "https://www.clarity.ms/s/0.7.20/clarity.js": [
+          "dblclick",
+          "mousemove",
+          "mouseup",
+          "mousedown",
+          "click",
+          "scroll"
+        ],
+        "https://www.spot.ph/js/lib/jquery.min.js": [
+          "scroll",
+          "click"
+        ],
         "https://accounts.google.com/gsi/client": [
           "click"
         ],
-        "https://abs.twimg.com/responsive-web/client-web/loader.AppModules.671e12fa.js": [
-          "mousemove"
+        "https://platform.twitter.com/widgets.js": [
+          "click"
         ],
-        "https://abs.twimg.com/responsive-web/client-web/main.4cbe3fca.js": [
+        "https://www.spot.ph/js/app/nav-scroll.js": [
           "scroll"
         ],
-        "https://abs.twimg.com/responsive-web/client-web/vendor.597e32ba.js": [
+        "https://www.googletagmanager.com/gtag/js?id=G-EWWRTBCGDX&l=dataLayer&cx=c": [
+          "scroll"
+        ],
+        "https://connect.facebook.net/signals/config/2014751451954314?v=2.9.147&r=stable&domain=www.spot.ph&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100": [
+          "click"
+        ],
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2883": [
+          "click",
           "scroll",
-          "select",
-          "mouseup",
           "mousemove",
+          "mouseup",
           "mousedown"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "mousedown"
+        ],
+        "https://www.googletagmanager.com/gtm.js?id=GTM-W6HS4M": [
+          "click",
+          "scroll"
+        ],
+        "https://tags.crwdcntrl.net/lt/c/14994/lt.min.js": [
+          "click"
         ]
       },
       "TOUCH": {
-        "https://abs.twimg.com/responsive-web/client-web/loader.AppModules.671e12fa.js": [
-          "touchend"
-        ],
-        "https://abs.twimg.com/responsive-web/client-web/vendor.597e32ba.js": [
-          "touchcancel",
+        "https://static1.dmcdn.net/playerv5/dmp.photon_app.f72b871323af9ce946c0.js": [
           "touchend",
+          "touchstart"
+        ],
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": [
+          "touchmove"
+        ],
+        "https://www.clarity.ms/s/0.7.20/clarity.js": [
+          "touchcancel",
           "touchmove",
+          "touchend",
           "touchstart"
         ]
       },
       "KEYBOARD": {
-        "https://abs.twimg.com/responsive-web/client-web/loader.AppModules.671e12fa.js": [
-          "keydown",
+        "https://static1.dmcdn.net/playerv5/dmp.photon_app.f72b871323af9ce946c0.js": [
           "keyup",
-          "keypress"
-        ],
-        "https://abs.twimg.com/responsive-web/client-web/main.4cbe3fca.js": [
+          "keypress",
           "keydown"
         ],
-        "https://abs.twimg.com/responsive-web/client-web/vendor.597e32ba.js": [
+        "https://imasdk.googleapis.com/js/sdkloader/ima3.js": [
           "keydown"
+        ],
+        "https://www.clarity.ms/s/0.7.20/clarity.js": [
+          "input"
+        ],
+        "https://sdk.mrf.io/statics/marfeel-sdk.js?id=2883": [
+          "keydown",
+          "keyup"
+        ],
+        "https://www.google-analytics.com/analytics.js": [
+          "keyup"
         ]
       }
     },
@@ -114,52 +213,15 @@
     },
     "cookies": [
       {
-        "name": "guest_id_marketing",
-        "value": "v1%3A170830199715913832",
-        "domain": "twitter.com",
+        "name": "gaUserData",
+        "value": "{\"userId\":\"N\",\"userProfilesmember-id\":\"N\",\"userProfilesgender\":\"N\",\"userProfilescity\":\"N\",\"userProfilesage\":\"N\",\"userProfilesbyear\":\"N\",\"userProfilesfirst-name\":\"N\",\"userProfileslast-name\":\"N\",\"userProfilesemail\":\"N\",\"userProfilescivil-status\":\"N\",\"userProfilesis-subscribed\":\"N\",\"userProfileseducation\":\"N\",\"userProfilesCarOwnership\":\"N\",\"userProfilesemp-status\":\"N\",\"userProfilescountry\":\"N\",\"userProfilesCreditCard\":\"N\",\"userProfilesHome\":\"N\",\"site\":\"spot.ph\",\"userProfilesinterest-beauty\":\"N\",\"userProfilesinterest-business\":\"N\",\"userProfilesinterest-careers-services\":\"N\",\"userProfilesinterest-community-groups\":\"N\",\"userProfilesinterest-entertainment\":\"N\",\"userProfilesinterest-finance\":\"N\",\"userProfilesinterest-fitness-healthy-living\":\"N\",\"userProfilesinterest-food-drink-restaurants\":\"N\",\"userProfilesinterest-government\":\"N\",\"userProfilesinterest-home-family\":\"N\",\"userProfilesinterest-lifestyle\":\"N\",\"userProfilesinterest-motoring\":\"N\",\"userProfilesinterest-news-politics\":\"N\",\"userProfilesinterest-parenting\":\"N\",\"userProfilesinterest-pets\":\"N\",\"userProfilesinterest-sports-recreation\":\"N\",\"userProfilesinterest-style-fashion-clothing\":\"N\",\"userProfilesinterest-technology\":\"N\",\"userProfilesinterest-travel\":\"N\"}",
+        "domain": "www.spot.ph",
         "path": "/",
-        "expires": "2025-03-25T00:20:01.993Z",
-        "size": 41,
+        "expires": "2024-03-19T13:20:31.494Z",
+        "size": 1234,
         "httpOnly": false,
-        "secure": true,
+        "secure": false,
         "session": false,
-        "sameSite": "None",
-        "priority": "Medium",
-        "sameParty": false,
-        "sourceScheme": "Secure",
-        "sourcePort": 443,
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "guest_id_ads",
-        "value": "v1%3A170830199715913832",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2025-03-25T00:20:01.993Z",
-        "size": 35,
-        "httpOnly": false,
-        "secure": true,
-        "session": false,
-        "sameSite": "None",
-        "priority": "Medium",
-        "sameParty": false,
-        "sourceScheme": "Secure",
-        "sourcePort": 443,
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "guest_id",
-        "value": "v1%3A170830199715913832",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2025-03-25T00:19:57.295Z",
-        "size": 31,
-        "httpOnly": false,
-        "secure": true,
-        "session": false,
-        "sameSite": "None",
         "priority": "Medium",
         "sameParty": false,
         "sourceScheme": "Secure",
@@ -168,12 +230,82 @@
         "third_party": false
       },
       {
-        "name": "gt",
-        "value": "1759372210500772160",
-        "domain": "twitter.com",
+        "name": "lotame_domain_check",
+        "value": "spot.ph",
+        "domain": "spot.ph",
         "path": "/",
-        "expires": "2024-02-19T02:49:57.581Z",
-        "size": 21,
+        "expires": "2024-02-19T05:20:47.000Z",
+        "size": 26,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cc_id",
+        "value": "c0b510fe9b28bcf8c85e7ac34828378e",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-11-15T05:20:38.000Z",
+        "size": 38,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.49428142.1708320031",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-05-19T05:20:31.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_fbp",
+        "value": "fb.1.1708320031149.860766614",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-05-19T05:20:38.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "___nrbi",
+        "value": "%7B%22firstVisit%22%3A1708320031%2C%22userId%22%3A%22c53844ae-8bdd-4033-a27e-64b28e9930f6%22%2C%22userVars%22%3A%5B%5D%2C%22futurePreviousVisit%22%3A1708320031%2C%22timesVisited%22%3A1%7D",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-08-19T05:20:32.000Z",
+        "size": 194,
         "httpOnly": false,
         "secure": true,
         "session": false,
@@ -185,50 +317,15 @@
         "third_party": false
       },
       {
-        "name": "_ga",
-        "value": "GA1.2.217389429.1708301999",
-        "domain": "twitter.com",
+        "name": "compass_uid",
+        "value": "c53844ae-8bdd-4033-a27e-64b28e9930f6",
+        "domain": "spot.ph",
         "path": "/",
-        "expires": "2025-03-25T00:20:02.935Z",
-        "size": 29,
-        "httpOnly": false,
-        "secure": false,
-        "session": false,
-        "priority": "Medium",
-        "sameParty": false,
-        "sourceScheme": "Secure",
-        "sourcePort": 443,
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "_gid",
-        "value": "GA1.2.1214830163.1708301999",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2024-02-20T00:20:02.000Z",
-        "size": 31,
-        "httpOnly": false,
-        "secure": false,
-        "session": false,
-        "priority": "Medium",
-        "sameParty": false,
-        "sourceScheme": "Secure",
-        "sourcePort": 443,
-        "type": "js",
-        "third_party": false
-      },
-      {
-        "name": "personalization_id",
-        "value": "\"v1_Dji08r3845t1hH5SgKMmWA==\"",
-        "domain": "twitter.com",
-        "path": "/",
-        "expires": "2025-03-25T00:20:01.994Z",
+        "expires": "2024-08-19T05:20:38.000Z",
         "size": 47,
         "httpOnly": false,
         "secure": true,
         "session": false,
-        "sameSite": "None",
         "priority": "Medium",
         "sameParty": false,
         "sourceScheme": "Secure",
@@ -237,12 +334,12 @@
         "third_party": false
       },
       {
-        "name": "NID",
-        "value": "511=mAzxNGzZLs-41Hb5SMyX659byraAZwtjDoU4Dujks6mCYP7xkTerQ2jMCHL_Rk2pDgVeCpv731QvGpmrYvf_E1XToEBzbs7zygBX-y2po6S-hDq4dAQOHbwSomVEibG8mK-c8RB8v1vJ_inYmSJqBesZxkNH-ZuwOwj7V9qwY9w",
-        "domain": "google.com",
+        "name": "CLID",
+        "value": "d0ce7dbb896d45e5a7cf2cb87b0647ba.20240219.20250218",
+        "domain": "www.clarity.ms",
         "path": "/",
-        "expires": "2024-08-20T00:20:02.239Z",
-        "size": 178,
+        "expires": "2025-02-18T05:20:31.449Z",
+        "size": 54,
         "httpOnly": true,
         "secure": true,
         "session": false,
@@ -255,13 +352,64 @@
         "third_party": true
       },
       {
-        "name": "att",
-        "value": "1-uZlwsFcJQoSlJfB07nqyFM6XKqp6M42ViE2SljTF",
-        "domain": "twitter.com",
+        "name": "_gid",
+        "value": "GA1.2.1328323462.1708320031",
+        "domain": "spot.ph",
         "path": "/",
-        "expires": "2024-02-20T00:20:03.550Z",
-        "size": 45,
-        "httpOnly": true,
+        "expires": "2024-02-20T05:20:44.000Z",
+        "size": 31,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gat_UA-252180-31",
+        "value": "1",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-02-19T05:21:31.000Z",
+        "size": 18,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_clck",
+        "value": "2ilool%7C2%7Cfje%7C0%7C1510",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2025-02-18T05:20:32.000Z",
+        "size": 32,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "2883_u",
+        "value": "c53844ae-8bdd-4033-a27e-64b28e9930f6",
+        "domain": "events.newsroom.bi",
+        "path": "/",
+        "expires": "2024-08-17T05:20:38.480Z",
+        "size": 42,
+        "httpOnly": false,
         "secure": true,
         "session": false,
         "sameSite": "None",
@@ -270,17 +418,375 @@
         "sourceScheme": "Secure",
         "sourcePort": 443,
         "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "2883_s",
+        "value": "5f326f2a-1859-4f10-9626-d5d327122f92",
+        "domain": "events.newsroom.bi",
+        "path": "/",
+        "expires": -1,
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "2883_lv",
+        "value": "null",
+        "domain": "events.newsroom.bi",
+        "path": "/",
+        "expires": "2024-03-20T05:20:38.480Z",
+        "size": 11,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "2883_ut",
+        "value": "0",
+        "domain": "events.newsroom.bi",
+        "path": "/",
+        "expires": "2024-03-20T05:20:38.480Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "3209D91520C06C8700D0CD3F21D46DDC",
+        "domain": "bing.com",
+        "path": "/",
+        "expires": "2025-03-15T05:20:32.625Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2024-02-26T05:20:32.625Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SRM_B",
+        "value": "3209D91520C06C8700D0CD3F21D46DDC",
+        "domain": "c.bing.com",
+        "path": "/",
+        "expires": "2025-03-15T05:20:32.625Z",
+        "size": 37,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "SM",
+        "value": "C",
+        "domain": "c.clarity.ms",
+        "path": "/",
+        "expires": -1,
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MUID",
+        "value": "3209D91520C06C8700D0CD3F21D46DDC",
+        "domain": "clarity.ms",
+        "path": "/",
+        "expires": "2025-03-15T05:20:32.737Z",
+        "size": 36,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "High",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "MR",
+        "value": "0",
+        "domain": "c.clarity.ms",
+        "path": "/",
+        "expires": "2024-02-26T05:20:32.737Z",
+        "size": 3,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ANONCHK",
+        "value": "0",
+        "domain": "c.clarity.ms",
+        "path": "/",
+        "expires": "2024-02-19T05:30:32.737Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "dmvk",
+        "value": "65d2e52104c51",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": -1,
+        "size": 17,
+        "httpOnly": false,
+        "secure": true,
+        "session": true,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ts",
+        "value": "419219",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2025-03-19T05:20:32.112Z",
+        "size": 8,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "v1st",
+        "value": "2d159873-9396-403f-bbaf-edc3b61462bf",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2025-03-19T05:20:32.112Z",
+        "size": 40,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "usprivacy",
+        "value": "1---",
+        "domain": "dailymotion.com",
+        "path": "/",
+        "expires": "2025-03-20T05:20:34.647Z",
+        "size": 13,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "uid_dm",
+        "value": "951f872f-6647-77f2-bc7e-977702d7be81",
+        "domain": "www.spot.ph",
+        "path": "/",
+        "expires": "2025-03-15T05:20:34.809Z",
+        "size": 42,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
         "third_party": false
       },
       {
-        "name": "_twitter_sess",
-        "value": "BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCHjuu76NAToMY3NyZl9p%250AZCIlNWJlZDQ0NDYyYTM2NzU4MDRhOTgwNzU4MDY5ZDlkMGQ6B2lkIiU0MWVh%250AYjkyNjdlZDcxNjg2MmFhMjg5NTY5ZDYyODQ3Mw%253D%253D--2ced25d50f3bd1370e4e865798364403e8f271ca",
-        "domain": "twitter.com",
+        "name": "laravel_session",
+        "value": "eyJpdiI6InFmemxuZSs5bThVMTlsN2FyZldFQUE9PSIsInZhbHVlIjoiVkx3b0xjZkxSNGJJcWFSNWNkSSswc3JlYjZUWEFHbkJLSExzSjJYSldhSER1UmFpMHRvU0hxdEtVZkc4RGFPOHlZdkdQTjZkd1dIN3B5XC9pRWxoSVNBPT0iLCJtYWMiOiJkODZiOTU3ZGU3NzRjMTliYjkxOTJjMjhlMTRjZWNkMDg2YTc1ZTg2MTQ5MzY3YmY2NjNiYjRiNjhmMTVjMTU0In0%3D",
+        "domain": "www.spot.ph",
+        "path": "/",
+        "expires": "2024-02-19T07:20:37.494Z",
+        "size": 293,
+        "httpOnly": true,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "_cc_cc",
+        "value": "ACZ4XmNQSDZIMjU0SEu1TDKySEpOs0i2ME01T0w2NrEwsjA2t0hlAILUS09Vf%2F7%2F%2F58fxAEDnt3fNqswTipl%2BM%2FIyLCk%2F6oqjP38gyWMeXnxHBYY%2B9zRQ8ww9qOpPYxw8VOP2GDseyfVYcyDy6bCtU698UELJr5iCcLIPzM26cDEAfz5Qkc%3D",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-11-15T05:20:38.000Z",
+        "size": 202,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_cc_aud",
+        "value": "ABR4XmNgYGBIvfRUFUhBABMDl6M0iMllsQBIAgBE2gOM",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-11-15T05:20:38.000Z",
+        "size": 51,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "panoramaId_expiry",
+        "value": "1708406437883",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-02-20T05:20:38.000Z",
+        "size": 30,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "sameSite": "Lax",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "___nrbic",
+        "value": "%7B%22previousVisit%22%3A1708320031%2C%22currentVisitStarted%22%3A1708320031%2C%22sessionId%22%3A%225f326f2a-1859-4f10-9626-d5d327122f92%22%2C%22sessionVars%22%3A%5B%5D%2C%22visitedInThisSession%22%3Atrue%2C%22pagesViewed%22%3A2%2C%22landingPage%22%3A%22https%3A//www.spot.ph/%22%2C%22referrer%22%3A%22%22%7D",
+        "domain": "spot.ph",
         "path": "/",
         "expires": -1,
-        "size": 298,
-        "httpOnly": true,
+        "size": 316,
+        "httpOnly": false,
         "secure": true,
+        "session": true,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_summit_page_c",
+        "value": "2",
+        "domain": "www.spot.ph",
+        "path": "/",
+        "expires": -1,
+        "size": 15,
+        "httpOnly": false,
+        "secure": false,
         "session": true,
         "priority": "Medium",
         "sameParty": false,
@@ -288,104 +794,3585 @@
         "sourcePort": 443,
         "type": "unknown",
         "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.512924458.1708320031",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2025-03-25T05:20:44.600Z",
+        "size": 29,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga_EWWRTBCGDX",
+        "value": "GS1.1.1708320031.1.1.1708320038.53.0.0",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2025-03-25T05:20:38.977Z",
+        "size": 52,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_clsk",
+        "value": "4ilani%7C1708320039001%7C2%7C1%7Cw.clarity.ms%2Fcollect",
+        "domain": "spot.ph",
+        "path": "/",
+        "expires": "2024-02-20T05:20:39.000Z",
+        "size": 60,
+        "httpOnly": false,
+        "secure": false,
+        "session": false,
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "AWSALBCORS",
+        "value": "ULlcvDnBrjUbk3oET9EgQtXP0HtDL1k8BdDaXPsBHxFpbJsWFDzFjCyYcFm5ek2+Em4mDWXo+Jx4Nxas0MZb5L8r6DhegmIZxerr79riLW5DLmISDIwUVOr+GE2i",
+        "domain": "xhr.invl.co",
+        "path": "/",
+        "expires": "2024-02-26T05:20:38.011Z",
+        "size": 134,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
       }
     ],
-    "fb_pixel_events": [],
+    "fb_pixel_events": [
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+        "raw": "https://www.facebook.com/tr/?id=940576087367792&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038490&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038485&sw=375&sh=812&v=2.9.147&r=stable&ec=2&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "A visit to a web page you care about (for example, a product page or landing page). ViewContent tells you if someone visits a web page's URL, but not what they see or do on that page. For example - A person lands on a product details page",
+        "eventName": "ViewContent",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038482&sw=375&sh=812&v=2.9.147&r=stable&ec=3&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&est_source=3889467361120241&ler=empty&it=1708320038200&coo=false&es=automatic&tm=3&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "",
+        "eventName": "SummitOfficial_Spot_AllPages",
+        "isStandardEvent": false,
+        "pageUrl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=SummitOfficial_Spot_AllPages&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038339&sw=375&sh=812&v=2.9.147&r=stable&ec=1&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "A visit to a web page you care about (for example, a product page or landing page). ViewContent tells you if someone visits a web page's URL, but not what they see or do on that page. For example - A person lands on a product details page",
+        "eventName": "ViewContent",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038332&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/",
+        "raw": "https://www.facebook.com/tr/?id=940576087367792&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031226&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "This is the default pixel tracking page visits. For example - A person lands on your website pages.",
+        "eventName": "PageView",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031220&sw=375&sh=812&v=2.9.147&r=stable&ec=2&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "A visit to a web page you care about (for example, a product page or landing page). ViewContent tells you if someone visits a web page's URL, but not what they see or do on that page. For example - A person lands on a product details page",
+        "eventName": "ViewContent",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031216&sw=375&sh=812&v=2.9.147&r=stable&ec=3&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&est_source=3889467361120241&ler=empty&it=1708320031115&coo=false&es=automatic&tm=3&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "",
+        "eventName": "SummitOfficial_Spot_AllPages",
+        "isStandardEvent": false,
+        "pageUrl": "https://www.spot.ph/",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=SummitOfficial_Spot_AllPages&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031161&sw=375&sh=812&v=2.9.147&r=stable&ec=1&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "advancedMatchingParams": [],
+        "dataParams": [],
+        "eventDescription": "A visit to a web page you care about (for example, a product page or landing page). ViewContent tells you if someone visits a web page's URL, but not what they see or do on that page. For example - A person lands on a product details page",
+        "eventName": "ViewContent",
+        "isStandardEvent": true,
+        "pageUrl": "https://www.spot.ph/",
+        "raw": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031153&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      }
+    ],
     "key_logging": {},
-    "session_recorders": {},
+    "session_recorders": {
+      "static.hotjar.com": [
+        "static.hotjar.com/c/hotjar-1080309.js",
+        "static.hotjar.com/c/hotjar-2013359.js"
+      ]
+    },
     "third_party_trackers": [
       {
         "data": {
-          "filter": ".google-analytics.com/",
+          "filter": "||clarity.ms^",
           "listName": "easyprivacy.txt",
           "query": {}
         },
         "stack": [
           {
-            "fileName": "https://twitter.com/i/flow/login",
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
             "source": "ThirdPartyTracker RequestHandler"
           }
         ],
         "type": "TrackingRequest",
-        "url": "https://www.google-analytics.com/analytics.js"
-      },
-      {
-        "data": {
-          "filter": "||google.com/log?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "authuser": 0,
-            "format": "json",
-            "hasfast": true
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signup_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_998748_3773&as=K0X%2FdHZoG8wAYLdSsfvDhw&hl=en",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+        "url": "https://w.clarity.ms/collect"
       },
       {
         "data": {
           "filter": ".google-analytics.com/",
           "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1982355600
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1982355600"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1661883845
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1661883845"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1708320037776,
+            "_s": 1,
+            "cid": 512924458.170832,
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "gcd": "13l3l3l3l1",
+            "gtm": "45je42e0v882447620z8837061169za200",
+            "npa": 0,
+            "pscdl": "noapi",
+            "sct": 1,
+            "seg": 1,
+            "sid": 1708320031,
+            "sr": "375x812",
+            "tfd": 6250,
+            "tid": "G-EWWRTBCGDX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EWWRTBCGDX&gtm=45je42e0v882447620z8837061169za200&_p=1708320037776&gcd=13l3l3l3l1&npa=0&dma=0&cid=512924458.1708320031&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&sid=1708320031&sct=1&seg=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&dt=Louise%20Lizan%20for%20SPOT.ph&_s=1&tfd=6250"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
           "query": {}
         },
         "stack": [
           {
-            "fileName": "https://twitter.com/",
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
             "source": "ThirdPartyTracker RequestHandler"
           }
         ],
         "type": "TrackingRequest",
-        "url": "https://www.google-analytics.com/analytics.js"
+        "url": "https://w.clarity.ms/collect"
       },
       {
         "data": {
-          "filter": "/adsct?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "bci": 4,
-            "eci": 3,
-            "event": {},
-            "event_id": "8e88d9d2-4536-4514-b4d2-010e6a8aba8d",
-            "integration": "advertiser",
-            "p_id": "Twitter",
-            "p_user_id": 0,
-            "pl_id": "234d96d9-e2b5-4676-a97e-2d8918abbf65",
-            "tw_document_href": "https://twitter.com/",
-            "tw_iframe_status": 0,
-            "txn_id": "ogf5s",
-            "type": "javascript",
-            "version": "2.3.29"
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://twitter.com/",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=8e88d9d2-4536-4514-b4d2-010e6a8aba8d&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=234d96d9-e2b5-4676-a97e-2d8918abbf65&tw_document_href=https%3A%2F%2Ftwitter.com%2F&tw_iframe_status=0&txn_id=ogf5s&type=javascript&version=2.3.29"
-      },
-      {
-        "data": {
-          "filter": "||ads-twitter.com^",
+          "filter": "||pagead2.googlesyndication.com^",
           "listName": "easylist.txt",
           "query": {}
         },
         "stack": [
           {
-            "fileName": "https://twitter.com/",
+            "fileName": "about:blank",
             "source": "ThirdPartyTracker RequestHandler"
           }
         ],
         "type": "TrackingRequest",
-        "url": "https://static.ads-twitter.com/uwt.js"
+        "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
+      },
+      {
+        "data": {
+          "filter": "||2mdn.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s0.2mdn.net/instream/video/client.js"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/core/bridge3.621.0_en.html"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||speedtest.dailymotion.com/latencies.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://speedtest.dailymotion.com/latencies.js"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "_category_": "tfw_client_event",
+              "client_version": "2615f7e52b7e0:1702314776716",
+              "dnt": false,
+              "event_namespace": {
+                "action": "impression",
+                "client": "tfw",
+                "page": "button",
+                "section": "follow"
+              },
+              "format_version": 1,
+              "language": "en",
+              "message": "m:withcount:",
+              "triggered_on": 1708320040004,
+              "widget_frame": false,
+              "widget_origin": "https://www.spot.ph/author/Louise-Lizan"
+            },
+            "session_id": "c58fe647c9121998c130d572d3d115769c7c7ab3"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot/embeds?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%22%2C%22widget_frame%22%3Afalse%2C%22language%22%3A%22en%22%2C%22message%22%3A%22m%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1708320040004%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%222615f7e52b7e0%3A1702314776716%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D&session_id=c58fe647c9121998c130d572d3d115769c7c7ab3"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1079227563
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1079227563"
+      },
+      {
+        "data": {
+          "filter": "||log.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "board_count": 0,
+            "button_count": 0,
+            "event": "init",
+            "follow_count": 1,
+            "guid": "8iR2UAU_4B8S",
+            "lang": "en",
+            "nvl": "en-US",
+            "pin_count": 0,
+            "profile_count": 0,
+            "section_count": 0,
+            "sub": "www",
+            "tv": 2021110201,
+            "type": "pidget",
+            "via": "https://www.spot.ph/author/Louise-Lizan",
+            "viaSrc": "canonical"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.pinterest.com/?type=pidget&guid=8iR2UAU_4B8S&tv=2021110201&event=init&sub=www&button_count=0&follow_count=1&pin_count=0&profile_count=0&board_count=0&section_count=0&lang=en&nvl=en-US&via=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan&viaSrc=canonical"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "25% Scroll",
+            "ec": "Scroll Timing",
+            "el": "1-10 seconds",
+            "ev": 1,
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 628696364
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Timing&ea=25%25%20Scroll&el=1-10%20seconds&ev=1&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=628696364"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "25% Scroll",
+            "ec": "Scroll Depth",
+            "el": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2089014948
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Depth&ea=25%25%20Scroll&el=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=2089014948"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "10% Scroll",
+            "ec": "Scroll Timing",
+            "el": "1-10 seconds",
+            "ev": 1,
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1996844776
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Timing&ea=10%25%20Scroll&el=1-10%20seconds&ev=1&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1996844776"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "10% Scroll",
+            "ec": "Scroll Depth",
+            "el": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 98441271
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Depth&ea=10%25%20Scroll&el=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=98441271"
+      },
+      {
+        "data": {
+          "filter": "/visits?aff_",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aff_id": 190450,
+            "href": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "referrer": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://xhr.invl.co/visits?aff_id=190450&referrer=&href=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402130101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "SCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cd14": "W1IE8_pE_TcER0ZjkgIsQoHA",
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "Recorded",
+            "ec": "Summit Client ID",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1049415554
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Summit%20Client%20ID&ea=Recorded&_u=SCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&cd14=W1IE8_pE_TcER0ZjkgIsQoHA&z=1049415554"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c15": "",
+            "c2": 7385338,
+            "c3": "",
+            "c4": "",
+            "c5": "",
+            "c6": "",
+            "c7": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "c8": "Louise Lizan for SPOT.ph",
+            "c9": "",
+            "cs_it": "b9",
+            "cv": "4.0.0+2301240627",
+            "ns__t": 1708320038514,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=7385338&cs_it=b9&cv=4.0.0%2B2301240627&ns__t=1708320038514&ns_c=UTF-8&c3=&c4=&c5=&c6=&c15=&c7=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&c8=Louise%20Lizan%20for%20SPOT.ph&c9="
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 940576087367792,
+            "if": false,
+            "it": 1708320038200,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320038490,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=940576087367792&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038490&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "ec": 2,
+            "ev": "PageView",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320038200,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320038485,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038485&sw=375&sh=812&v=2.9.147&r=stable&ec=2&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "ec": 3,
+            "es": "automatic",
+            "est_source": 3889467361120241,
+            "ev": "ViewContent",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320038200,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "tm": 3,
+            "ts": 1708320038482,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038482&sw=375&sh=812&v=2.9.147&r=stable&ec=3&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&est_source=3889467361120241&ler=empty&it=1708320038200&coo=false&es=automatic&tm=3&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/s/0.7.20/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "ec": 1,
+            "ev": "SummitOfficial_Spot_AllPages",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320038200,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320038339,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=SummitOfficial_Spot_AllPages&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038339&sw=375&sh=812&v=2.9.147&r=stable&ec=1&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "ec": 0,
+            "ev": "ViewContent",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320038200,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320038332,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&rl=&if=false&ts=1708320038332&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320038200&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.spot.ph",
+            "ex_m": "62,106,94,98,53,3,88,61,14,86,79,44,46,150,153,164,160,161,163,25,89,45,68,162,145,148,157,158,165,115,13,43,169,168,117,16,29,32,1,36,57,58,59,63,83,15,12,85,82,81,95,97,31,96,26,22,146,149,124,24,9,10,11,5,6,21,19,20,49,54,56,66,90,23,67,8,7,71,41,18,92,91,17,4,73,80,72,78,40,39,77,33,35,76,48,74,28,37,65,0,84,75,2,30,55,34,93,38,70,60,99,52,51,27,87,50,47,42,69,64,100,175,174,176,181,182,183,179,171,116,118,170,172,107,137,129,132,113,166,206,101,111,207,144,105,127,120,108",
+            "hme": "20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68",
+            "r": "stable",
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/940576087367792?v=2.9.147&r=stable&domain=www.spot.ph&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100%2C175%2C174%2C176%2C181%2C182%2C183%2C179%2C171%2C116%2C118%2C170%2C172%2C107%2C137%2C129%2C132%2C113%2C166%2C206%2C101%2C111%2C207%2C144%2C105%2C127%2C120%2C108"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-2013359.js?sv=6"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.doordash.com|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lollipod.de|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.pubmatic.com/AdServer/js/pwt/158269/1574/pwt.js"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-EWWRTBCGDX",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-EWWRTBCGDX&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.spot.ph",
+            "ex_m": "62,106,94,98,53,3,88,61,14,86,79,44,46,150,153,164,160,161,163,25,89,45,68,162,145,148,157,158,165,115,13,43,169,168,117,16,29,32,1,36,57,58,59,63,83,15,12,85,82,81,95,97,31,96,26,22,146,149,124,24,9,10,11,5,6,21,19,20,49,54,56,66,90,23,67,8,7,71,41,18,92,91,17,4,73,80,72,78,40,39,77,33,35,76,48,74,28,37,65,0,84,75,2,30,55,34,93,38,70,60,99,52,51,27,87,50,47,42,69,64,100",
+            "hme": "20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68",
+            "r": "stable",
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/2014751451954314?v=2.9.147&r=stable&domain=www.spot.ph&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "QCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": "Fail",
+            "ec": "Google Ads Status",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1655641478
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Google%20Ads%20Status&ea=Fail&_u=QCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1655641478"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "QCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "ea": false,
+            "ec": "Private Browsing",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1038301196
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=838360092&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Private%20Browsing&ea=false&_u=QCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1038301196"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "QCCACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 838360092,
+            "cd1": "Normal",
+            "cd10": "N",
+            "cd12": "N",
+            "cd2": "N",
+            "cd3": "N",
+            "cd4": "N",
+            "cd46": "N",
+            "cd47": "N",
+            "cd48": "N",
+            "cd49": "N",
+            "cd5": "N",
+            "cd50": "N",
+            "cd51": "N",
+            "cd52": "N",
+            "cd53": "N",
+            "cd6": "N",
+            "cd60": "N",
+            "cd61": "SAFE",
+            "cd7": "seo_topic",
+            "cd8": "N",
+            "cd9": "N",
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "dma": 0,
+            "dt": "Louise Lizan for SPOT.ph",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tid": "UA-252180-31",
+            "uid": "N",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1871695030
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=838360092&t=pageview&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2Fauthor%2FLouise-Lizan%3Fref%3Darticle_author&ul=en-us&de=UTF-8&dt=Louise%20Lizan%20for%20SPOT.ph&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=QCCACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&uid=N&tid=UA-252180-31&_gid=1328323462.1708320031&_slc=1&gtm=45He42e0n71W6HS4Mv71527196za200&cd1=Normal&cd2=N&cd3=N&cd4=N&cd5=N&cd6=N&cd7=seo_topic&cd8=N&cd9=N&cd10=N&cd12=N&cd46=N&cd47=N&cd48=N&cd49=N&cd50=N&cd51=N&cd52=N&cd53=N&cd60=N&cd61=SAFE&gcd=13l3l3l3l1&dma=0&z=1871695030"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "||omguk.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": 2109697,
+            "ref": "https://www.spot.ph/author/Louise-Lizan?ref=article_author"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://track.omguk.com/la?aid=2109697&ref=https%3A//www.spot.ph/author/Louise-Lizan%3Fref%3Darticle_author"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/eufif1gs6l"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PRCQ2GV",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PRCQ2GV&l=dataLayer"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-1080309.js?sv=7"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-W6HS4M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W6HS4M"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/c/14994/lt.min.js"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.crwdcntrl.net/5/c=14966/pe=y/var=ccauds"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||adpushup.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.adpushup.com/44289/adpushup.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/author/Louise-Lizan?ref=article_author",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/tag/js/gpt.js"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_et": 5660,
+            "_p": 1708320030323,
+            "_s": 3,
+            "cid": 512924458.170832,
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "en": "user_engagement",
+            "ep.article_id": "N",
+            "ep.article_type": "N",
+            "ep.author": "N",
+            "ep.brand_category": "N",
+            "ep.brand_editor": "N",
+            "ep.brand_name": "N",
+            "ep.company_name": "N",
+            "ep.content_type_category": "N",
+            "ep.invisible_article_tag": "N",
+            "ep.native_editor": "N",
+            "ep.nsfw": "SAFE",
+            "ep.package_type": "N",
+            "ep.platform_type": "Normal",
+            "ep.publish_date": "N",
+            "ep.section": "N",
+            "ep.seo_tag": "seo_topic",
+            "ep.slug": "N",
+            "ep.sub_section": "N",
+            "ep.visible_article_tag": "N",
+            "ep.word_count": "N",
+            "epn.load_time_sec": 1.66,
+            "gcd": "13l3l3l3l1",
+            "gtm": "45je42e0v882447620za200",
+            "npa": 0,
+            "pscdl": "noapi",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1708320031,
+            "sr": "375x812",
+            "tfd": 8877,
+            "tid": "G-EWWRTBCGDX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EWWRTBCGDX&gtm=45je42e0v882447620za200&_p=1708320030323&gcd=13l3l3l3l1&npa=0&dma=0&cid=512924458.1708320031&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=3&sid=1708320031&sct=1&seg=0&dl=https%3A%2F%2Fwww.spot.ph%2F&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&en=user_engagement&ep.platform_type=Normal&ep.visible_article_tag=N&ep.author=N&ep.publish_date=N&ep.section=N&ep.sub_section=N&ep.article_type=N&ep.slug=N&ep.word_count=N&ep.company_name=N&ep.brand_name=N&ep.brand_category=N&ep.native_editor=N&ep.brand_editor=N&ep.invisible_article_tag=N&ep.article_id=N&ep.nsfw=SAFE&ep.package_type=N&ep.content_type_category=N&ep.seo_tag=seo_topic&epn.load_time_sec=1.66&_et=5660&tfd=8877"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 723673982
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=723673982"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 372210572
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=372210572"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_p": 1708320030323,
+            "_s": 2,
+            "cid": 512924458.170832,
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "gcd": "13l3l3l3l1",
+            "gtm": "45je42e0v882447620z8837061169za200",
+            "npa": 0,
+            "pscdl": "noapi",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1708320031,
+            "sr": "375x812",
+            "tfd": 8118,
+            "tid": "G-EWWRTBCGDX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EWWRTBCGDX&gtm=45je42e0v882447620z8837061169za200&_p=1708320030323&gcd=13l3l3l3l1&npa=0&dma=0&cid=512924458.1708320031&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&sid=1708320031&sct=1&seg=0&dl=https%3A%2F%2Fwww.spot.ph%2F&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&_s=2&tfd=8118"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 2090051014
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=2090051014"
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js"
+      },
+      {
+        "data": {
+          "filter": "||2mdn.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://s0.2mdn.net/instream/video/client.js"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/core/bridge3.621.0_en.html"
+      },
+      {
+        "data": {
+          "filter": "||imasdk.googleapis.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||speedtest.dailymotion.com/latencies.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://speedtest.dailymotion.com/latencies.js"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://geo.dailymotion.com/player/x2mzj.html?playlist=x7xumd&customConfig[customParams]=lotame%3Dundefined&actionInfo=false&mute=true&dmPubtool=new-cdn-ce-v2",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||dm-event.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pebed.dm-event.net/"
+      },
+      {
+        "data": {
+          "filter": "||twitter.com/i/jot",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "l": {
+              "_category_": "tfw_client_event",
+              "client_version": "2615f7e52b7e0:1702314776716",
+              "dnt": false,
+              "event_namespace": {
+                "action": "impression",
+                "client": "tfw",
+                "page": "button",
+                "section": "follow"
+              },
+              "format_version": 1,
+              "language": "en",
+              "message": "m:withcount:",
+              "triggered_on": 1708320033148,
+              "widget_creator_screen_name": "spotdotph",
+              "widget_frame": false,
+              "widget_origin": "https://www.spot.ph/",
+              "widget_site_screen_name": "spotdotph"
+            },
+            "session_id": "811e59c096213c011ea3a422fe79a996c5190960"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://syndication.twitter.com/i/jot/embeds?l=%7B%22widget_origin%22%3A%22https%3A%2F%2Fwww.spot.ph%2F%22%2C%22widget_frame%22%3Afalse%2C%22widget_site_screen_name%22%3A%22spotdotph%22%2C%22widget_creator_screen_name%22%3A%22spotdotph%22%2C%22language%22%3A%22en%22%2C%22message%22%3A%22m%3Awithcount%3A%22%2C%22_category_%22%3A%22tfw_client_event%22%2C%22triggered_on%22%3A1708320033148%2C%22dnt%22%3Afalse%2C%22client_version%22%3A%222615f7e52b7e0%3A1702314776716%22%2C%22format_version%22%3A1%2C%22event_namespace%22%3A%7B%22client%22%3A%22tfw%22%2C%22page%22%3A%22button%22%2C%22section%22%3A%22follow%22%2C%22action%22%3A%22impression%22%7D%7D&session_id=811e59c096213c011ea3a422fe79a996c5190960"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Visible Save Article",
+            "ec": "Spot Wishlist",
+            "el": "https://www.spot.ph/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 515592163
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Spot%20Wishlist&ea=Visible%20Save%20Article&el=https%3A%2F%2Fwww.spot.ph%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=515592163"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "CtsSyncId": "8D4434BAC3924BAB9AE99573CB342DFA",
+            "MUID": "3209D91520C06C8700D0CD3F21D46DDC",
+            "ctsa": "mr"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=8D4434BAC3924BAB9AE99573CB342DFA&MUID=3209D91520C06C8700D0CD3F21D46DDC"
+      },
+      {
+        "data": {
+          "filter": "/c.gif?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "CtsSyncId": "8D4434BAC3924BAB9AE99573CB342DFA",
+            "MXFR": "30D69373CE9F6F2D2B9E8759CA9F61E5",
+            "RedC": "c.clarity.ms",
+            "ctsa": "mr"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.bing.com/c.gif?ctsa=mr&CtsSyncId=8D4434BAC3924BAB9AE99573CB342DFA&RedC=c.clarity.ms&MXFR=30D69373CE9F6F2D2B9E8759CA9F61E5"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||log.pinterest.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "board_count": 0,
+            "button_count": 0,
+            "event": "init",
+            "follow_count": 1,
+            "guid": "QuKvgA2orDWS",
+            "lang": "en",
+            "nvl": "en-US",
+            "pin_count": 0,
+            "profile_count": 0,
+            "section_count": 0,
+            "sub": "www",
+            "tv": 2021110201,
+            "type": "pidget",
+            "via": "https://www.spot.ph/",
+            "viaSrc": "canonical"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://log.pinterest.com/?type=pidget&guid=QuKvgA2orDWS&tv=2021110201&event=init&sub=www&button_count=0&follow_count=1&pin_count=0&profile_count=0&board_count=0&section_count=0&lang=en&nvl=en-US&via=https%3A%2F%2Fwww.spot.ph%2F&viaSrc=canonical"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://w.clarity.ms/collect"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 14994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/shared/2/lt.iframe.html?c=14994"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Visible",
+            "ec": "Cookie Policy",
+            "el": "/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1226154847
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Cookie%20Policy&ea=Visible&el=%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1226154847"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "25% Scroll",
+            "ec": "Scroll Timing",
+            "el": "1-10 seconds",
+            "ev": 1,
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 527888541
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Timing&ea=25%25%20Scroll&el=1-10%20seconds&ev=1&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=527888541"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "25% Scroll",
+            "ec": "Scroll Depth",
+            "el": "https://www.spot.ph/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1542128822
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Depth&ea=25%25%20Scroll&el=https%3A%2F%2Fwww.spot.ph%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1542128822"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "10% Scroll",
+            "ec": "Scroll Timing",
+            "el": "1-10 seconds",
+            "ev": 1,
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 694352238
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Timing&ea=10%25%20Scroll&el=1-10%20seconds&ev=1&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=694352238"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "aGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "10% Scroll",
+            "ec": "Scroll Depth",
+            "el": "https://www.spot.ph/",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1907286380
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Scroll%20Depth&ea=10%25%20Scroll&el=https%3A%2F%2Fwww.spot.ph%2F&_u=aGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1907286380"
+      },
+      {
+        "data": {
+          "filter": "/ga-audiences?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_r": 4,
+            "aip": 1,
+            "cid": 512924458.170832,
+            "dma": 0,
+            "gcd": "13l3l3l3l1",
+            "gtm": "45je42e0v882447620z8837061169za200",
+            "npa": 0,
+            "slf_rd": 1,
+            "t": "sr",
+            "tid": "G-EWWRTBCGDX",
+            "v": 1,
+            "z": 634904882
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google.com.ph/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-EWWRTBCGDX&cid=512924458.1708320031&gtm=45je42e0v882447620z8837061169za200&aip=1&dma=0&gcd=13l3l3l3l1&npa=0&z=634904882"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aip": 1,
+            "cid": 512924458.170832,
+            "dma": 0,
+            "gcd": "13l3l3l3l1",
+            "gtm": "45je42e0v882447620z8837061169za200",
+            "npa": 0,
+            "tid": "G-EWWRTBCGDX",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-EWWRTBCGDX&cid=512924458.1708320031&gtm=45je42e0v882447620z8837061169za200&aip=1&dma=0&gcd=13l3l3l3l1&npa=0"
+      },
+      {
+        "data": {
+          "filter": "$ping,third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_fv": 1,
+            "_gaz": 1,
+            "_p": 1708320030323,
+            "_s": 1,
+            "_ss": 1,
+            "cid": 512924458.170832,
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "en": "page_view",
+            "ep.article_id": "N",
+            "ep.article_type": "N",
+            "ep.author": "N",
+            "ep.brand_category": "N",
+            "ep.brand_editor": "N",
+            "ep.brand_name": "N",
+            "ep.company_name": "N",
+            "ep.content_type_category": "N",
+            "ep.invisible_article_tag": "N",
+            "ep.native_editor": "N",
+            "ep.nsfw": "SAFE",
+            "ep.package_type": "N",
+            "ep.platform_type": "Normal",
+            "ep.publish_date": "N",
+            "ep.section": "N",
+            "ep.seo_tag": "seo_topic",
+            "ep.slug": "N",
+            "ep.sub_section": "N",
+            "ep.visible_article_tag": "N",
+            "ep.word_count": "N",
+            "epn.load_time_sec": 1.66,
+            "gcd": "13l3l3l3l1",
+            "gtm": "45je42e0v882447620z8837061169za200",
+            "npa": 0,
+            "pscdl": "noapi",
+            "sct": 1,
+            "seg": 0,
+            "sid": 1708320031,
+            "sr": "375x812",
+            "tfd": 3106,
+            "tid": "G-EWWRTBCGDX",
+            "uaa": "",
+            "uab": "",
+            "uafvl": "",
+            "uam": "",
+            "uamb": 0,
+            "uap": "",
+            "uapv": "",
+            "uaw": 0,
+            "ul": "en-us",
+            "v": 2
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EWWRTBCGDX&gtm=45je42e0v882447620z8837061169za200&_p=1708320030323&_gaz=1&gcd=13l3l3l3l1&npa=0&dma=0&cid=512924458.1708320031&ul=en-us&sr=375x812&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&sid=1708320031&sct=1&seg=0&dl=https%3A%2F%2Fwww.spot.ph%2F&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&en=page_view&_fv=1&_ss=1&ep.platform_type=Normal&ep.visible_article_tag=N&ep.author=N&ep.publish_date=N&ep.section=N&ep.sub_section=N&ep.article_type=N&ep.slug=N&ep.word_count=N&ep.company_name=N&ep.brand_name=N&ep.brand_category=N&ep.native_editor=N&ep.brand_editor=N&ep.invisible_article_tag=N&ep.article_id=N&ep.nsfw=SAFE&ep.package_type=N&ep.content_type_category=N&ep.seo_tag=seo_topic&epn.load_time_sec=1.66&tfd=3106"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_r": 3,
+            "_u": "YGBACAAABAAAACAEC~",
+            "_v": "j101",
+            "aip": 1,
+            "cid": 512924458.170832,
+            "gjid": 310872577,
+            "jid": 654875815,
+            "t": "dc",
+            "tid": "UA-252180-31",
+            "uid": "N",
+            "v": 1,
+            "z": 2108085135
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j101&tid=UA-252180-31&cid=512924458.1708320031&jid=654875815&uid=N&gjid=310872577&_gid=1328323462.1708320031&_u=YGBACAAABAAAACAEC~&z=2108085135"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.clarity.ms/c.gif"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/s/0.7.20/clarity.js"
+      },
+      {
+        "data": {
+          "filter": "/visits?aff_",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aff_id": 190450,
+            "href": "https://www.spot.ph/",
+            "referrer": ""
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://xhr.invl.co/visits?aff_id=190450&referrer=&href=https%3A%2F%2Fwww.spot.ph%2F"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/c/14994/optimus_rules.json"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "YGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Fail",
+            "ec": "Google Ads Status",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1908475775
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Google%20Ads%20Status&ea=Fail&_u=YGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=1908475775"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "YGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": false,
+            "ec": "Private Browsing",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 535962419
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Private%20Browsing&ea=false&_u=YGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&z=535962419"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_s": 1,
+            "_u": "YGDACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cd14": "W1IE8_pE_TcER0ZjkgIsQoHA",
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "ea": "Recorded",
+            "ec": "Summit Client ID",
+            "gcd": "13l3l3l3l1",
+            "gjid": "",
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": "",
+            "ni": 1,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "event",
+            "tid": "UA-252180-31",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 665796096
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/collect?v=1&_v=j101&a=893937416&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&ec=Summit%20Client%20ID&ea=Recorded&_u=YGDACAABBAAAACAEC~&jid=&gjid=&cid=512924458.1708320031&tid=UA-252180-31&_gid=1328323462.1708320031&gtm=45He42e0n71W6HS4Mv71527196za200&gcd=13l3l3l3l1&dma=0&cd14=W1IE8_pE_TcER0ZjkgIsQoHA&z=665796096"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "_gid": 1328323462.170832,
+            "_r": 1,
+            "_s": 1,
+            "_slc": 1,
+            "_u": "YGBACAABBAAAACAEC~",
+            "_v": "j101",
+            "a": 893937416,
+            "cd1": "Normal",
+            "cd10": "N",
+            "cd12": "N",
+            "cd2": "N",
+            "cd3": "N",
+            "cd4": "N",
+            "cd46": "N",
+            "cd47": "N",
+            "cd48": "N",
+            "cd49": "N",
+            "cd5": "N",
+            "cd50": "N",
+            "cd51": "N",
+            "cd52": "N",
+            "cd53": "N",
+            "cd6": "N",
+            "cd60": "N",
+            "cd61": "SAFE",
+            "cd7": "seo_topic",
+            "cd8": "N",
+            "cd9": "N",
+            "cid": 512924458.170832,
+            "de": "UTF-8",
+            "dl": "https://www.spot.ph/",
+            "dma": 0,
+            "dt": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "gcd": "13l3l3l3l1",
+            "gjid": 310872577,
+            "gtm": "45He42e0n71W6HS4Mv71527196za200",
+            "je": 0,
+            "jid": 654875815,
+            "sd": "24-bit",
+            "sr": "375x812",
+            "t": "pageview",
+            "tid": "UA-252180-31",
+            "uid": "N",
+            "ul": "en-us",
+            "v": 1,
+            "vp": "375x812",
+            "z": 1825017268
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=893937416&t=pageview&_s=1&dl=https%3A%2F%2Fwww.spot.ph%2F&ul=en-us&de=UTF-8&dt=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&sd=24-bit&sr=375x812&vp=375x812&je=0&_u=YGBACAABBAAAACAEC~&jid=654875815&gjid=310872577&cid=512924458.1708320031&uid=N&tid=UA-252180-31&_gid=1328323462.1708320031&_r=1&_slc=1&gtm=45He42e0n71W6HS4Mv71527196za200&cd1=Normal&cd2=N&cd3=N&cd4=N&cd5=N&cd6=N&cd7=seo_topic&cd8=N&cd9=N&cd10=N&cd12=N&cd46=N&cd47=N&cd48=N&cd49=N&cd50=N&cd51=N&cd52=N&cd53=N&cd60=N&cd61=SAFE&gcd=13l3l3l3l1&dma=0&z=1825017268"
+      },
+      {
+        "data": {
+          "filter": "||events.newsroom.bi^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://events.newsroom.bi/ingest.php"
+      },
+      {
+        "data": {
+          "filter": "||doubleclick.net^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202402130101/pubads_impl.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "cx": "c",
+            "id": "G-EWWRTBCGDX",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-EWWRTBCGDX&l=dataLayer&cx=c"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "dl": "https://www.spot.ph/",
+            "ec": 0,
+            "ev": "PageView",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 940576087367792,
+            "if": false,
+            "it": 1708320031115,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320031226,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=940576087367792&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031226&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.spot.ph/",
+            "ec": 2,
+            "ev": "PageView",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320031115,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320031220,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=PageView&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031220&sw=375&sh=812&v=2.9.147&r=stable&ec=2&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "cs_est": true,
+            "dl": "https://www.spot.ph/",
+            "ec": 3,
+            "es": "automatic",
+            "est_source": 3889467361120241,
+            "ev": "ViewContent",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320031115,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "tm": 3,
+            "ts": 1708320031216,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031216&sw=375&sh=812&v=2.9.147&r=stable&ec=3&o=4126&fbp=fb.1.1708320031149.860766614&cs_est=true&est_source=3889467361120241&ler=empty&it=1708320031115&coo=false&es=automatic&tm=3&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "dl": "https://www.spot.ph/",
+            "ec": 1,
+            "ev": "SummitOfficial_Spot_AllPages",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320031115,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320031161,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=SummitOfficial_Spot_AllPages&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031161&sw=375&sh=812&v=2.9.147&r=stable&ec=1&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||facebook.com/tr/",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "coo": false,
+            "dl": "https://www.spot.ph/",
+            "ec": 0,
+            "ev": "ViewContent",
+            "exp": "e1",
+            "fbp": "fb.1.1708320031149.860766614",
+            "id": 2014751451954314,
+            "if": false,
+            "it": 1708320031115,
+            "ler": "empty",
+            "o": 4126,
+            "r": "stable",
+            "rl": "",
+            "rqm": "GET",
+            "sh": 812,
+            "sw": 375,
+            "ts": 1708320031153,
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.facebook.com/tr/?id=2014751451954314&ev=ViewContent&dl=https%3A%2F%2Fwww.spot.ph%2F&rl=&if=false&ts=1708320031153&sw=375&sh=812&v=2.9.147&r=stable&ec=0&o=4126&fbp=fb.1.1708320031149.860766614&ler=empty&it=1708320031115&coo=false&exp=e1&rqm=GET"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.spot.ph",
+            "ex_m": "62,106,94,98,53,3,88,61,14,86,79,44,46,150,153,164,160,161,163,25,89,45,68,162,145,148,157,158,165,115,13,43,169,168,117,16,29,32,1,36,57,58,59,63,83,15,12,85,82,81,95,97,31,96,26,22,146,149,124,24,9,10,11,5,6,21,19,20,49,54,56,66,90,23,67,8,7,71,41,18,92,91,17,4,73,80,72,78,40,39,77,33,35,76,48,74,28,37,65,0,84,75,2,30,55,34,93,38,70,60,99,52,51,27,87,50,47,42,69,64,100,175,174,176,181,182,183,179,171,116,118,170,172,107,137,129,132,113,166,206,101,111,207,144,105,127,120,108",
+            "hme": "20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68",
+            "r": "stable",
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/940576087367792?v=2.9.147&r=stable&domain=www.spot.ph&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100%2C175%2C174%2C176%2C181%2C182%2C183%2C179%2C171%2C116%2C118%2C170%2C172%2C107%2C137%2C129%2C132%2C113%2C166%2C206%2C101%2C111%2C207%2C144%2C105%2C127%2C120%2C108"
+      },
+      {
+        "data": {
+          "filter": "||connect.facebook.net/signals/$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "domain": "www.spot.ph",
+            "ex_m": "62,106,94,98,53,3,88,61,14,86,79,44,46,150,153,164,160,161,163,25,89,45,68,162,145,148,157,158,165,115,13,43,169,168,117,16,29,32,1,36,57,58,59,63,83,15,12,85,82,81,95,97,31,96,26,22,146,149,124,24,9,10,11,5,6,21,19,20,49,54,56,66,90,23,67,8,7,71,41,18,92,91,17,4,73,80,72,78,40,39,77,33,35,76,48,74,28,37,65,0,84,75,2,30,55,34,93,38,70,60,99,52,51,27,87,50,47,42,69,64,100",
+            "hme": "20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68",
+            "r": "stable",
+            "v": "2.9.147"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/signals/config/2014751451954314?v=2.9.147&r=stable&domain=www.spot.ph&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c1": 2,
+            "c15": "",
+            "c2": 7385338,
+            "c3": "",
+            "c4": "",
+            "c5": "",
+            "c6": "",
+            "c7": "https://www.spot.ph/",
+            "c8": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "c9": "",
+            "cs_it": "b9",
+            "cv": "4.0.0+2301240627",
+            "ns__t": 1708320031077,
+            "ns_c": "UTF-8"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/b?c1=2&c2=7385338&cs_it=b9&cv=4.0.0%2B2301240627&ns__t=1708320031077&ns_c=UTF-8&c3=&c4=&c5=&c6=&c15=&c7=https%3A%2F%2Fwww.spot.ph%2F&c8=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&c9="
+      },
+      {
+        "data": {
+          "filter": "||pagead2.googlesyndication.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      },
+      {
+        "data": {
+          "filter": "||omguk.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "aid": 2109697,
+            "ref": "https://www.spot.ph/"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://track.omguk.com/la?aid=2109697&ref=https%3A//www.spot.ph/"
+      },
+      {
+        "data": {
+          "filter": "||clarity.ms^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.clarity.ms/tag/eufif1gs6l"
+      },
+      {
+        "data": {
+          "filter": "/fbevents.js",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-PRCQ2GV",
+            "l": "dataLayer"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PRCQ2GV&l=dataLayer"
+      },
+      {
+        "data": {
+          "filter": "||googleadservices.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "async": 1,
+            "auid": 49428142.170832,
+            "bg": "ffffff",
+            "bttype": "purchase",
+            "capi": 2,
+            "cv": 11,
+            "dma": 0,
+            "fmt": 4,
+            "frm": 0,
+            "fst": 1708320030968,
+            "gcd": "13l3l3l3l1",
+            "gtm": "45He42e0v71527196za200",
+            "guid": "ON",
+            "hn": "www.googleadservices.com",
+            "label": "k-KjCJurqY0CELGG_qAC",
+            "npa": 0,
+            "pscdl": "noapi",
+            "random": 1708320030968,
+            "rfmt": 3,
+            "tiba": "Spot.ph: Your One-Stop Urban Lifestyle Guide to the Best of Manila",
+            "u_h": 812,
+            "u_w": 375,
+            "uamb": 0,
+            "uaw": 0,
+            "url": "https://www.spot.ph/",
+            "value": 0
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googleadservices.com/pagead/conversion/606044977/?random=1708320030968&cv=11&fst=1708320030968&bg=ffffff&guid=ON&async=1&gtm=45He42e0v71527196za200&gcd=13l3l3l3l1&dma=0&u_w=375&u_h=812&url=https%3A%2F%2Fwww.spot.ph%2F&label=k-KjCJurqY0CELGG_qAC&hn=www.googleadservices.com&frm=0&tiba=Spot.ph%3A%20Your%20One-Stop%20Urban%20Lifestyle%20Guide%20to%20the%20Best%20of%20Manila&value=0&bttype=purchase&npa=0&pscdl=noapi&auid=49428142.1708320031&uamb=0&uaw=0&capi=2&rfmt=3&fmt=4"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 7
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-1080309.js?sv=7"
+      },
+      {
+        "data": {
+          "filter": ".google-analytics.com/",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "c": 14994
+          }
+        },
+        "stack": [
+          {
+            "fileName": "",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/shared/2/lt.iframe.html?c=14994"
+      },
+      {
+        "data": {
+          "filter": "||scorecardresearch.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://sb.scorecardresearch.com/beacon.js"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat.js"
+      },
+      {
+        "data": {
+          "filter": "||hotjar.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "sv": 6
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.hotjar.com/c/hotjar-2013359.js?sv=6"
+      },
+      {
+        "data": {
+          "filter": "||amazon-adsystem.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+      },
+      {
+        "data": {
+          "filter": "://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.doordash.com|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lollipod.de|~ads.magalu.com|~ads.mba|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ads.pubmatic.com/AdServer/js/pwt/158269/1574/pwt.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagmanager.com^",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "id": "GTM-W6HS4M"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W6HS4M"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://tags.crwdcntrl.net/lt/c/14994/lt.min.js"
+      },
+      {
+        "data": {
+          "filter": "||crwdcntrl.net^",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://ad.crwdcntrl.net/5/c=14966/pe=y/var=ccauds"
+      },
+      {
+        "data": {
+          "filter": "||chartbeat.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.chartbeat.com/js/chartbeat_mab.js"
+      },
+      {
+        "data": {
+          "filter": "||adpushup.com^$third-party",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://cdn.adpushup.com/44289/adpushup.js"
+      },
+      {
+        "data": {
+          "filter": "||googletagservices.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://www.spot.ph/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.googletagservices.com/tag/js/gpt.js"
       }
     ]
   }

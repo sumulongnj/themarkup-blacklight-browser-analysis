@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blacklight Privacy Tool</title>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+    body {
+      font-family: "Open Sans";
+      padding: 20px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: "Oswald";
+      font-size: 100px;
+      margin-bottom: 20px;
+      text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .form-container {
+      text-align: center;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .form-container label {
+      margin-right: 5px;
+    }
+
+    .form-container input[type="text"] {
+      padding: 8px;
+      border-radius: 4px;
+      border: 1px solid black;
+      margin-right: 10px;
+    }
+
+    .form-container button {
+      padding: 8px 20px;
+      border-radius: 4px;
+      border: none;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      font-family: 'Oswald';
+    }
+
+    .result-column {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: white;
+      box-sizing: border-box;
+    }
+
+    .result-column h2 {
+      margin-top: 0;
+      color: #26081C;
+      text-align: center;
+      font-family: "Oswald";
+    }
+
+    .result-column pre {
+      white-space: pre-wrap;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .loading-spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-top: 4px solid black;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+    }
+
+    .found {
+      color: green;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+</head>
+
+<body class="w3-white">
+  <div class="w3-bar w3-black w3-hide-small">
+    <a href="https://github.com/sumulongnj/themarkup-blacklight-browser-analysis" class="w3-bar-item w3-button"><i
+        class="fa fa-github"></i></a>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Blacklight Privacy Tool</b></h1>
+    <h6>A Real-Time Website Privacy Inspector <span class="w3-tag">Utilizing Chrome, Firefox, and Safari</span></h6>
+  </header>
+
+  <div class="container w3-container w3-white w3-padding-large">
+    <div class="form-container">
+      <form id="scanForm">
+        <label for="urlInput" style="color: black;">URL:</label>
+        <input type="text" id="urlInput" name="url" required>
+        <button type="submit">Scan</button>
+      </form>
+      <div class="loading-spinner" id="loadingSpinner"></div>
+    </div>
+
+    <div class="result-column">
+      <h2 class="w3-light-grey">Chrome (Blink) Results</h2>
+      <p>Version 111.0.5555.0</p>
+      <div id="resultsChromium">
+        <h2></h2>
+      </div>
+    </div>
+
+    <div class="result-column">
+      <h2 class="w3-light-grey">Firefox (Gecko) Results</h2>
+      <p>Version 119.0</p>
+      <div id="resultsFirefox">
+        <h2></h2>
+      </div>
+    </div>
+
+    <div class="result-column">
+      <h2 class="w3-light-grey">Safari (Webkit) Results</h2>
+      <p>Version 17.4</p>
+      <div id="resultsWebkit">
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

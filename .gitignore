@@ -70,7 +70,7 @@ build
 **/*/inspection.json
 **/*/requests.har
 **/*/browser-cookies.json
-**/*/*.html
+# **/*/*.html
 **/*/*.jpeg
 **/*/*.zip
 !__tests__/test-data/britishmuseum/*

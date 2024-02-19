@@ -89,3 +89,4 @@ build
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+demo-dir/

@@ -82,16 +82,32 @@
 
       // 1. Ad Trackers
       if (result.adTrackers > 0) {
-        output += `<span class="found">${result.adTrackers} ad tracker(s) found on this site.</span><br><br>`;
+        output += `
+          <details>
+            <summary class="found">${result.adTrackers} ad tracker(s) found on this site.</summary>
+            <ol id="${elementId}AdTrackers" class="ad-trackers-list">${result.uniqueFiltersArray.map(tracker => `<li>${tracker}</li>`).join('')}</ol>
+          </details><br><br>`;
       } else {
-        output += 'Ad trackers not found on this site.<br><br>';
+        output += `
+          <details>
+            <summary>Ad-trackers not found on this site.</summary>
+            <ol id="${elementId}AdTrackers" class="ad-trackers-list">NONE</ol>
+          </details><br><br>`;
       }
 
       // 2. Third-party Cookies
       if (result.thirdPartyCookies > 0) {
-        output += `<span class="found">${result.thirdPartyCookies} third-party cookie(s) found.</span><br><br>`;
+        output += `
+          <details>
+            <summary class="found">${result.thirdPartyCookies} third-party cookie(s) found.</summary>
+            <ol id="${elementId}Cookies" class="ad-trackers-list">${result.thirdPartyCookiesArray.map(tracker => `<li>${tracker}</li>`).join('')}</ol>
+          </details><br><br>`;
       } else {
-        output += 'Third-party cookies not found.<br><br>';
+        output += `
+          <details>
+            <summary>Third-party cookies not found on this site.</summary>
+            <ol id="${elementId}Cookies" class="ad-trackers-list">NONE</ol>
+          </details><br><br>`;
       }
 
       // 3. Canvas Fingerprinting
@@ -147,7 +163,7 @@
   function clearResult(elementId) {
     const resultsDiv = document.getElementById(elementId);
     if (resultsDiv) {
-      resultsDiv.innerHTML = ''; 
+      resultsDiv.innerHTML = '';
     }
   }
 

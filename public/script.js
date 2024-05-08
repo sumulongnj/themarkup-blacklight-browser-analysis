@@ -125,17 +125,17 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             var output = '';
             // 1. Ad Trackers
             if (result.adTrackers > 0) {
-                output += "<span class=\"found\">".concat(result.adTrackers, " ad tracker(s) found on this site.</span><br><br>");
+                output += "\n          <details>\n            <summary class=\"found\">".concat(result.adTrackers, " ad tracker(s) found on this site.</summary>\n            <ol id=\"").concat(elementId, "AdTrackers\" class=\"ad-trackers-list\">").concat(result.uniqueFiltersArray.map(function (tracker) { return "<li>".concat(tracker, "</li>"); }).join(''), "</ol>\n          </details><br><br>");
             }
             else {
-                output += 'Ad trackers not found on this site.<br><br>';
+                output += "\n          <details>\n            <summary>Ad-trackers not found on this site.</summary>\n            <ol id=\"".concat(elementId, "AdTrackers\" class=\"ad-trackers-list\">NONE</ol>\n          </details><br><br>");
             }
             // 2. Third-party Cookies
             if (result.thirdPartyCookies > 0) {
-                output += "<span class=\"found\">".concat(result.thirdPartyCookies, " third-party cookie(s) found.</span><br><br>");
+                output += "\n          <details>\n            <summary class=\"found\">".concat(result.thirdPartyCookies, " third-party cookie(s) found.</summary>\n            <ol id=\"").concat(elementId, "Cookies\" class=\"ad-trackers-list\">").concat(result.thirdPartyCookiesArray.map(function (tracker) { return "<li>".concat(tracker, "</li>"); }).join(''), "</ol>\n          </details><br><br>");
             }
             else {
-                output += 'Third-party cookies not found.<br><br>';
+                output += "\n          <details>\n            <summary>Third-party cookies not found on this site.</summary>\n            <ol id=\"".concat(elementId, "Cookies\" class=\"ad-trackers-list\">NONE</ol>\n          </details><br><br>");
             }
             // 3. Canvas Fingerprinting
             // Check for canvas_fingerprinters and canvas_font_fingerprinters for tracking that evades cookie blockers

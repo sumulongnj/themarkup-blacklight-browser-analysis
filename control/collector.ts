@@ -109,7 +109,7 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
     const options = {
         ...defaultPuppeteerBrowserOptions,
         args: [...defaultPuppeteerBrowserOptions.args, ...args.extraChromiumArgs],
-        headless: args.headless,
+        headless: true,
         userDataDir
     };
     if (args.puppeteerExecutablePath) {
@@ -249,9 +249,9 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         }
     }
     await fillForms(page);
-    // console.log('... done with fillForms');
+    console.log('... done with fillForms');
     await autoScroll(page);
-    // console.log('... done with autoScroll');
+    console.log('... done with autoScroll');
 
     let subDomainLinks = [];
     if (getSubdomain(output.uri_dest) !== 'www') {
@@ -281,23 +281,23 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         await navigateWithTimeout(page, link, args.defaultTimeout, args.defaultWaitUntil as PuppeteerLifeCycleEvent);
 
         await fillForms(page);
-        // console.log('... done with fillForms (2)');
+        console.log('... done with fillForms (2)');
 
         await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for 1 second
         pageIndex++;
 
         duplicatedLinks = duplicatedLinks.concat(await getLinks(page));
         await autoScroll(page);
-        // console.log('... done with autoScroll (2)');
+        console.log('... done with autoScroll (2)');
     }
 
-    // console.log('saving cookies');
+    console.log('saving cookies');
     await captureBrowserCookies(page, args.outDir);
-    // console.log('... done saving cookies');
+    console.log('... done saving cookies');
     if (args.captureHar) {
-        // console.log('saving har');
+        console.log('saving har');
         await har.stop();
-        // console.log('... done saving har');
+        console.log('... done saving har');
     }
 
     // console.log('closing browser');

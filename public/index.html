@@ -78,6 +78,8 @@
       border-radius: 5px;
       background-color: white;
       box-sizing: border-box;
+      max-width: 300px;
+      overflow: auto;
     }
 
     .result-column h2 {
@@ -126,6 +128,19 @@
       }
     }
 
+    .ad-trackers-list {
+      list-style-type: decimal;
+      flex: 1;
+      margin: 10px;
+      border-radius: 5px;
+      background-color: white;
+      box-sizing: border-box;
+    }
+
+    details ol {
+      list-style: none;
+      margin: 10px;
+    }
   </style>
 </head>
 
@@ -137,7 +152,7 @@
 
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-48 w3-white">
-    <h1 class="w3-xxxlarge"><b>Blacklight Privacy Tool</b></h1>
+    <h1 class="w3-xxxlarge"><b>PrivaCheck</b></h1>
     <h6>A Real-Time Website Privacy Inspector <span class="w3-tag">Utilizing Chrome, Firefox, and Safari</span></h6>
   </header>
 
@@ -153,17 +168,19 @@
 
     <div class="result-column">
       <h2 class="w3-light-grey">Chrome (Blink) Results</h2>
-      <p>Version 111.0.5555.0</p>
+      <p>Version 123.0.6312.4</p>
       <div id="resultsChromium">
-        <h2></h2>
+        <ol id="resultsChromiumAdTrackers" class="ad-trackers-list"></ol>
+        <ol id="resultsChromiumCookies" class="ad-trackers-list"></ol>
       </div>
     </div>
 
     <div class="result-column">
       <h2 class="w3-light-grey">Firefox (Gecko) Results</h2>
-      <p>Version 119.0</p>
+      <p>Version 123.0</p>
       <div id="resultsFirefox">
-        <h2></h2>
+        <ol id="resultsFirefoxAdTrackers" class="ad-trackers-list"></ol>
+        <ol id="resultsFirefoxCookies" class="ad-trackers-list"></ol>
       </div>
     </div>
 
@@ -171,7 +188,8 @@
       <h2 class="w3-light-grey">Safari (Webkit) Results</h2>
       <p>Version 17.4</p>
       <div id="resultsWebkit">
-        <h2></h2>
+        <ol id="resultsWebkitAdTrackers" class="ad-trackers-list"></ol>
+        <ol id="resultsWebkitCookies" class="ad-trackers-list"></ol>
       </div>
     </div>
   </div>

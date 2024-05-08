@@ -46,7 +46,7 @@
     "path": "^0.12.7",
     "playwright": "^1.40.0",
     "playwright-har": "^0.1.1",
-    "puppeteer": "^19.7.5",
+    "puppeteer": "^19.11.1",
     "puppeteer-har": "^1.1.1",
     "run": "^1.4.0",
     "stacktrace-js": "^2.0.1",

@@ -1,22 +1,25 @@
 {
   "status": "success",
-  "args": "Blacklight Inspection",
-  "uri_ins": "http://example.com",
-  "uri_dest": "http://example.com/",
-  "uri_redirects": [],
+  "args": "PrivaCheck",
+  "uri_ins": "http://twitter.com",
+  "uri_dest": "https://twitter.com/",
+  "uri_redirects": {
+    "_type": "Request",
+    "_guid": "request@e46d97f1153dd002044264509e9e9699"
+  },
   "secure_connection": {},
-  "host": "example.com",
+  "host": "twitter.com",
   "config": {
-    "cleareCache": true,
+    "clearCache": true,
     "captureHar": true,
-    "captureLinks": false,
+    "captureLinks": true,
     "enableAdBlock": false,
     "numPages": 1
   },
   "browser": {
     "name": "Chromium",
-    "version": "HeadlessChrome/111.0.5555.0",
-    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/111.0.5555.0 Safari/537.36",
+    "version": "123.0.6312.4",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
     "platform": {
       "name": "Darwin",
       "version": "23.0.0"
@@ -30,21 +33,1278 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-02-19T07:00:18.137Z",
-  "end_time": "2024-02-19T07:00:23.109Z",
+  "start_time": "2024-05-08T08:38:25.521Z",
+  "end_time": "2024-05-08T08:38:38.041Z",
   "browsing_history": [
-    "http://example.com/"
+    "https://twitter.com/",
+    "https://twitter.com/privacy"
   ],
   "hosts": {
     "requests": {
       "first_party": [
-        "example.com"
+        "twitter.com",
+        "api.twitter.com",
+        "analytics.twitter.com",
+        "platform.twitter.com",
+        "fonts.twitter.com",
+        "syndication.twitter.com"
       ],
-      "third_party": []
+      "third_party": [
+        "abs.twimg.com",
+        "accounts.google.com",
+        "appleid.cdn-apple.com",
+        "static.ads-twitter.com",
+        "t.co",
+        "www.google-analytics.com",
+        "fonts.gstatic.com",
+        "cdn.cms-twdigitalassets.com"
+      ]
     }
   },
+  "links": {
+    "first_party": [
+      {
+        "href": "https://twitter.com/i/flow/signup",
+        "inner_html": "<div dir=\"ltr\" class=\"css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci\" style=\"text-overflow: unset; color: rgb(255, 255, 255);\"><span class=\"css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-a023e6 r-rjixqe\" style=\"text-overflow: unset;\"><span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Create account</span></span></div>",
+        "inner_text": "Create account"
+      },
+      {
+        "href": "https://twitter.com/tos",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Terms of Service</span>",
+        "inner_text": "Terms of Service"
+      },
+      {
+        "href": "https://twitter.com/privacy",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Privacy Policy</span>",
+        "inner_text": "Privacy Policy"
+      },
+      {
+        "href": "https://help.twitter.com/rules-and-policies/twitter-cookies",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Cookie Use.</span>",
+        "inner_text": "Cookie Use."
+      },
+      {
+        "href": "https://twitter.com/login",
+        "inner_html": "<div dir=\"ltr\" class=\"css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci\" style=\"text-overflow: unset; color: rgb(29, 155, 240);\"><span class=\"css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-a023e6 r-rjixqe\" style=\"text-overflow: unset;\"><span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Sign in</span></span></div>",
+        "inner_text": "Sign in"
+      },
+      {
+        "href": "https://about.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">About</span>",
+        "inner_text": "About"
+      },
+      {
+        "href": "https://help.twitter.com/using-x/download-the-x-app",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Download the X app</span>",
+        "inner_text": "Download the X app"
+      },
+      {
+        "href": "https://help.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Help Center</span>",
+        "inner_text": "Help Center"
+      },
+      {
+        "href": "https://support.twitter.com/articles/20170514",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Cookie Policy</span>",
+        "inner_text": "Cookie Policy"
+      },
+      {
+        "href": "https://help.twitter.com/resources/accessibility",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Accessibility</span>",
+        "inner_text": "Accessibility"
+      },
+      {
+        "href": "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Ads info</span>",
+        "inner_text": "Ads info"
+      },
+      {
+        "href": "https://blog.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Blog</span>",
+        "inner_text": "Blog"
+      },
+      {
+        "href": "https://careers.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Careers</span>",
+        "inner_text": "Careers"
+      },
+      {
+        "href": "https://about.twitter.com/press/brand-assets",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Brand Resources</span>",
+        "inner_text": "Brand Resources"
+      },
+      {
+        "href": "https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Advertising</span>",
+        "inner_text": "Advertising"
+      },
+      {
+        "href": "https://marketing.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Marketing</span>",
+        "inner_text": "Marketing"
+      },
+      {
+        "href": "https://business.twitter.com/?ref=web-twc-ao-gbl-twitterforbusiness&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=twitterforbusiness",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">X for Business</span>",
+        "inner_text": "X for Business"
+      },
+      {
+        "href": "https://developer.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Developers</span>",
+        "inner_text": "Developers"
+      },
+      {
+        "href": "https://twitter.com/i/directory/profiles",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Directory</span>",
+        "inner_text": "Directory"
+      },
+      {
+        "href": "https://twitter.com/settings",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Settings</span>",
+        "inner_text": "Settings"
+      },
+      {
+        "href": "https://twitter.com/i/flow/signup",
+        "inner_html": "<div dir=\"ltr\" class=\"css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci\" style=\"text-overflow: unset; color: rgb(255, 255, 255);\"><span class=\"css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-a023e6 r-rjixqe\" style=\"text-overflow: unset;\"><span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Create account</span></span></div>",
+        "inner_text": "Create account"
+      },
+      {
+        "href": "https://twitter.com/tos",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Terms of Service</span>",
+        "inner_text": "Terms of Service"
+      },
+      {
+        "href": "https://twitter.com/privacy",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Privacy Policy</span>",
+        "inner_text": "Privacy Policy"
+      },
+      {
+        "href": "https://help.twitter.com/rules-and-policies/twitter-cookies",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Cookie Use.</span>",
+        "inner_text": "Cookie Use."
+      },
+      {
+        "href": "https://twitter.com/login",
+        "inner_html": "<div dir=\"ltr\" class=\"css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci\" style=\"text-overflow: unset; color: rgb(29, 155, 240);\"><span class=\"css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-a023e6 r-rjixqe\" style=\"text-overflow: unset;\"><span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Sign in</span></span></div>",
+        "inner_text": "Sign in"
+      },
+      {
+        "href": "https://about.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">About</span>",
+        "inner_text": "About"
+      },
+      {
+        "href": "https://help.twitter.com/using-x/download-the-x-app",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Download the X app</span>",
+        "inner_text": "Download the X app"
+      },
+      {
+        "href": "https://help.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Help Center</span>",
+        "inner_text": "Help Center"
+      },
+      {
+        "href": "https://support.twitter.com/articles/20170514",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Cookie Policy</span>",
+        "inner_text": "Cookie Policy"
+      },
+      {
+        "href": "https://help.twitter.com/resources/accessibility",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Accessibility</span>",
+        "inner_text": "Accessibility"
+      },
+      {
+        "href": "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Ads info</span>",
+        "inner_text": "Ads info"
+      },
+      {
+        "href": "https://blog.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Blog</span>",
+        "inner_text": "Blog"
+      },
+      {
+        "href": "https://careers.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Careers</span>",
+        "inner_text": "Careers"
+      },
+      {
+        "href": "https://about.twitter.com/press/brand-assets",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Brand Resources</span>",
+        "inner_text": "Brand Resources"
+      },
+      {
+        "href": "https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Advertising</span>",
+        "inner_text": "Advertising"
+      },
+      {
+        "href": "https://marketing.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Marketing</span>",
+        "inner_text": "Marketing"
+      },
+      {
+        "href": "https://business.twitter.com/?ref=web-twc-ao-gbl-twitterforbusiness&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=twitterforbusiness",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">X for Business</span>",
+        "inner_text": "X for Business"
+      },
+      {
+        "href": "https://developer.twitter.com/",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Developers</span>",
+        "inner_text": "Developers"
+      },
+      {
+        "href": "https://twitter.com/i/directory/profiles",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Directory</span>",
+        "inner_text": "Directory"
+      },
+      {
+        "href": "https://twitter.com/settings",
+        "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Settings</span>",
+        "inner_text": "Settings"
+      },
+      {
+        "href": "https://twitter.com/en/privacy",
+        "inner_html": "Skip to main content",
+        "inner_text": "Skip to main content"
+      },
+      {
+        "href": "https://twitter.com/settings/privacy_and_safety",
+        "inner_html": "Privacy Settings",
+        "inner_text": "Privacy Settings"
+      },
+      {
+        "href": "https://privacy.twitter.com/",
+        "inner_html": "Privacy Center",
+        "inner_text": "Privacy Center"
+      },
+      {
+        "href": "https://twitter.com/privacy/previous",
+        "inner_html": "Policy Archive",
+        "inner_text": "Policy Archive"
+      },
+      {
+        "href": "https://help.twitter.com/en/rules-and-policies/twitter-services-and-corporate-affiliates.html",
+        "inner_html": "<u>Learn about affiliates</u>",
+        "inner_text": "Learn about affiliates"
+      },
+      {
+        "href": "https://twitter.com/settings/account",
+        "inner_html": "Learn how to update your settings",
+        "inner_text": "Learn how to update your settings"
+      },
+      {
+        "href": "https://business.twitter.com/en/help/account-setup/professional-accounts.html",
+        "inner_html": "<u>professional account</u>",
+        "inner_text": "professional account"
+      },
+      {
+        "href": "https://twitter.com/settings/",
+        "inner_html": "<u>settings</u>",
+        "inner_text": "settings"
+      },
+      {
+        "href": "https://help.twitter.com/safety-and-security/data-through-partnerships",
+        "inner_html": "<u>Help Center</u>",
+        "inner_text": "Help Center"
+      },
+      {
+        "href": "https://twitter.com/settings/your_twitter_data",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.twitter.com/forms/privacy",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.twitter.com/managing-your-account/how-to-download-your-twitter-archive",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://help.twitter.com/rules-and-policies/twitter-services-and-corporate-affiliates",
+        "inner_html": "<u>our affiliates</u>",
+        "inner_text": "our affiliates"
+      },
+      {
+        "href": "https://publish.twitter.com/",
+        "inner_html": "Embed a post",
+        "inner_text": "Embed a post"
+      },
+      {
+        "href": "https://transparency.twitter.com/",
+        "inner_html": "Transparency Center",
+        "inner_text": "Transparency Center"
+      },
+      {
+        "href": "https://about.twitter.com/en/who-we-are/our-company.html",
+        "inner_html": "About the company",
+        "inner_text": "About the company"
+      },
+      {
+        "href": "https://about.twitter.com/en/who-we-are/brand-toolkit.html",
+        "inner_html": "Brand toolkit",
+        "inner_text": "Brand toolkit"
+      },
+      {
+        "href": "https://help.twitter.com/en/using-twitter",
+        "inner_html": "Using X",
+        "inner_text": "Using X"
+      },
+      {
+        "href": "https://create.twitter.com/",
+        "inner_html": "X for creators",
+        "inner_text": "X for creators"
+      },
+      {
+        "href": "https://business.twitter.com/en/help.html",
+        "inner_html": "Ads Help Center",
+        "inner_text": "Ads Help Center"
+      },
+      {
+        "href": "https://help.twitter.com/en/managing-your-account",
+        "inner_html": "Managing your account",
+        "inner_text": "Managing your account"
+      },
+      {
+        "href": "https://preferencecenter.twitter.com/",
+        "inner_html": "Email Preference Center",
+        "inner_text": "Email Preference Center"
+      },
+      {
+        "href": "https://help.twitter.com/en/rules-and-policies",
+        "inner_html": "Rules and policies",
+        "inner_text": "Rules and policies"
+      },
+      {
+        "href": "https://help.twitter.com/en/forms.html",
+        "inner_html": "Contact us",
+        "inner_text": "Contact us"
+      },
+      {
+        "href": "https://developer.twitter.com/en",
+        "inner_html": "Developer home",
+        "inner_text": "Developer home"
+      },
+      {
+        "href": "https://developer.twitter.com/en/docs",
+        "inner_html": "Documentation",
+        "inner_text": "Documentation"
+      },
+      {
+        "href": "https://developer.twitter.com/en/community",
+        "inner_html": "Communities",
+        "inner_text": "Communities"
+      },
+      {
+        "href": "https://blog.twitter.com/developer/",
+        "inner_html": "Developer blog",
+        "inner_text": "Developer blog"
+      },
+      {
+        "href": "https://blog.twitter.com/engineering/en_us.html",
+        "inner_html": "Engineering blog",
+        "inner_text": "Engineering blog"
+      },
+      {
+        "href": "https://developer.twitter.com/en/more/developer-terms",
+        "inner_html": "Developer terms",
+        "inner_text": "Developer terms"
+      },
+      {
+        "href": "https://business.twitter.com/en/advertising.html",
+        "inner_html": "Advertise",
+        "inner_text": "Advertise"
+      },
+      {
+        "href": "https://business.twitter.com/",
+        "inner_html": "X for business",
+        "inner_text": "X for business"
+      },
+      {
+        "href": "https://business.twitter.com/en/resources.html",
+        "inner_html": "Resources and guides",
+        "inner_text": "Resources and guides"
+      },
+      {
+        "href": "https://marketing.twitter.com/en/insights",
+        "inner_html": "Marketing insights",
+        "inner_text": "Marketing insights"
+      },
+      {
+        "href": "https://marketing.twitter.com/en/success-stories",
+        "inner_html": "Brand inspiration",
+        "inner_text": "Brand inspiration"
+      },
+      {
+        "href": "https://twitter.com/id/privacy",
+        "inner_html": "Bahasa Indonesia",
+        "inner_text": "\n              Bahasa Indonesia\n            "
+      },
+      {
+        "href": "https://twitter.com/es/privacy",
+        "inner_html": "Español",
+        "inner_text": "\n              Español\n            "
+      },
+      {
+        "href": "https://twitter.com/fr/privacy",
+        "inner_html": "Français",
+        "inner_text": "\n              Français\n            "
+      },
+      {
+        "href": "https://twitter.com/de/privacy",
+        "inner_html": "Deutsch",
+        "inner_text": "\n              Deutsch\n            "
+      },
+      {
+        "href": "https://twitter.com/it/privacy",
+        "inner_html": "Italiano",
+        "inner_text": "\n              Italiano\n            "
+      },
+      {
+        "href": "https://twitter.com/ja/privacy",
+        "inner_html": "日本語",
+        "inner_text": "\n              日本語 \n            "
+      },
+      {
+        "href": "https://twitter.com/ko/privacy",
+        "inner_html": "한국어",
+        "inner_text": "\n              한국어 \n            "
+      },
+      {
+        "href": "https://twitter.com/pt/privacy",
+        "inner_html": "Português",
+        "inner_text": "\n              Português\n            "
+      },
+      {
+        "href": "https://twitter.com/ru/privacy",
+        "inner_html": "Русский",
+        "inner_text": "\n              Русский\n            "
+      },
+      {
+        "href": "https://twitter.com/sk/privacy",
+        "inner_html": "Slovenčina",
+        "inner_text": "\n              Slovenčina\n            "
+      },
+      {
+        "href": "https://twitter.com/bg/privacy",
+        "inner_html": "Български",
+        "inner_text": "\n              Български\n            "
+      },
+      {
+        "href": "https://twitter.com/cs/privacy",
+        "inner_html": "Čeština",
+        "inner_text": "\n              Čeština\n            "
+      },
+      {
+        "href": "https://twitter.com/da/privacy",
+        "inner_html": "Dansk",
+        "inner_text": "\n              Dansk\n            "
+      },
+      {
+        "href": "https://twitter.com/el/privacy",
+        "inner_html": "Ελληνικά",
+        "inner_text": "\n              Ελληνικά\n            "
+      },
+      {
+        "href": "https://twitter.com/et/privacy",
+        "inner_html": "Eesti",
+        "inner_text": "\n              Eesti\n            "
+      },
+      {
+        "href": "https://twitter.com/fi/privacy",
+        "inner_html": "Suomi",
+        "inner_text": "\n              Suomi\n            "
+      },
+      {
+        "href": "https://twitter.com/ga/privacy",
+        "inner_html": "Gaeilge",
+        "inner_text": "\n              Gaeilge\n            "
+      },
+      {
+        "href": "https://twitter.com/hr/privacy",
+        "inner_html": "Hrvatski",
+        "inner_text": "\n              Hrvatski\n            "
+      },
+      {
+        "href": "https://twitter.com/hu/privacy",
+        "inner_html": "Magyar",
+        "inner_text": "\n              Magyar\n            "
+      },
+      {
+        "href": "https://twitter.com/lt/privacy",
+        "inner_html": "Lietuvių",
+        "inner_text": "\n              Lietuvių\n            "
+      },
+      {
+        "href": "https://twitter.com/lv/privacy",
+        "inner_html": "Latviešu",
+        "inner_text": "\n              Latviešu\n            "
+      },
+      {
+        "href": "https://twitter.com/mt/privacy",
+        "inner_html": "Malti",
+        "inner_text": "\n              Malti\n            "
+      },
+      {
+        "href": "https://twitter.com/nl/privacy",
+        "inner_html": "Nederlands",
+        "inner_text": "\n              Nederlands\n            "
+      },
+      {
+        "href": "https://twitter.com/pl/privacy",
+        "inner_html": "Polski",
+        "inner_text": "\n              Polski\n            "
+      },
+      {
+        "href": "https://twitter.com/ro/privacy",
+        "inner_html": "Română",
+        "inner_text": "\n              Română\n            "
+      },
+      {
+        "href": "https://twitter.com/sl/privacy",
+        "inner_html": "Slovenščina",
+        "inner_text": "\n              Slovenščina\n            "
+      },
+      {
+        "href": "https://twitter.com/sv/privacy",
+        "inner_html": "Svenska",
+        "inner_text": "\n              Svenska\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/ar",
+        "inner_html": "العربية",
+        "inner_text": "\n              العربية\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/fa",
+        "inner_html": "فارسی",
+        "inner_text": "\n              فارسی\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/hy",
+        "inner_html": "Հայերեն",
+        "inner_text": "\n              Հայերեն\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/km",
+        "inner_html": "ខ្មែរ",
+        "inner_text": "\n              ខ្មែរ\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/tl",
+        "inner_html": "Tagalog",
+        "inner_text": "\n              Tagalog\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/vi",
+        "inner_html": "Tiếng Việt",
+        "inner_text": "\n              Tiếng Việt\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/zh-cn",
+        "inner_html": "简体中文",
+        "inner_text": "\n              简体中文\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/zh-tw",
+        "inner_html": "繁體中文",
+        "inner_text": "\n              繁體中文\n            "
+      },
+      {
+        "href": "https://twitter.com/content/twitter-com/legal/hmn",
+        "inner_html": "Lus Hmoob",
+        "inner_text": "\n              Lus Hmoob\n            "
+      }
+    ],
+    "third_party": [
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-services-and-corporate-affiliates",
+        "inner_html": "<u>corporate affiliates</u>",
+        "inner_text": "corporate affiliates"
+      },
+      {
+        "href": "https://help.x.com/forms/privacy",
+        "inner_html": "<u>contact us</u>",
+        "inner_text": "contact us"
+      },
+      {
+        "href": "https://x.com/settings/account",
+        "inner_html": "<u>settings</u>",
+        "inner_text": "settings"
+      },
+      {
+        "href": "https://help.x.com/using-twitter/direct-messages",
+        "inner_html": "<u>Direct Messages</u>",
+        "inner_text": "Direct Messages"
+      },
+      {
+        "href": "https://help.x.com/safety-and-security/data-through-partnerships",
+        "inner_html": "<u>Help Center</u>",
+        "inner_text": "Help Center"
+      },
+      {
+        "href": "https://x.com/settings/privacy_and_safety",
+        "inner_html": "<u>Privacy &amp; Safety settings</u>",
+        "inner_text": "Privacy & Safety settings"
+      },
+      {
+        "href": "https://privacy.x.com/subprocessors",
+        "inner_html": "<u>service providers</u>",
+        "inner_text": "service providers"
+      },
+      {
+        "href": "https://help.x.com/managing-your-account/connect-or-revoke-access-to-third-party-apps?lang=browser",
+        "inner_html": "<u>authorize a third-party web client or application</u>",
+        "inner_text": "authorize a third-party web client or application"
+      },
+      {
+        "href": "https://x.com/settings/autoplay",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-api",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://developer.x.com/developer-terms",
+        "inner_html": "<u>standard terms</u>",
+        "inner_text": "standard terms"
+      },
+      {
+        "href": "https://developer.x.com/",
+        "inner_html": "<u>https://developer.x.com</u>",
+        "inner_text": "https://developer.x.com"
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-law-enforcement-support",
+        "inner_html": "<u>legal process, or governmental request</u>",
+        "inner_text": "legal process, or governmental request"
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-rules",
+        "inner_html": "<u>Our Rules</u>",
+        "inner_text": "Our Rules"
+      },
+      {
+        "href": "https://help.x.com/safety-and-security/remove-twitter-profile-from-google-search",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://help.x.com/managing-your-account/how-to-deactivate-twitter-account",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://help.x.com/using-twitter/spaces",
+        "inner_html": "<u>Space</u>",
+        "inner_text": "Space"
+      },
+      {
+        "href": "https://help.x.com/using-twitter/twitter-videos",
+        "inner_html": "<u>videos you upload</u>",
+        "inner_text": "videos you upload"
+      },
+      {
+        "href": "https://optout.aboutads.info/",
+        "inner_html": "<u>https://optout.aboutads.info/</u>",
+        "inner_text": "https://optout.aboutads.info/"
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/data-processing-legal-bases",
+        "inner_html": "<u>this additional information about data processing</u>",
+        "inner_text": "this additional information about data processing"
+      },
+      {
+        "href": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en",
+        "inner_html": "<u>standard contractual clauses</u>",
+        "inner_text": "standard contractual clauses"
+      },
+      {
+        "href": "https://www.dataprivacyframework.gov/list",
+        "inner_html": "<u>participant</u>",
+        "inner_text": "participant"
+      },
+      {
+        "href": "https://www.jamsadr.com/eu-us-privacy-shield",
+        "inner_html": "<u>JAMS</u>",
+        "inner_text": "JAMS"
+      },
+      {
+        "href": "https://www.dataprivacyframework.gov/framework-article/ANNEX-I-introduction",
+        "inner_html": "<u>Annex 1</u>",
+        "inner_text": "Annex 1"
+      },
+      {
+        "href": "https://www.dataprivacyframework.gov/s/",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://privacy.x.com/en/ccpa",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://twitter.ethicspointvp.com/custom/twitter/forms/data/form_data.asp",
+        "inner_html": "<u>Data Protection Inquiry Form</u>",
+        "inner_text": "Data Protection Inquiry Form"
+      },
+      {
+        "href": "https://www.dataprotection.ie/contact/how-contact-us",
+        "inner_html": "<u>contact details</u>",
+        "inner_text": "contact details"
+      },
+      {
+        "href": "https://x.com/",
+        "inner_html": "X.com",
+        "inner_text": "X.com"
+      },
+      {
+        "href": "https://status.twitterstat.us/",
+        "inner_html": "Status",
+        "inner_text": "Status"
+      },
+      {
+        "href": "https://investor.twitterinc.com/",
+        "inner_html": "Investors",
+        "inner_text": "Investors"
+      },
+      {
+        "href": "https://twittercommunity.com/",
+        "inner_html": "Forums",
+        "inner_text": "Forums"
+      },
+      {
+        "href": "https://www.xadsacademy.com/sl/5c3e29ed",
+        "inner_html": "X Ads Academy",
+        "inner_text": "X Ads Academy"
+      }
+    ]
+  },
+  "social": [
+    {
+      "href": "https://twitter.com/i/flow/signup",
+      "inner_html": "<div dir=\"ltr\" class=\"css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci\" style=\"text-overflow: unset; color: rgb(255, 255, 255);\"><span class=\"css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-a023e6 r-rjixqe\" style=\"text-overflow: unset;\"><span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Create account</span></span></div>",
+      "inner_text": "Create account"
+    },
+    {
+      "href": "https://twitter.com/tos",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Terms of Service</span>",
+      "inner_text": "Terms of Service"
+    },
+    {
+      "href": "https://twitter.com/privacy",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Privacy Policy</span>",
+      "inner_text": "Privacy Policy"
+    },
+    {
+      "href": "https://help.twitter.com/rules-and-policies/twitter-cookies",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Cookie Use.</span>",
+      "inner_text": "Cookie Use."
+    },
+    {
+      "href": "https://twitter.com/login",
+      "inner_html": "<div dir=\"ltr\" class=\"css-1rynq56 r-bcqeeo r-qvutc0 r-37j5jr r-q4m81j r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-18u37iz r-16y2uox r-1777fci\" style=\"text-overflow: unset; color: rgb(29, 155, 240);\"><span class=\"css-1qaijid r-dnmrzs r-1udh08x r-3s2u2q r-bcqeeo r-qvutc0 r-poiln3 r-a023e6 r-rjixqe\" style=\"text-overflow: unset;\"><span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Sign in</span></span></div>",
+      "inner_text": "Sign in"
+    },
+    {
+      "href": "https://about.twitter.com/",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">About</span>",
+      "inner_text": "About"
+    },
+    {
+      "href": "https://help.twitter.com/using-x/download-the-x-app",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Download the X app</span>",
+      "inner_text": "Download the X app"
+    },
+    {
+      "href": "https://help.twitter.com/",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Help Center</span>",
+      "inner_text": "Help Center"
+    },
+    {
+      "href": "https://support.twitter.com/articles/20170514",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Cookie Policy</span>",
+      "inner_text": "Cookie Policy"
+    },
+    {
+      "href": "https://help.twitter.com/resources/accessibility",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Accessibility</span>",
+      "inner_text": "Accessibility"
+    },
+    {
+      "href": "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Ads info</span>",
+      "inner_text": "Ads info"
+    },
+    {
+      "href": "https://blog.twitter.com/",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Blog</span>",
+      "inner_text": "Blog"
+    },
+    {
+      "href": "https://careers.twitter.com/",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Careers</span>",
+      "inner_text": "Careers"
+    },
+    {
+      "href": "https://about.twitter.com/press/brand-assets",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Brand Resources</span>",
+      "inner_text": "Brand Resources"
+    },
+    {
+      "href": "https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Advertising</span>",
+      "inner_text": "Advertising"
+    },
+    {
+      "href": "https://marketing.twitter.com/",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Marketing</span>",
+      "inner_text": "Marketing"
+    },
+    {
+      "href": "https://business.twitter.com/?ref=web-twc-ao-gbl-twitterforbusiness&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=twitterforbusiness",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">X for Business</span>",
+      "inner_text": "X for Business"
+    },
+    {
+      "href": "https://developer.twitter.com/",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Developers</span>",
+      "inner_text": "Developers"
+    },
+    {
+      "href": "https://twitter.com/i/directory/profiles",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Directory</span>",
+      "inner_text": "Directory"
+    },
+    {
+      "href": "https://twitter.com/settings",
+      "inner_html": "<span class=\"css-1qaijid r-bcqeeo r-qvutc0 r-poiln3\" style=\"text-overflow: unset;\">Settings</span>",
+      "inner_text": "Settings"
+    },
+    {
+      "href": "https://twitter.com/en/privacy",
+      "inner_html": "Skip to main content",
+      "inner_text": "Skip to main content"
+    },
+    {
+      "href": "https://twitter.com/settings/privacy_and_safety",
+      "inner_html": "Privacy Settings",
+      "inner_text": "Privacy Settings"
+    },
+    {
+      "href": "https://privacy.twitter.com/",
+      "inner_html": "Privacy Center",
+      "inner_text": "Privacy Center"
+    },
+    {
+      "href": "https://twitter.com/privacy/previous",
+      "inner_html": "Policy Archive",
+      "inner_text": "Policy Archive"
+    },
+    {
+      "href": "https://help.twitter.com/en/rules-and-policies/twitter-services-and-corporate-affiliates.html",
+      "inner_html": "<u>Learn about affiliates</u>",
+      "inner_text": "Learn about affiliates"
+    },
+    {
+      "href": "https://twitter.com/settings/account",
+      "inner_html": "Learn how to update your settings",
+      "inner_text": "Learn how to update your settings"
+    },
+    {
+      "href": "https://business.twitter.com/en/help/account-setup/professional-accounts.html",
+      "inner_html": "<u>professional account</u>",
+      "inner_text": "professional account"
+    },
+    {
+      "href": "https://twitter.com/settings/",
+      "inner_html": "<u>settings</u>",
+      "inner_text": "settings"
+    },
+    {
+      "href": "https://help.twitter.com/safety-and-security/data-through-partnerships",
+      "inner_html": "<u>Help Center</u>",
+      "inner_text": "Help Center"
+    },
+    {
+      "href": "https://twitter.com/settings/your_twitter_data",
+      "inner_html": "",
+      "inner_text": " "
+    },
+    {
+      "href": "https://help.twitter.com/forms/privacy",
+      "inner_html": "",
+      "inner_text": " "
+    },
+    {
+      "href": "https://help.twitter.com/managing-your-account/how-to-download-your-twitter-archive",
+      "inner_html": "<u>here</u>",
+      "inner_text": "here"
+    },
+    {
+      "href": "https://help.twitter.com/rules-and-policies/twitter-services-and-corporate-affiliates",
+      "inner_html": "<u>our affiliates</u>",
+      "inner_text": "our affiliates"
+    },
+    {
+      "href": "https://publish.twitter.com/",
+      "inner_html": "Embed a post",
+      "inner_text": "Embed a post"
+    },
+    {
+      "href": "https://transparency.twitter.com/",
+      "inner_html": "Transparency Center",
+      "inner_text": "Transparency Center"
+    },
+    {
+      "href": "https://about.twitter.com/en/who-we-are/our-company.html",
+      "inner_html": "About the company",
+      "inner_text": "About the company"
+    },
+    {
+      "href": "https://about.twitter.com/en/who-we-are/brand-toolkit.html",
+      "inner_html": "Brand toolkit",
+      "inner_text": "Brand toolkit"
+    },
+    {
+      "href": "https://help.twitter.com/en/using-twitter",
+      "inner_html": "Using X",
+      "inner_text": "Using X"
+    },
+    {
+      "href": "https://create.twitter.com/",
+      "inner_html": "X for creators",
+      "inner_text": "X for creators"
+    },
+    {
+      "href": "https://business.twitter.com/en/help.html",
+      "inner_html": "Ads Help Center",
+      "inner_text": "Ads Help Center"
+    },
+    {
+      "href": "https://help.twitter.com/en/managing-your-account",
+      "inner_html": "Managing your account",
+      "inner_text": "Managing your account"
+    },
+    {
+      "href": "https://preferencecenter.twitter.com/",
+      "inner_html": "Email Preference Center",
+      "inner_text": "Email Preference Center"
+    },
+    {
+      "href": "https://help.twitter.com/en/rules-and-policies",
+      "inner_html": "Rules and policies",
+      "inner_text": "Rules and policies"
+    },
+    {
+      "href": "https://help.twitter.com/en/forms.html",
+      "inner_html": "Contact us",
+      "inner_text": "Contact us"
+    },
+    {
+      "href": "https://developer.twitter.com/en",
+      "inner_html": "Developer home",
+      "inner_text": "Developer home"
+    },
+    {
+      "href": "https://developer.twitter.com/en/docs",
+      "inner_html": "Documentation",
+      "inner_text": "Documentation"
+    },
+    {
+      "href": "https://developer.twitter.com/en/community",
+      "inner_html": "Communities",
+      "inner_text": "Communities"
+    },
+    {
+      "href": "https://blog.twitter.com/developer/",
+      "inner_html": "Developer blog",
+      "inner_text": "Developer blog"
+    },
+    {
+      "href": "https://blog.twitter.com/engineering/en_us.html",
+      "inner_html": "Engineering blog",
+      "inner_text": "Engineering blog"
+    },
+    {
+      "href": "https://developer.twitter.com/en/more/developer-terms",
+      "inner_html": "Developer terms",
+      "inner_text": "Developer terms"
+    },
+    {
+      "href": "https://business.twitter.com/en/advertising.html",
+      "inner_html": "Advertise",
+      "inner_text": "Advertise"
+    },
+    {
+      "href": "https://business.twitter.com/",
+      "inner_html": "X for business",
+      "inner_text": "X for business"
+    },
+    {
+      "href": "https://business.twitter.com/en/resources.html",
+      "inner_html": "Resources and guides",
+      "inner_text": "Resources and guides"
+    },
+    {
+      "href": "https://marketing.twitter.com/en/insights",
+      "inner_html": "Marketing insights",
+      "inner_text": "Marketing insights"
+    },
+    {
+      "href": "https://marketing.twitter.com/en/success-stories",
+      "inner_html": "Brand inspiration",
+      "inner_text": "Brand inspiration"
+    },
+    {
+      "href": "https://twitter.com/id/privacy",
+      "inner_html": "Bahasa Indonesia",
+      "inner_text": "\n              Bahasa Indonesia\n            "
+    },
+    {
+      "href": "https://twitter.com/es/privacy",
+      "inner_html": "Español",
+      "inner_text": "\n              Español\n            "
+    },
+    {
+      "href": "https://twitter.com/fr/privacy",
+      "inner_html": "Français",
+      "inner_text": "\n              Français\n            "
+    },
+    {
+      "href": "https://twitter.com/de/privacy",
+      "inner_html": "Deutsch",
+      "inner_text": "\n              Deutsch\n            "
+    },
+    {
+      "href": "https://twitter.com/it/privacy",
+      "inner_html": "Italiano",
+      "inner_text": "\n              Italiano\n            "
+    },
+    {
+      "href": "https://twitter.com/ja/privacy",
+      "inner_html": "日本語",
+      "inner_text": "\n              日本語 \n            "
+    },
+    {
+      "href": "https://twitter.com/ko/privacy",
+      "inner_html": "한국어",
+      "inner_text": "\n              한국어 \n            "
+    },
+    {
+      "href": "https://twitter.com/pt/privacy",
+      "inner_html": "Português",
+      "inner_text": "\n              Português\n            "
+    },
+    {
+      "href": "https://twitter.com/ru/privacy",
+      "inner_html": "Русский",
+      "inner_text": "\n              Русский\n            "
+    },
+    {
+      "href": "https://twitter.com/sk/privacy",
+      "inner_html": "Slovenčina",
+      "inner_text": "\n              Slovenčina\n            "
+    },
+    {
+      "href": "https://twitter.com/bg/privacy",
+      "inner_html": "Български",
+      "inner_text": "\n              Български\n            "
+    },
+    {
+      "href": "https://twitter.com/cs/privacy",
+      "inner_html": "Čeština",
+      "inner_text": "\n              Čeština\n            "
+    },
+    {
+      "href": "https://twitter.com/da/privacy",
+      "inner_html": "Dansk",
+      "inner_text": "\n              Dansk\n            "
+    },
+    {
+      "href": "https://twitter.com/el/privacy",
+      "inner_html": "Ελληνικά",
+      "inner_text": "\n              Ελληνικά\n            "
+    },
+    {
+      "href": "https://twitter.com/et/privacy",
+      "inner_html": "Eesti",
+      "inner_text": "\n              Eesti\n            "
+    },
+    {
+      "href": "https://twitter.com/fi/privacy",
+      "inner_html": "Suomi",
+      "inner_text": "\n              Suomi\n            "
+    },
+    {
+      "href": "https://twitter.com/ga/privacy",
+      "inner_html": "Gaeilge",
+      "inner_text": "\n              Gaeilge\n            "
+    },
+    {
+      "href": "https://twitter.com/hr/privacy",
+      "inner_html": "Hrvatski",
+      "inner_text": "\n              Hrvatski\n            "
+    },
+    {
+      "href": "https://twitter.com/hu/privacy",
+      "inner_html": "Magyar",
+      "inner_text": "\n              Magyar\n            "
+    },
+    {
+      "href": "https://twitter.com/lt/privacy",
+      "inner_html": "Lietuvių",
+      "inner_text": "\n              Lietuvių\n            "
+    },
+    {
+      "href": "https://twitter.com/lv/privacy",
+      "inner_html": "Latviešu",
+      "inner_text": "\n              Latviešu\n            "
+    },
+    {
+      "href": "https://twitter.com/mt/privacy",
+      "inner_html": "Malti",
+      "inner_text": "\n              Malti\n            "
+    },
+    {
+      "href": "https://twitter.com/nl/privacy",
+      "inner_html": "Nederlands",
+      "inner_text": "\n              Nederlands\n            "
+    },
+    {
+      "href": "https://twitter.com/pl/privacy",
+      "inner_html": "Polski",
+      "inner_text": "\n              Polski\n            "
+    },
+    {
+      "href": "https://twitter.com/ro/privacy",
+      "inner_html": "Română",
+      "inner_text": "\n              Română\n            "
+    },
+    {
+      "href": "https://twitter.com/sl/privacy",
+      "inner_html": "Slovenščina",
+      "inner_text": "\n              Slovenščina\n            "
+    },
+    {
+      "href": "https://twitter.com/sv/privacy",
+      "inner_html": "Svenska",
+      "inner_text": "\n              Svenska\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/ar",
+      "inner_html": "العربية",
+      "inner_text": "\n              العربية\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/fa",
+      "inner_html": "فارسی",
+      "inner_text": "\n              فارسی\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/hy",
+      "inner_html": "Հայերեն",
+      "inner_text": "\n              Հայերեն\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/km",
+      "inner_html": "ខ្មែរ",
+      "inner_text": "\n              ខ្មែរ\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/tl",
+      "inner_html": "Tagalog",
+      "inner_text": "\n              Tagalog\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/vi",
+      "inner_html": "Tiếng Việt",
+      "inner_text": "\n              Tiếng Việt\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/zh-cn",
+      "inner_html": "简体中文",
+      "inner_text": "\n              简体中文\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/zh-tw",
+      "inner_html": "繁體中文",
+      "inner_text": "\n              繁體中文\n            "
+    },
+    {
+      "href": "https://twitter.com/content/twitter-com/legal/hmn",
+      "inner_html": "Lus Hmoob",
+      "inner_text": "\n              Lus Hmoob\n            "
+    }
+  ],
   "reports": {
-    "behaviour_event_listeners": {},
+    "behaviour_event_listeners": {
+      "MOUSE": {
+        "https://cdn.cms-twdigitalassets.com/etc/designs/boilerplate-twitter/public/js/project.js.twhash.p.f.6d4f133f3a0959943f922d498eaa7dbf.js": [
+          "scroll",
+          "click",
+          "mousedown"
+        ],
+        "https://platform.twitter.com/widgets.js": [
+          "click"
+        ],
+        "https://cdn.cms-twdigitalassets.com/etc/designs/boilerplate-twitter/public/js/core.js.twhash.p.f.bb5be92f5fde887ba074edd7bd50432b.js": [
+          "scroll"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/loader.AppModules.71adc97a.js": [
+          "mousemove"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/main.7e58534a.js": [
+          "scroll"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/vendor.bc0c717a.js": [
+          "scroll",
+          "select",
+          "mouseup",
+          "mousemove",
+          "mousedown"
+        ]
+      },
+      "KEYBOARD": {
+        "https://cdn.cms-twdigitalassets.com/etc/designs/boilerplate-twitter/public/js/project.js.twhash.p.f.6d4f133f3a0959943f922d498eaa7dbf.js": [
+          "keydown"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/loader.AppModules.71adc97a.js": [
+          "keydown",
+          "keyup",
+          "keypress"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/vendor.bc0c717a.js": [
+          "keydown"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/main.7e58534a.js": [
+          "keydown"
+        ]
+      },
+      "SENSOR": {
+        "https://cdn.cms-twdigitalassets.com/etc/designs/boilerplate-twitter/public/js/project.js.twhash.p.f.6d4f133f3a0959943f922d498eaa7dbf.js": [
+          "orientationchange"
+        ]
+      },
+      "TOUCH": {
+        "https://abs.twimg.com/responsive-web/client-web/loader.AppModules.71adc97a.js": [
+          "touchend"
+        ],
+        "https://abs.twimg.com/responsive-web/client-web/vendor.bc0c717a.js": [
+          "touchcancel",
+          "touchend",
+          "touchmove",
+          "touchstart"
+        ]
+      }
+    },
     "canvas_fingerprinters": {
       "data_url": {},
       "fingerprinters": [],
@@ -55,10 +1315,220 @@
       "canvas_font": {},
       "text_measure": {}
     },
-    "cookies": [],
+    "cookies": [
+      {
+        "name": "guest_id_marketing",
+        "value": "v1%3A171515750778491285",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-06-12T08:38:27.987Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "guest_id_ads",
+        "value": "v1%3A171515750778491285",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-06-12T08:38:27.988Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "guest_id",
+        "value": "v1%3A171515750778491285",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-06-12T08:38:27.833Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "personalization_id",
+        "value": "\"v1_zzcQOc7j/DDO800KZokLkw==\"",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-06-12T08:38:27.988Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "gt",
+        "value": "1788126306095476761",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2024-05-08T11:08:27.988Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1457062363.1715157510",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2025-06-12T08:38:30.363Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.690799751.1715157510",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2024-05-09T08:38:30.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax",
+        "type": "js",
+        "third_party": false
+      },
+      {
+        "name": "muc_ads",
+        "value": "f3cd65e0-f1c0-4dc1-ba2e-4fd5d5634545",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2025-06-12T08:38:30.391Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "ct0",
+        "value": "3250148aac8f7ea96a8c502ef00cf8d6",
+        "domain": "twitter.com",
+        "path": "/",
+        "expires": "2024-05-08T14:38:32.298Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax",
+        "type": "unknown",
+        "third_party": false
+      },
+      {
+        "name": "NID",
+        "value": "514=sPyYPiTjyZ3-fVYX8DpmviQT3LSKxvOoz2brs7RprmjuwQCj4QagS1GF6-bILcU8u6MCAU3xvximsiOf0aDuKlEaJyx2UZoBNKs9xzZ3oDcFSMhOVm8Ia54TnZBkX3T3648utSMzU6HUaUigj0rgCDrQdCU9Sewav5dNkRD-cEA",
+        "domain": "google.com",
+        "path": "/",
+        "expires": "2024-11-07T08:38:32.587Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      }
+    ],
     "fb_pixel_events": [],
     "key_logging": {},
     "session_recorders": {},
-    "third_party_trackers": []
+    "third_party_trackers": [
+      {
+        "data": {
+          "filter": "||google-analytics.com^$third-party",
+          "listName": "easyprivacy.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://www.google-analytics.com/analytics.js"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 4,
+            "eci": 3,
+            "event": {},
+            "event_id": "cf9c1292-0fbd-4618-9e4a-343a9bb8e04c",
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "dd31b997-e287-4230-b9d7-8bbba49987c1",
+            "tw_document_href": "https://twitter.com/",
+            "tw_iframe_status": 0,
+            "txn_id": "o8zly",
+            "type": "javascript",
+            "version": "2.3.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=cf9c1292-0fbd-4618-9e4a-343a9bb8e04c&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=dd31b997-e287-4230-b9d7-8bbba49987c1&tw_document_href=https%3A%2F%2Ftwitter.com%2F&tw_iframe_status=0&txn_id=o8zly&type=javascript&version=2.3.30"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 4,
+            "eci": 3,
+            "event": {},
+            "event_id": "478b708c-6158-43cd-92c6-b475a27ccb7b",
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "dd31b997-e287-4230-b9d7-8bbba49987c1",
+            "tw_document_href": "https://twitter.com/",
+            "tw_iframe_status": 0,
+            "txn_id": "ogf5s",
+            "type": "javascript",
+            "version": "2.3.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=478b708c-6158-43cd-92c6-b475a27ccb7b&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=dd31b997-e287-4230-b9d7-8bbba49987c1&tw_document_href=https%3A%2F%2Ftwitter.com%2F&tw_iframe_status=0&txn_id=ogf5s&type=javascript&version=2.3.30"
+      },
+      {
+        "data": {
+          "filter": "||ads-twitter.com^",
+          "listName": "easylist.txt",
+          "query": {}
+        },
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://static.ads-twitter.com/uwt.js"
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 const express = require('express');
 const { devices } = require('playwright');
 const { collectChromium, collectFirefox, collectWebkit } = require('./src'); // Update with your path to the collector script
-const { collect } = require('./control');
+// const { collect } = require('./control');
 const path = require('path');
 const fs = require('fs').promises;
 
@@ -14,18 +14,26 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public', { extensions: ['html', 'js'] }));
 app.use('/results', express.static(path.join(__dirname, 'results')));
 
-function processResults(result) {
+function processResults(result, url) {
     const uniqueFilters = new Set();
     const adTrackers = result.reports.third_party_trackers.reduce((count, tracker) => {
         const filter = tracker.data.filter;
-        if (!uniqueFilters.has(filter)) {
+        if (!filter.includes(url) && !uniqueFilters.has(filter)) {
             uniqueFilters.add(filter);
             return count + 1;
         }
         return count;
     }, 0);
+    const uniqueFiltersArray = Array.from(uniqueFilters);
+    uniqueFiltersArray.sort();
 
-    const thirdPartyCookies = result.reports.cookies.filter(cookies => cookies['third_party']).length || 0;
+    const thirdPartyCookiesSet = new Set(
+        result.reports.cookies
+          .filter(cookie => cookie['third_party'])
+          .map(cookie => cookie.name)
+      );
+    const thirdPartyCookiesArray = Array.from(thirdPartyCookiesSet).sort();
+    const thirdPartyCookies = thirdPartyCookiesArray.length;
 
     let canvasFingerprinting;
     if (result.reports.canvas_fingerprinters.data_url.length ||
@@ -67,6 +75,8 @@ function processResults(result) {
         fbPixel,
         googleAnalytics,
         executionTime,
+        uniqueFiltersArray,
+        thirdPartyCookiesArray,
     };
 }
 
@@ -77,14 +87,14 @@ app.post('/scan/chromium', async (req, res) => {
     const config = {
         numPages: 1,
         headless: true,
-        outDir: path.join(__dirname, 'demo-dir'),
+        outDir: path.join(__dirname, 'chromium'),
     };
 
     console.log(`Beginning scan of ${url} in Chromium`);
 
     try {
-        const resultChromium = await collect(`http://${url}`, config);
-        const processedChromium = processResults(resultChromium);
+        const resultChromium = await collectChromium(`http://${url}`, config);
+        const processedChromium = processResults(resultChromium, url);
 
         // Send processed result for Chromium immediately
         res.json({ result: processedChromium });
@@ -107,14 +117,14 @@ app.post('/scan/firefox', async (req, res) => {
     const config = {
         numPages: 1,
         headless: true,
-        outDir: path.join(__dirname, 'demo-dir'),
+        outDir: path.join(__dirname, 'firefox'),
     };
 
     console.log(`Beginning scan of ${url} in Firefox`);
 
     try {
         const resultFirefox = await collectFirefox(`http://${url}`, config);
-        const processedFirefox = processResults(resultFirefox);
+        const processedFirefox = processResults(resultFirefox, url);
 
         // Send processed result for Firefox immediately
         res.json({ result: processedFirefox });
@@ -137,14 +147,14 @@ app.post('/scan/webkit', async (req, res) => {
     const config = {
         numPages: 1,
         headless: true,
-        outDir: path.join(__dirname, 'demo-dir'),
+        outDir: path.join(__dirname, 'webkit'),
     };
 
     console.log(`Beginning scan of ${url} in Webkit`);
 
     try {
         const resultWebkit = await collectWebkit(`http://${url}`, config);
-        const processedWebkit = processResults(resultWebkit);
+        const processedWebkit = processResults(resultWebkit, url);
 
         // Send processed result for Webkit immediately
         res.json({ result: processedWebkit });

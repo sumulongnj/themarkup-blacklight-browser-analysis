@@ -90,3 +90,6 @@ build
 /blob-report/
 /playwright/.cache/
 demo-dir/
+firefox/
+chromium/
+webkit/

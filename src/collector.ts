@@ -17,9 +17,9 @@ import { setupSessionRecordingInspector } from './session-recording';
 import { setUpThirdPartyTrackersInspector } from './third-party-trackers';
 import { clearDir } from './utils';
 import { PuppeteerLifeCycleEvent } from 'puppeteer';
+import { chosenLink } from '../control/collector';
 
 export type CollectorOptions = Partial<typeof DEFAULT_OPTIONS>;
-let chosenLink;
 
 const DEFAULT_OPTIONS = {
     outDir: join(process.cwd(), 'bl-tmp'),
@@ -105,7 +105,7 @@ export const collectChromium = async (inUrl: string, args: CollectorOptions) => 
     const options = {
         ...defaultPlaywrightBrowserOptions,
         args: [...defaultPlaywrightBrowserOptions.args],
-        headless: false,
+        headless: true,
         userDataDir
     };
 
@@ -252,7 +252,7 @@ export const collectChromium = async (inUrl: string, args: CollectorOptions) => 
 
     // try {
     for (const link of output.browsing_history.slice(1)) {
-        chosenLink = link;
+        //chosenLink = link;
 
         logger.log('info', `browsing now to ${link}`, { type: 'Browser' });
         if (didBrowserDisconnect) {
@@ -452,7 +452,7 @@ export const collectFirefox = async (inUrl: string, args: CollectorOptions) => {
     const options = {
         ...defaultPlaywrightBrowserOptions,
         args: [...defaultPlaywrightBrowserOptions.args],
-        headless: false,
+        headless: true,
         userDataDir
     };
 
@@ -784,7 +784,7 @@ export const collectWebkit = async (inUrl: string, args: CollectorOptions) => {
     const options = {
         ...defaultPlaywrightBrowserOptions,
         args: [...defaultPlaywrightBrowserOptions.args],
-        headless: false,
+        headless: true,
         userDataDir
     };
 

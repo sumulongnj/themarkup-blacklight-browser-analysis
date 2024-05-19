@@ -1,7 +1,7 @@
 const express = require('express');
 const { devices } = require('playwright');
-const { collectChromium, collectFirefox, collectWebkit } = require('./src'); // Update with your path to the collector script
-// const { collect } = require('./control');
+const { collectFirefox, collectWebkit } = require('./src'); // Update with your path to the collector script
+const { collect } = require('./control');
 const path = require('path');
 const fs = require('fs').promises;
 
@@ -93,7 +93,7 @@ app.post('/scan/chromium', async (req, res) => {
     console.log(`Beginning scan of ${url} in Chromium`);
 
     try {
-        const resultChromium = await collectChromium(`http://${url}`, config);
+        const resultChromium = await collect(`http://${url}`, config);
         const processedChromium = processResults(resultChromium, url);
 
         // Send processed result for Chromium immediately

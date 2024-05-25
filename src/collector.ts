@@ -10,7 +10,7 @@ import { setupBlacklightInspector } from './inspector';
 import { setupKeyLoggingInspector } from './key-logging';
 import { getLogger } from './logger';
 import { generateReport } from './parser';
-import { savePageContent, defaultPlaywrightBrowserOptions } from './pptr-utils/default';
+import { savePageContent, defaultPlaywrightBrowserOptions, webkitPlaywrightBrowserOptions } from './pptr-utils/default';
 import { dedupLinks, getLinks, getSocialLinks } from './pptr-utils/get-links';
 import { autoScroll, fillForms } from './pptr-utils/interaction-utils';
 import { setupSessionRecordingInspector } from './session-recording';
@@ -32,7 +32,7 @@ const DEFAULT_OPTIONS = {
     headless: true,
     defaultTimeout: 1000000,
     numPages: 3,
-    defaultWaitUntil: 'networkidle2', 
+    defaultWaitUntil: 'networkidle2',
     saveBrowserProfile: false,
     saveScreenshots: true,
     blTests: [
@@ -782,8 +782,8 @@ export const collectWebkit = async (inUrl: string, args: CollectorOptions) => {
     let didBrowserDisconnect = false;
 
     const options = {
-        ...defaultPlaywrightBrowserOptions,
-        args: [...defaultPlaywrightBrowserOptions.args],
+        ...webkitPlaywrightBrowserOptions,
+        args: [...webkitPlaywrightBrowserOptions.args],
         headless: true,
         userDataDir
     };

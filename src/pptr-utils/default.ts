@@ -24,3 +24,9 @@ export const defaultPlaywrightBrowserOptions = {
     viewport: null,
     headless: true,
 };
+
+export const webkitPlaywrightBrowserOptions = {
+    args: [],
+    viewport: null,
+    headless: true,
+};

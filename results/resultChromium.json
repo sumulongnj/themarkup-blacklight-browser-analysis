@@ -32,11 +32,11 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-05-25T02:32:29.215Z",
-  "end_time": "2024-05-25T02:32:41.296Z",
+  "start_time": "2024-05-26T09:25:08.323Z",
+  "end_time": "2024-05-26T09:25:20.775Z",
   "browsing_history": [
     "https://x.com/",
-    "https://x.com/tos"
+    "https://x.com/en/privacy"
   ],
   "hosts": {
     "requests": {
@@ -46,14 +46,16 @@
         "fonts.twitter.com",
         "syndication.twitter.com",
         "x.com",
-        "api.x.com"
+        "api.x.com",
+        "analytics.x.com"
       ],
       "third_party": [
         "abs.twimg.com",
         "abs-0.twimg.com",
         "accounts.google.com",
-        "static.ads-twitter.com",
         "appleid.cdn-apple.com",
+        "static.ads-twitter.com",
+        "t.co",
         "fonts.gstatic.com",
         "cdn.cms-twdigitalassets.com"
       ]
@@ -133,10 +135,10 @@
     "cookies": [
       {
         "name": "guest_id_marketing",
-        "value": "v1%3A171660435308799418",
+        "value": "v1%3A171671551233328284",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:33.027Z",
+        "expires": "2025-06-30T09:25:12.300Z",
         "size": 41,
         "httpOnly": false,
         "secure": true,
@@ -151,10 +153,10 @@
       },
       {
         "name": "guest_id_ads",
-        "value": "v1%3A171660435308799418",
+        "value": "v1%3A171671551233328284",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:33.029Z",
+        "expires": "2025-06-30T09:25:12.301Z",
         "size": 35,
         "httpOnly": false,
         "secure": true,
@@ -169,10 +171,10 @@
       },
       {
         "name": "personalization_id",
-        "value": "\"v1_06WQur85yJuGIZiKnpvFxQ==\"",
+        "value": "\"v1_3bjcvAryl8LhopbrL/QSaQ==\"",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:33.029Z",
+        "expires": "2025-06-30T09:25:12.301Z",
         "size": 47,
         "httpOnly": false,
         "secure": true,
@@ -187,10 +189,10 @@
       },
       {
         "name": "guest_id",
-        "value": "v1%3A171660435308799418",
+        "value": "v1%3A171671551233328284",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:33.029Z",
+        "expires": "2025-06-30T09:25:12.301Z",
         "size": 31,
         "httpOnly": false,
         "secure": true,
@@ -205,10 +207,10 @@
       },
       {
         "name": "guest_id",
-        "value": "v1%3A171660435308799418",
+        "value": "v1%3A171671551233328284",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-05-25T02:32:33.940Z",
+        "expires": "2025-05-26T09:25:13.220Z",
         "size": 31,
         "httpOnly": false,
         "secure": true,
@@ -226,7 +228,7 @@
         "value": "2",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-05-25T02:32:35.064Z",
+        "expires": "2025-05-26T09:25:14.280Z",
         "size": 11,
         "httpOnly": false,
         "secure": true,
@@ -241,10 +243,10 @@
       },
       {
         "name": "guest_id_marketing",
-        "value": "v1%3A171660435308799418",
+        "value": "v1%3A171671551233328284",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:34.374Z",
+        "expires": "2025-06-30T09:25:13.629Z",
         "size": 41,
         "httpOnly": false,
         "secure": true,
@@ -259,10 +261,10 @@
       },
       {
         "name": "guest_id_ads",
-        "value": "v1%3A171660435308799418",
+        "value": "v1%3A171671551233328284",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:34.377Z",
+        "expires": "2025-06-30T09:25:13.632Z",
         "size": 35,
         "httpOnly": false,
         "secure": true,
@@ -277,10 +279,10 @@
       },
       {
         "name": "personalization_id",
-        "value": "\"v1_5mk0rRquWjrmVX6x6W5VhA==\"",
+        "value": "\"v1_RgaeTamSrQzqehsCbMWY2w==\"",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-06-29T02:32:34.377Z",
+        "expires": "2025-06-30T09:25:13.632Z",
         "size": 47,
         "httpOnly": false,
         "secure": true,
@@ -295,10 +297,10 @@
       },
       {
         "name": "gt",
-        "value": "1794194819755229621",
+        "value": "1794661055463100904",
         "domain": "x.com",
         "path": "/",
-        "expires": "2024-05-25T05:02:34.378Z",
+        "expires": "2024-05-26T11:55:13.633Z",
         "size": 21,
         "httpOnly": false,
         "secure": true,
@@ -311,11 +313,29 @@
         "third_party": false
       },
       {
+        "name": "muc_ads",
+        "value": "b5761789-2dc1-4f7d-afad-b4c8b3f5d2e5",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2025-06-30T09:25:15.202Z",
+        "size": 43,
+        "httpOnly": false,
+        "secure": true,
+        "session": false,
+        "sameSite": "None",
+        "priority": "Medium",
+        "sameParty": false,
+        "sourceScheme": "Secure",
+        "sourcePort": 443,
+        "type": "unknown",
+        "third_party": true
+      },
+      {
         "name": "ct0",
-        "value": "5833e879d286c5acf4e05cce097e5ee1",
+        "value": "4b55b23bfbd6c65625308cf2699f18d3",
         "domain": "x.com",
         "path": "/",
-        "expires": "2024-05-25T08:32:37.669Z",
+        "expires": "2024-05-26T15:25:17.094Z",
         "size": 35,
         "httpOnly": false,
         "secure": true,
@@ -332,6 +352,64 @@
     "key_logging": {},
     "session_recorders": {},
     "third_party_trackers": [
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 4,
+            "eci": 3,
+            "event": {},
+            "event_id": "72544fc6-cbd9-46d9-acef-a8cbdd10e756",
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "8c023bd7-f0fe-4c0e-a119-7dc930475c6f",
+            "tw_document_href": "https://x.com/",
+            "tw_iframe_status": 0,
+            "txn_id": "o8zly",
+            "type": "javascript",
+            "version": "2.3.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://x.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=72544fc6-cbd9-46d9-acef-a8cbdd10e756&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=8c023bd7-f0fe-4c0e-a119-7dc930475c6f&tw_document_href=https%3A%2F%2Fx.com%2F&tw_iframe_status=0&txn_id=o8zly&type=javascript&version=2.3.30"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 4,
+            "eci": 3,
+            "event": {},
+            "event_id": "07fe18b8-2bb8-4a80-9190-344ec8dda7a6",
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "8c023bd7-f0fe-4c0e-a119-7dc930475c6f",
+            "tw_document_href": "https://x.com/",
+            "tw_iframe_status": 0,
+            "txn_id": "ogf5s",
+            "type": "javascript",
+            "version": "2.3.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://x.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=07fe18b8-2bb8-4a80-9190-344ec8dda7a6&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=8c023bd7-f0fe-4c0e-a119-7dc930475c6f&tw_document_href=https%3A%2F%2Fx.com%2F&tw_iframe_status=0&txn_id=ogf5s&type=javascript&version=2.3.30"
+      },
       {
         "data": {
           "filter": "||ads-twitter.com^",

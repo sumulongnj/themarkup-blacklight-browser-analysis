@@ -143,14 +143,14 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
                 output += 'Tracking that evades cookie blockers not found.<br><br>';
             }
             else {
-                output += '<span class="found">This website loads trackers on your computer that are designed to evade third-party cookie blockers.</span><br><br>';
+                output += '<span class="found">Tracking that evades cookie blockers found.</span><br><br>';
             }
             // 4. Session Recording
             if (!result.sessionRecording) {
                 output += 'Session recording services not found on this website.<br><br>';
             }
             else {
-                output += '<span class="found">This website could be monitoring your keystrokes and mouse clicks.</span><br><br>';
+                output += '<span class="found">Session recording services found on this website.</span><br><br>';
             }
             // 5. Key Logging
             if (!result.keyLogging) {

@@ -53,7 +53,7 @@ const DEFAULT_OPTIONS = {
 
 export const collect = async (inUrl: string, args: CollectorOptions) => {
     args = { ...DEFAULT_OPTIONS, ...args };
-    clearDir(args.outDir);
+    await clearDir(args.outDir);
     const FIRST_PARTY = parse(inUrl);
     let REDIRECTED_FIRST_PARTY = parse(inUrl);
     const logger = getLogger({ outDir: args.outDir, quiet: args.quiet });
@@ -178,27 +178,27 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
 
     // Function to navigate to a page with a timeout guard
     const navigateWithTimeout = async (page: Page, url: string, timeout: number, waitUntil: PuppeteerLifeCycleEvent) => {
-      try {
-          page_response = await Promise.race([
-              page.goto(url, {
-                  timeout: timeout,
-                  waitUntil: waitUntil
-              }),
-              new Promise((_, reject) =>
-                  setTimeout(() => {
-                      console.log('First navigation attempt timeout');
-                      reject(new Error('First navigation attempt timeout'));
-                  }, 10000)
-              )
-          ]);
-      } catch (error) {
-          console.log('First attempt failed, trying with domcontentloaded');
-          page_response = await page.goto(url, {
-              timeout: timeout,
-              waitUntil: 'domcontentloaded' as PuppeteerLifeCycleEvent
-          });
-      }
-      await savePageContent(pageIndex, args.outDir, page, args.saveScreenshots);
+        try {
+            page_response = await Promise.race([
+                page.goto(url, {
+                    timeout: timeout,
+                    waitUntil: waitUntil
+                }),
+                new Promise((_, reject) =>
+                    setTimeout(() => {
+                        console.log('First navigation attempt timeout');
+                        reject(new Error('First navigation attempt timeout'));
+                    }, 10000)
+                )
+            ]);
+        } catch (error) {
+            console.log('First attempt failed, trying with domcontentloaded');
+            page_response = await page.goto(url, {
+                timeout: timeout,
+                waitUntil: 'domcontentloaded' as PuppeteerLifeCycleEvent
+            });
+        }
+        await savePageContent(pageIndex, args.outDir, page, args.saveScreenshots);
     };
 
     // Go to the first url
@@ -289,6 +289,11 @@ export const collect = async (inUrl: string, args: CollectorOptions) => {
         duplicatedLinks = duplicatedLinks.concat(await getLinks(page));
         await autoScroll(page);
         console.log('... done with autoScroll (2)');
+    }
+
+    if (!chosenLink) {
+        chosenLink = output.uri_dest;
+        console.log('Chosen link is undefined, defaulting to original URL:', chosenLink);
     }
 
     console.log('saving cookies');

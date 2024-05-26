@@ -5,7 +5,7 @@
   "uri_dest": "https://x.com/",
   "uri_redirects": {
     "_type": "Request",
-    "_guid": "request@272b7268c9e5f3b24a507f5ccd3cda65"
+    "_guid": "request@b31e971cc5212284c92f4a949a5de798"
   },
   "secure_connection": {},
   "host": "twitter.com",
@@ -33,25 +33,27 @@
     },
     "node_version": "v20.7.0"
   },
-  "start_time": "2024-05-25T02:32:41.325Z",
-  "end_time": "2024-05-25T02:32:55.659Z",
+  "start_time": "2024-05-26T09:25:20.828Z",
+  "end_time": "2024-05-26T09:25:31.299Z",
   "hosts": {
     "requests": {
       "first_party": [
         "twitter.com",
-        "fonts.twitter.com",
         "platform.twitter.com",
+        "fonts.twitter.com",
         "syndication.twitter.com",
         "x.com",
-        "api.x.com"
+        "api.x.com",
+        "analytics.x.com"
       ],
       "third_party": [
         "abs.twimg.com",
         "abs-0.twimg.com",
         "accounts.google.com",
-        "fonts.gstatic.com",
-        "static.ads-twitter.com",
         "appleid.cdn-apple.com",
+        "static.ads-twitter.com",
+        "t.co",
+        "fonts.gstatic.com",
         "play.google.com",
         "cdn.cms-twdigitalassets.com"
       ]
@@ -270,114 +272,109 @@
         "inner_text": "Settings"
       },
       {
-        "href": "https://x.com/en/tos",
-        "inner_html": "Skip to main content",
-        "inner_text": "Skip to main content"
+        "href": "https://help.x.com/en/rules-and-policies/twitter-services-and-corporate-affiliates.html",
+        "inner_html": "<u>Learn about affiliates</u>",
+        "inner_text": "Learn about affiliates"
       },
       {
-        "href": "https://help.x.com/rules-and-policies",
-        "inner_html": "our Rules and Policies",
-        "inner_text": "our Rules and Policies"
+        "href": "https://help.x.com/rules-and-policies/twitter-services-and-corporate-affiliates",
+        "inner_html": "<u>corporate affiliates</u>",
+        "inner_text": "corporate affiliates"
       },
       {
-        "href": "https://help.x.com/rules-and-policies/x-services-and-corporate-affiliates",
-        "inner_html": "other covered services",
-        "inner_text": "other covered services"
+        "href": "https://help.x.com/forms/privacy",
+        "inner_html": "<u>contact us</u>",
+        "inner_text": "contact us"
       },
       {
-        "href": "https://www.x.com/privacy",
-        "inner_html": "https://www.x.com/privacy",
-        "inner_text": "https://www.x.com/privacy"
+        "href": "https://x.com/settings/account",
+        "inner_html": "<u>settings</u>",
+        "inner_text": "settings"
       },
       {
-        "href": "https://help.x.com/rules-and-policies/x-report-violation",
-        "inner_html": "https://help.x.com/rules-and-policies/x-report-violation#specific-violations",
-        "inner_text": "https://help.x.com/rules-and-policies/x-report-violation#specific-violations"
+        "href": "https://help.x.com/using-twitter/direct-messages",
+        "inner_html": "<u>Direct Messages</u>",
+        "inner_text": "Direct Messages"
       },
       {
-        "href": "https://help.x.com/managing-your-account/suspended-x-accounts",
-        "inner_html": "https://help.x.com/managing-your-account/suspended-x-accounts",
-        "inner_text": "https://help.x.com/managing-your-account/suspended-x-accounts"
-      },
-      {
-        "href": "https://help.x.com/forms/dmca",
-        "inner_html": "https://help.x.com/forms/dmca",
-        "inner_text": "https://help.x.com/forms/dmca"
-      },
-      {
-        "href": "https://help.x.com/rules-and-policies/enforcement-options",
-        "inner_html": "here",
-        "inner_text": "here"
-      },
-      {
-        "href": "https://legal.x.com/purchaser-terms.html",
-        "inner_html": "Terms for Paid Services",
-        "inner_text": "Terms for Paid Services"
-      },
-      {
-        "href": "https://developer.x.com/docs/twitter-for-websites",
-        "inner_html": "X for Websites",
-        "inner_text": "X for Websites"
-      },
-      {
-        "href": "https://developer.x.com/docs/twitter-for-websites/cards/overview/abouts-cards",
-        "inner_html": "X Cards",
-        "inner_text": "X Cards"
-      },
-      {
-        "href": "https://developer.x.com/docs",
-        "inner_html": "Public API",
-        "inner_text": "Public API"
-      },
-      {
-        "href": "https://developer.x.com/docs/authentication/guides/log-in-with-twitter",
-        "inner_html": "Sign in with X",
-        "inner_text": "Sign in with X"
-      },
-      {
-        "href": "https://developer.x.com/developer-terms/agreement",
-        "inner_html": "Developer Agreement",
-        "inner_text": "Developer Agreement"
-      },
-      {
-        "href": "https://developer.x.com/developer-terms/policy",
-        "inner_html": "Developer Policy",
-        "inner_text": "Developer Policy"
-      },
-      {
-        "href": "https://developer.x.com/developer-terms",
-        "inner_html": "https://developer.x.com/developer-terms",
-        "inner_text": "https://developer.x.com/developer-terms"
-      },
-      {
-        "href": "https://ads.x.com/terms",
-        "inner_html": "Master Services Agreement",
-        "inner_text": "Master Services Agreement"
-      },
-      {
-        "href": "https://help.x.com/rules-and-policies/platform-manipulation",
-        "inner_html": "Platform Manipulation and Spam Policy",
-        "inner_text": "Platform Manipulation and Spam Policy"
-      },
-      {
-        "href": "https://help.x.com/managing-your-account/how-to-deactivate-x-account",
-        "inner_html": "https://help.x.com/managing-your-account/how-to-deactivate-x-account&nbsp;",
-        "inner_text": "https://help.x.com/managing-your-account/how-to-deactivate-x-account "
-      },
-      {
-        "href": "https://help.x.com/forms/account-access/appeals",
-        "inner_html": "Help Center",
+        "href": "https://help.x.com/safety-and-security/data-through-partnerships",
+        "inner_html": "<u>Help Center</u>",
         "inner_text": "Help Center"
       },
       {
-        "href": "https://help.x.com/forms",
-        "inner_html": "us",
-        "inner_text": "us"
+        "href": "https://x.com/settings/privacy_and_safety",
+        "inner_html": "<u>Privacy &amp; Safety settings</u>",
+        "inner_text": "Privacy & Safety settings"
       },
       {
-        "href": "https://x.com/tos/previous",
-        "inner_html": "Archive of Previous Terms",
-        "inner_text": "Archive of Previous Terms"
+        "href": "https://privacy.x.com/subprocessors",
+        "inner_html": "<u>service providers</u>",
+        "inner_text": "service providers"
+      },
+      {
+        "href": "https://help.x.com/managing-your-account/connect-or-revoke-access-to-third-party-apps?lang=browser",
+        "inner_html": "<u>authorize a third-party web client or application</u>",
+        "inner_text": "authorize a third-party web client or application"
+      },
+      {
+        "href": "https://x.com/settings/autoplay",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-api",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://developer.x.com/developer-terms",
+        "inner_html": "<u>standard terms</u>",
+        "inner_text": "standard terms"
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-law-enforcement-support",
+        "inner_html": "<u>legal process, or governmental request</u>",
+        "inner_text": "legal process, or governmental request"
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/twitter-rules",
+        "inner_html": "<u>Our Rules</u>",
+        "inner_text": "Our Rules"
+      },
+      {
+        "href": "https://help.x.com/safety-and-security/remove-twitter-profile-from-google-search",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://help.x.com/managing-your-account/how-to-deactivate-twitter-account",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://help.x.com/using-twitter/spaces",
+        "inner_html": "<u>Space</u>",
+        "inner_text": "Space"
+      },
+      {
+        "href": "https://help.x.com/using-twitter/twitter-videos",
+        "inner_html": "<u>videos you upload</u>",
+        "inner_text": "videos you upload"
+      },
+      {
+        "href": "https://help.x.com/rules-and-policies/data-processing-legal-bases",
+        "inner_html": "<u>this additional information about data processing</u>",
+        "inner_text": "this additional information about data processing"
+      },
+      {
+        "href": "https://privacy.x.com/en/ccpa",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://privacy.x.com/for-our-users/x-consumer-health-data-policy",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
       },
       {
         "href": "https://x.com/",
@@ -498,18 +495,293 @@
         "href": "https://marketing.x.com/en/success-stories",
         "inner_html": "Brand inspiration",
         "inner_text": "Brand inspiration"
+      },
+      {
+        "href": "https://x.com/id/privacy",
+        "inner_html": "Bahasa Indonesia",
+        "inner_text": "\n              Bahasa Indonesia\n            "
+      },
+      {
+        "href": "https://x.com/es/privacy",
+        "inner_html": "Español",
+        "inner_text": "\n              Español\n            "
+      },
+      {
+        "href": "https://x.com/fr/privacy",
+        "inner_html": "Français",
+        "inner_text": "\n              Français\n            "
+      },
+      {
+        "href": "https://x.com/de/privacy",
+        "inner_html": "Deutsch",
+        "inner_text": "\n              Deutsch\n            "
+      },
+      {
+        "href": "https://x.com/it/privacy",
+        "inner_html": "Italiano",
+        "inner_text": "\n              Italiano\n            "
+      },
+      {
+        "href": "https://x.com/ja/privacy",
+        "inner_html": "日本語",
+        "inner_text": "\n              日本語 \n            "
+      },
+      {
+        "href": "https://x.com/ko/privacy",
+        "inner_html": "한국어",
+        "inner_text": "\n              한국어 \n            "
+      },
+      {
+        "href": "https://x.com/pt/privacy",
+        "inner_html": "Português",
+        "inner_text": "\n              Português\n            "
+      },
+      {
+        "href": "https://x.com/ru/privacy",
+        "inner_html": "Русский",
+        "inner_text": "\n              Русский\n            "
+      },
+      {
+        "href": "https://x.com/sk/privacy",
+        "inner_html": "Slovenčina",
+        "inner_text": "\n              Slovenčina\n            "
+      },
+      {
+        "href": "https://x.com/bg/privacy",
+        "inner_html": "Български",
+        "inner_text": "\n              Български\n            "
+      },
+      {
+        "href": "https://x.com/cs/privacy",
+        "inner_html": "Čeština",
+        "inner_text": "\n              Čeština\n            "
+      },
+      {
+        "href": "https://x.com/da/privacy",
+        "inner_html": "Dansk",
+        "inner_text": "\n              Dansk\n            "
+      },
+      {
+        "href": "https://x.com/el/privacy",
+        "inner_html": "Ελληνικά",
+        "inner_text": "\n              Ελληνικά\n            "
+      },
+      {
+        "href": "https://x.com/et/privacy",
+        "inner_html": "Eesti",
+        "inner_text": "\n              Eesti\n            "
+      },
+      {
+        "href": "https://x.com/fi/privacy",
+        "inner_html": "Suomi",
+        "inner_text": "\n              Suomi\n            "
+      },
+      {
+        "href": "https://x.com/ga/privacy",
+        "inner_html": "Gaeilge",
+        "inner_text": "\n              Gaeilge\n            "
+      },
+      {
+        "href": "https://x.com/hr/privacy",
+        "inner_html": "Hrvatski",
+        "inner_text": "\n              Hrvatski\n            "
+      },
+      {
+        "href": "https://x.com/hu/privacy",
+        "inner_html": "Magyar",
+        "inner_text": "\n              Magyar\n            "
+      },
+      {
+        "href": "https://x.com/lt/privacy",
+        "inner_html": "Lietuvių",
+        "inner_text": "\n              Lietuvių\n            "
+      },
+      {
+        "href": "https://x.com/lv/privacy",
+        "inner_html": "Latviešu",
+        "inner_text": "\n              Latviešu\n            "
+      },
+      {
+        "href": "https://x.com/mt/privacy",
+        "inner_html": "Malti",
+        "inner_text": "\n              Malti\n            "
+      },
+      {
+        "href": "https://x.com/nl/privacy",
+        "inner_html": "Nederlands",
+        "inner_text": "\n              Nederlands\n            "
+      },
+      {
+        "href": "https://x.com/pl/privacy",
+        "inner_html": "Polski",
+        "inner_text": "\n              Polski\n            "
+      },
+      {
+        "href": "https://x.com/ro/privacy",
+        "inner_html": "Română",
+        "inner_text": "\n              Română\n            "
+      },
+      {
+        "href": "https://x.com/sl/privacy",
+        "inner_html": "Slovenščina",
+        "inner_text": "\n              Slovenščina\n            "
+      },
+      {
+        "href": "https://x.com/sv/privacy",
+        "inner_html": "Svenska",
+        "inner_text": "\n              Svenska\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/ar",
+        "inner_html": "العربية",
+        "inner_text": "\n              العربية\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/fa",
+        "inner_html": "فارسی",
+        "inner_text": "\n              فارسی\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/hy",
+        "inner_html": "Հայերեն",
+        "inner_text": "\n              Հայերեն\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/km",
+        "inner_html": "ខ្មែរ",
+        "inner_text": "\n              ខ្មែរ\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/tl",
+        "inner_html": "Tagalog",
+        "inner_text": "\n              Tagalog\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/vi",
+        "inner_html": "Tiếng Việt",
+        "inner_text": "\n              Tiếng Việt\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/zh-cn",
+        "inner_html": "简体中文",
+        "inner_text": "\n              简体中文\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/zh-tw",
+        "inner_html": "繁體中文",
+        "inner_text": "\n              繁體中文\n            "
+      },
+      {
+        "href": "https://x.com/content/twitter-com/legal/hmn",
+        "inner_html": "Lus Hmoob",
+        "inner_text": "\n              Lus Hmoob\n            "
       }
     ],
     "third_party": [
       {
-        "href": "https://twitter.com/tos/previous",
-        "inner_html": "Terms of Service Archive",
-        "inner_text": "Terms of Service Archive"
+        "href": "https://twitter.com/settings/privacy_and_safety",
+        "inner_html": "Privacy Settings",
+        "inner_text": "Privacy Settings"
       },
       {
-        "href": "https://hackerone.com/x",
-        "inner_html": "Vulnerability Reporting Program",
-        "inner_text": "Vulnerability Reporting Program"
+        "href": "https://privacy.twitter.com/",
+        "inner_html": "Privacy Center",
+        "inner_text": "Privacy Center"
+      },
+      {
+        "href": "https://help.twitter.com/",
+        "inner_html": "Help Center",
+        "inner_text": "Help Center"
+      },
+      {
+        "href": "https://twitter.com/privacy/previous",
+        "inner_html": "Policy Archive",
+        "inner_text": "Policy Archive"
+      },
+      {
+        "href": "https://twitter.com/settings/account",
+        "inner_html": "Learn how to update your settings",
+        "inner_text": "Learn how to update your settings"
+      },
+      {
+        "href": "https://business.twitter.com/en/help/account-setup/professional-accounts.html",
+        "inner_html": "<u>professional account</u>",
+        "inner_text": "professional account"
+      },
+      {
+        "href": "https://twitter.com/settings/",
+        "inner_html": "<u>settings</u>",
+        "inner_text": "settings"
+      },
+      {
+        "href": "https://twitter.com/en/privacy",
+        "inner_html": "<b> </b>",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.twitter.com/safety-and-security/data-through-partnerships",
+        "inner_html": "<u>Help Center</u>",
+        "inner_text": "Help Center"
+      },
+      {
+        "href": "https://twitter.com/settings/your_twitter_data",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.twitter.com/forms/privacy",
+        "inner_html": "",
+        "inner_text": " "
+      },
+      {
+        "href": "https://help.twitter.com/managing-your-account/how-to-download-your-twitter-archive",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://optout.aboutads.info/",
+        "inner_html": "<u>https://optout.aboutads.info/</u>",
+        "inner_text": "https://optout.aboutads.info/"
+      },
+      {
+        "href": "https://help.twitter.com/rules-and-policies/twitter-services-and-corporate-affiliates",
+        "inner_html": "<u>our affiliates</u>",
+        "inner_text": "our affiliates"
+      },
+      {
+        "href": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en",
+        "inner_html": "<u>standard contractual clauses</u>",
+        "inner_text": "standard contractual clauses"
+      },
+      {
+        "href": "https://www.dataprivacyframework.gov/list",
+        "inner_html": "<u>participant</u>",
+        "inner_text": "participant"
+      },
+      {
+        "href": "https://www.jamsadr.com/eu-us-privacy-shield",
+        "inner_html": "<u>JAMS</u>",
+        "inner_text": "JAMS"
+      },
+      {
+        "href": "https://www.dataprivacyframework.gov/framework-article/ANNEX-I-introduction",
+        "inner_html": "<u>Annex 1</u>",
+        "inner_text": "Annex 1"
+      },
+      {
+        "href": "https://www.dataprivacyframework.gov/s/",
+        "inner_html": "<u>here</u>",
+        "inner_text": "here"
+      },
+      {
+        "href": "https://twitter.ethicspointvp.com/custom/twitter/forms/data/form_data.asp",
+        "inner_html": "<u>Data Protection Inquiry Form</u>",
+        "inner_text": "Data Protection Inquiry Form"
+      },
+      {
+        "href": "https://www.dataprotection.ie/contact/how-contact-us",
+        "inner_html": "<u>contact details</u>",
+        "inner_text": "contact details"
       },
       {
         "href": "https://status.twitterstat.us/",
@@ -532,191 +804,6 @@
         "inner_text": "X Ads Academy"
       },
       {
-        "href": "https://twitter.com/en/tos",
-        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\" role=\"none\" class=\"u03__brand-icon twtr-icon--base  twtr-color-fill--white-neutral\"> \n <path opacity=\"0\" d=\"M0 0h24v24H0z\"></path> \n <path d=\"M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z\"></path> \n</svg>\n      <span class=\"u03__site-name  twtr-type--bold-16  twtr-color--gray-0\">Terms of Service</span>",
-        "inner_text": "\n       \n  \n  \n\n      Terms of Service\n    "
-      },
-      {
-        "href": "https://twitter.com/id/tos",
-        "inner_html": "Bahasa Indonesia",
-        "inner_text": "\n              Bahasa Indonesia\n            "
-      },
-      {
-        "href": "https://twitter.com/es/tos",
-        "inner_html": "Español",
-        "inner_text": "\n              Español\n            "
-      },
-      {
-        "href": "https://twitter.com/fr/tos",
-        "inner_html": "Français",
-        "inner_text": "\n              Français\n            "
-      },
-      {
-        "href": "https://twitter.com/de/tos",
-        "inner_html": "Deutsch",
-        "inner_text": "\n              Deutsch\n            "
-      },
-      {
-        "href": "https://twitter.com/it/tos",
-        "inner_html": "Italiano",
-        "inner_text": "\n              Italiano\n            "
-      },
-      {
-        "href": "https://twitter.com/ja/tos",
-        "inner_html": "日本語",
-        "inner_text": "\n              日本語 \n            "
-      },
-      {
-        "href": "https://twitter.com/ko/tos",
-        "inner_html": "한국어",
-        "inner_text": "\n              한국어 \n            "
-      },
-      {
-        "href": "https://twitter.com/pt/tos",
-        "inner_html": "Português",
-        "inner_text": "\n              Português\n            "
-      },
-      {
-        "href": "https://twitter.com/ru/tos",
-        "inner_html": "Русский",
-        "inner_text": "\n              Русский\n            "
-      },
-      {
-        "href": "https://twitter.com/sk/tos",
-        "inner_html": "Slovenčina",
-        "inner_text": "\n              Slovenčina\n            "
-      },
-      {
-        "href": "https://twitter.com/bg/tos",
-        "inner_html": "Български",
-        "inner_text": "\n              Български\n            "
-      },
-      {
-        "href": "https://twitter.com/cs/tos",
-        "inner_html": "Čeština",
-        "inner_text": "\n              Čeština\n            "
-      },
-      {
-        "href": "https://twitter.com/da/tos",
-        "inner_html": "Dansk",
-        "inner_text": "\n              Dansk\n            "
-      },
-      {
-        "href": "https://twitter.com/el/tos",
-        "inner_html": "Ελληνικά",
-        "inner_text": "\n              Ελληνικά\n            "
-      },
-      {
-        "href": "https://twitter.com/et/tos",
-        "inner_html": "Eesti",
-        "inner_text": "\n              Eesti\n            "
-      },
-      {
-        "href": "https://twitter.com/fi/tos",
-        "inner_html": "Suomi",
-        "inner_text": "\n              Suomi\n            "
-      },
-      {
-        "href": "https://twitter.com/ga/tos",
-        "inner_html": "Gaeilge",
-        "inner_text": "\n              Gaeilge\n            "
-      },
-      {
-        "href": "https://twitter.com/hr/tos",
-        "inner_html": "Hrvatski",
-        "inner_text": "\n              Hrvatski\n            "
-      },
-      {
-        "href": "https://twitter.com/hu/tos",
-        "inner_html": "Magyar",
-        "inner_text": "\n              Magyar\n            "
-      },
-      {
-        "href": "https://twitter.com/lt/tos",
-        "inner_html": "Lietuvių",
-        "inner_text": "\n              Lietuvių\n            "
-      },
-      {
-        "href": "https://twitter.com/lv/tos",
-        "inner_html": "Latviešu",
-        "inner_text": "\n              Latviešu\n            "
-      },
-      {
-        "href": "https://twitter.com/mt/tos",
-        "inner_html": "Malti",
-        "inner_text": "\n              Malti\n            "
-      },
-      {
-        "href": "https://twitter.com/nl/tos",
-        "inner_html": "Nederlands",
-        "inner_text": "\n              Nederlands\n            "
-      },
-      {
-        "href": "https://twitter.com/pl/tos",
-        "inner_html": "Polski",
-        "inner_text": "\n              Polski\n            "
-      },
-      {
-        "href": "https://twitter.com/ro/tos",
-        "inner_html": "Română",
-        "inner_text": "\n              Română\n            "
-      },
-      {
-        "href": "https://twitter.com/sl/tos",
-        "inner_html": "Slovenščina",
-        "inner_text": "\n              Slovenščina\n            "
-      },
-      {
-        "href": "https://twitter.com/sv/tos",
-        "inner_html": "Svenska",
-        "inner_text": "\n              Svenska\n            "
-      },
-      {
-        "href": "https://twitter.com/ar/tos",
-        "inner_html": "العربية",
-        "inner_text": "\n              العربية\n            "
-      },
-      {
-        "href": "https://twitter.com/fa/tos",
-        "inner_html": "فارسی",
-        "inner_text": "\n              فارسی\n            "
-      },
-      {
-        "href": "https://twitter.com/hy/tos",
-        "inner_html": "Հայերեն",
-        "inner_text": "\n              Հայերեն\n            "
-      },
-      {
-        "href": "https://twitter.com/km/tos",
-        "inner_html": "ខ្មែរ",
-        "inner_text": "\n              ខ្មែរ\n            "
-      },
-      {
-        "href": "https://twitter.com/tl/tos",
-        "inner_html": "Tagalog",
-        "inner_text": "\n              Tagalog\n            "
-      },
-      {
-        "href": "https://twitter.com/vi/tos",
-        "inner_html": "Tiếng Việt",
-        "inner_text": "\n              Tiếng Việt\n            "
-      },
-      {
-        "href": "https://twitter.com/zh-cn/tos",
-        "inner_html": "简体中文",
-        "inner_text": "\n              简体中文\n            "
-      },
-      {
-        "href": "https://twitter.com/zh-tw/tos",
-        "inner_html": "繁體中文",
-        "inner_text": "\n              繁體中文\n            "
-      },
-      {
-        "href": "https://twitter.com/hmn/tos",
-        "inner_html": "Lus Hmoob",
-        "inner_text": "\n              Lus Hmoob\n            "
-      },
-      {
         "href": "https://help.twitter.com/rules-and-policies/twitter-cookies",
         "inner_html": "Show more about your choices",
         "inner_text": "Show more about your choices"
@@ -725,192 +812,112 @@
   },
   "social": [
     {
-      "href": "https://twitter.com/tos/previous",
-      "inner_html": "Terms of Service Archive",
-      "inner_text": "Terms of Service Archive"
+      "href": "https://twitter.com/settings/privacy_and_safety",
+      "inner_html": "Privacy Settings",
+      "inner_text": "Privacy Settings"
     },
     {
-      "href": "https://twitter.com/en/tos",
-      "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\" role=\"none\" class=\"u03__brand-icon twtr-icon--base  twtr-color-fill--white-neutral\"> \n <path opacity=\"0\" d=\"M0 0h24v24H0z\"></path> \n <path d=\"M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z\"></path> \n</svg>\n      <span class=\"u03__site-name  twtr-type--bold-16  twtr-color--gray-0\">Terms of Service</span>",
-      "inner_text": "\n       \n  \n  \n\n      Terms of Service\n    "
+      "href": "https://privacy.twitter.com/",
+      "inner_html": "Privacy Center",
+      "inner_text": "Privacy Center"
     },
     {
-      "href": "https://twitter.com/id/tos",
-      "inner_html": "Bahasa Indonesia",
-      "inner_text": "\n              Bahasa Indonesia\n            "
+      "href": "https://help.twitter.com/",
+      "inner_html": "Help Center",
+      "inner_text": "Help Center"
     },
     {
-      "href": "https://twitter.com/es/tos",
-      "inner_html": "Español",
-      "inner_text": "\n              Español\n            "
+      "href": "https://twitter.com/privacy/previous",
+      "inner_html": "Policy Archive",
+      "inner_text": "Policy Archive"
     },
     {
-      "href": "https://twitter.com/fr/tos",
-      "inner_html": "Français",
-      "inner_text": "\n              Français\n            "
+      "href": "https://twitter.com/settings/account",
+      "inner_html": "Learn how to update your settings",
+      "inner_text": "Learn how to update your settings"
     },
     {
-      "href": "https://twitter.com/de/tos",
-      "inner_html": "Deutsch",
-      "inner_text": "\n              Deutsch\n            "
+      "href": "https://business.twitter.com/en/help/account-setup/professional-accounts.html",
+      "inner_html": "<u>professional account</u>",
+      "inner_text": "professional account"
     },
     {
-      "href": "https://twitter.com/it/tos",
-      "inner_html": "Italiano",
-      "inner_text": "\n              Italiano\n            "
+      "href": "https://twitter.com/settings/",
+      "inner_html": "<u>settings</u>",
+      "inner_text": "settings"
     },
     {
-      "href": "https://twitter.com/ja/tos",
-      "inner_html": "日本語",
-      "inner_text": "\n              日本語 \n            "
+      "href": "https://twitter.com/en/privacy",
+      "inner_html": "<b> </b>",
+      "inner_text": " "
     },
     {
-      "href": "https://twitter.com/ko/tos",
-      "inner_html": "한국어",
-      "inner_text": "\n              한국어 \n            "
+      "href": "https://help.twitter.com/safety-and-security/data-through-partnerships",
+      "inner_html": "<u>Help Center</u>",
+      "inner_text": "Help Center"
     },
     {
-      "href": "https://twitter.com/pt/tos",
-      "inner_html": "Português",
-      "inner_text": "\n              Português\n            "
+      "href": "https://twitter.com/settings/your_twitter_data",
+      "inner_html": "",
+      "inner_text": " "
     },
     {
-      "href": "https://twitter.com/ru/tos",
-      "inner_html": "Русский",
-      "inner_text": "\n              Русский\n            "
+      "href": "https://help.twitter.com/forms/privacy",
+      "inner_html": "",
+      "inner_text": " "
     },
     {
-      "href": "https://twitter.com/sk/tos",
-      "inner_html": "Slovenčina",
-      "inner_text": "\n              Slovenčina\n            "
+      "href": "https://help.twitter.com/managing-your-account/how-to-download-your-twitter-archive",
+      "inner_html": "<u>here</u>",
+      "inner_text": "here"
     },
     {
-      "href": "https://twitter.com/bg/tos",
-      "inner_html": "Български",
-      "inner_text": "\n              Български\n            "
+      "href": "https://help.twitter.com/rules-and-policies/twitter-services-and-corporate-affiliates",
+      "inner_html": "<u>our affiliates</u>",
+      "inner_text": "our affiliates"
     },
     {
-      "href": "https://twitter.com/cs/tos",
-      "inner_html": "Čeština",
-      "inner_text": "\n              Čeština\n            "
-    },
-    {
-      "href": "https://twitter.com/da/tos",
-      "inner_html": "Dansk",
-      "inner_text": "\n              Dansk\n            "
-    },
-    {
-      "href": "https://twitter.com/el/tos",
-      "inner_html": "Ελληνικά",
-      "inner_text": "\n              Ελληνικά\n            "
-    },
-    {
-      "href": "https://twitter.com/et/tos",
-      "inner_html": "Eesti",
-      "inner_text": "\n              Eesti\n            "
-    },
-    {
-      "href": "https://twitter.com/fi/tos",
-      "inner_html": "Suomi",
-      "inner_text": "\n              Suomi\n            "
-    },
-    {
-      "href": "https://twitter.com/ga/tos",
-      "inner_html": "Gaeilge",
-      "inner_text": "\n              Gaeilge\n            "
-    },
-    {
-      "href": "https://twitter.com/hr/tos",
-      "inner_html": "Hrvatski",
-      "inner_text": "\n              Hrvatski\n            "
-    },
-    {
-      "href": "https://twitter.com/hu/tos",
-      "inner_html": "Magyar",
-      "inner_text": "\n              Magyar\n            "
-    },
-    {
-      "href": "https://twitter.com/lt/tos",
-      "inner_html": "Lietuvių",
-      "inner_text": "\n              Lietuvių\n            "
-    },
-    {
-      "href": "https://twitter.com/lv/tos",
-      "inner_html": "Latviešu",
-      "inner_text": "\n              Latviešu\n            "
-    },
-    {
-      "href": "https://twitter.com/mt/tos",
-      "inner_html": "Malti",
-      "inner_text": "\n              Malti\n            "
-    },
-    {
-      "href": "https://twitter.com/nl/tos",
-      "inner_html": "Nederlands",
-      "inner_text": "\n              Nederlands\n            "
-    },
-    {
-      "href": "https://twitter.com/pl/tos",
-      "inner_html": "Polski",
-      "inner_text": "\n              Polski\n            "
-    },
-    {
-      "href": "https://twitter.com/ro/tos",
-      "inner_html": "Română",
-      "inner_text": "\n              Română\n            "
-    },
-    {
-      "href": "https://twitter.com/sl/tos",
-      "inner_html": "Slovenščina",
-      "inner_text": "\n              Slovenščina\n            "
-    },
-    {
-      "href": "https://twitter.com/sv/tos",
-      "inner_html": "Svenska",
-      "inner_text": "\n              Svenska\n            "
-    },
-    {
-      "href": "https://twitter.com/ar/tos",
+      "href": "https://x.com/content/twitter-com/legal/ar",
       "inner_html": "العربية",
       "inner_text": "\n              العربية\n            "
     },
     {
-      "href": "https://twitter.com/fa/tos",
+      "href": "https://x.com/content/twitter-com/legal/fa",
       "inner_html": "فارسی",
       "inner_text": "\n              فارسی\n            "
     },
     {
-      "href": "https://twitter.com/hy/tos",
+      "href": "https://x.com/content/twitter-com/legal/hy",
       "inner_html": "Հայերեն",
       "inner_text": "\n              Հայերեն\n            "
     },
     {
-      "href": "https://twitter.com/km/tos",
+      "href": "https://x.com/content/twitter-com/legal/km",
       "inner_html": "ខ្មែរ",
       "inner_text": "\n              ខ្មែរ\n            "
     },
     {
-      "href": "https://twitter.com/tl/tos",
+      "href": "https://x.com/content/twitter-com/legal/tl",
       "inner_html": "Tagalog",
       "inner_text": "\n              Tagalog\n            "
     },
     {
-      "href": "https://twitter.com/vi/tos",
+      "href": "https://x.com/content/twitter-com/legal/vi",
       "inner_html": "Tiếng Việt",
       "inner_text": "\n              Tiếng Việt\n            "
     },
     {
-      "href": "https://twitter.com/zh-cn/tos",
+      "href": "https://x.com/content/twitter-com/legal/zh-cn",
       "inner_html": "简体中文",
       "inner_text": "\n              简体中文\n            "
     },
     {
-      "href": "https://twitter.com/zh-tw/tos",
+      "href": "https://x.com/content/twitter-com/legal/zh-tw",
       "inner_html": "繁體中文",
       "inner_text": "\n              繁體中文\n            "
     },
     {
-      "href": "https://twitter.com/hmn/tos",
+      "href": "https://x.com/content/twitter-com/legal/hmn",
       "inner_html": "Lus Hmoob",
       "inner_text": "\n              Lus Hmoob\n            "
     },
@@ -966,10 +973,10 @@
     "cookies": [
       {
         "name": "guest_id_marketing",
-        "value": "v1%3A171660436433813213",
+        "value": "v1%3A171671552402414258",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:44.000Z",
+        "expires": "2026-05-26T09:25:23.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -978,10 +985,10 @@
       },
       {
         "name": "guest_id_ads",
-        "value": "v1%3A171660436433813213",
+        "value": "v1%3A171671552402414258",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:44.000Z",
+        "expires": "2026-05-26T09:25:23.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -990,10 +997,10 @@
       },
       {
         "name": "personalization_id",
-        "value": "\"v1_0V4OaeFE9qLKOcvqcS8xjw==\"",
+        "value": "\"v1_3sGcPa+8KwyMhNTG7JbyQA==\"",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:44.000Z",
+        "expires": "2026-05-26T09:25:23.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1002,10 +1009,22 @@
       },
       {
         "name": "guest_id",
-        "value": "v1%3A171660436433813213",
+        "value": "v1%3A171671552402414258",
         "domain": "twitter.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:44.000Z",
+        "expires": "2026-05-26T09:25:23.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None",
+        "type": "unknown",
+        "third_party": true
+      },
+      {
+        "name": "muc_ads",
+        "value": "3696d641-8898-4970-a466-760e29f10cbc",
+        "domain": "t.co",
+        "path": "/",
+        "expires": "2026-05-26T09:25:26.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1014,10 +1033,10 @@
       },
       {
         "name": "NID",
-        "value": "514=KcHgPeaUZVRWgxlWGV_nJxpbAOskbgJIn2ltpTfJZYpVcwG7z395Muc5YxjMh5PNnw84zwFh6ZFaIKIGlTN2t_xqae1YBTrKqYaWyByoozBmAs4QGerZognvI4xhykHoPmMxmwOPz_pTq3rJmBtulr1lFxOAczxcsVDkhCj7S2k",
+        "value": "514=GqGLcdbuiYc8kKJDmezkkLOGL_fF1WyFgVFAB8E1TdhuQ289xysM1-eW1XgnCHa0jBKS8YEg_hvYRnTNLOdHXqWiXxYB8uw9UiUFah5kXjPo9AahJEdiRJTnO-m4HXHgIyT_pxqThxaeB86HfS0N_DV6mth1mT93__RTGVfkhHI",
         "domain": "google.com",
         "path": "/",
-        "expires": "2024-11-24T02:32:51.000Z",
+        "expires": "2024-11-25T09:25:27.000Z",
         "httpOnly": true,
         "secure": true,
         "sameSite": "None",
@@ -1026,10 +1045,10 @@
       },
       {
         "name": "guest_id",
-        "value": "v1%3A171660436433813213",
+        "value": "v1%3A171671552402414258",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-05-25T02:32:45.000Z",
+        "expires": "2025-05-26T09:25:24.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1038,10 +1057,10 @@
       },
       {
         "name": "guest_id_marketing",
-        "value": "v1%3A171660436433813213",
+        "value": "v1%3A171671552402414258",
         "domain": "x.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:45.000Z",
+        "expires": "2026-05-26T09:25:25.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1050,10 +1069,10 @@
       },
       {
         "name": "guest_id_ads",
-        "value": "v1%3A171660436433813213",
+        "value": "v1%3A171671552402414258",
         "domain": "x.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:45.000Z",
+        "expires": "2026-05-26T09:25:25.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1062,10 +1081,10 @@
       },
       {
         "name": "personalization_id",
-        "value": "\"v1_RADNXRhLeDUMqENDmh31Lg==\"",
+        "value": "\"v1_5vRgxD7i5fM/Q7Xcxw8Kag==\"",
         "domain": "x.com",
         "path": "/",
-        "expires": "2026-05-25T02:32:45.000Z",
+        "expires": "2026-05-26T09:25:25.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1074,10 +1093,10 @@
       },
       {
         "name": "gt",
-        "value": "1794194866748166226",
+        "value": "1794661104217674051",
         "domain": "x.com",
         "path": "/",
-        "expires": "2024-05-25T05:02:45.000Z",
+        "expires": "2024-05-26T11:55:25.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1089,7 +1108,7 @@
         "value": "2",
         "domain": "x.com",
         "path": "/",
-        "expires": "2025-05-25T02:32:46.000Z",
+        "expires": "2025-05-26T09:25:25.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1098,10 +1117,10 @@
       },
       {
         "name": "ct0",
-        "value": "cd4e37ff5f2c7b342d76164e9ffd24e2",
+        "value": "166e388b16a065a7624734ca049d261c",
         "domain": "x.com",
         "path": "/",
-        "expires": "2024-05-25T08:32:51.000Z",
+        "expires": "2024-05-26T15:25:27.000Z",
         "httpOnly": false,
         "secure": true,
         "sameSite": "None",
@@ -1125,7 +1144,7 @@
         },
         "stack": [
           {
-            "fileName": "https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signup_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_368179_273256&as=gJuNaEMF0VXS4wLtqTTcmg&hl=en",
+            "fileName": "https://accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=hRYhN5mRR2EhdZL6sjPECg&channel_id=f58f6ef70330f27a6e971ad36e09bab9123d512cc49afb2a082ad346b798a2b6&origin=https%3A%2F%2Fx.com&is_itp=true",
             "source": "ThirdPartyTracker RequestHandler"
           }
         ],
@@ -1144,12 +1163,70 @@
         },
         "stack": [
           {
-            "fileName": "https://accounts.google.com/gsi/iframe/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=ORNKBRhZKYHE9GIE1qXXZQ&channel_id=2a6356728f1bb52eaef35a50b3230bb09e87bc7993306ea909fb5ea308b7fa9d&origin=https%3A%2F%2Fx.com&is_itp=true",
+            "fileName": "https://accounts.google.com/gsi/button?theme=outline&size=large&shape=circle&logo_alignment=center&text=signup_with&width=300&client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&iframe_id=gsi_525871_174068&as=7aKeZNM4ntxhb3LPgZ7cbg&hl=en",
             "source": "ThirdPartyTracker RequestHandler"
           }
         ],
         "type": "TrackingRequest",
         "url": "https://play.google.com/log?hasfast=true&authuser=0&format=json"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 4,
+            "eci": 3,
+            "event": {},
+            "event_id": "569805c8-6d2d-4f15-ba2c-b160b5b7155d",
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "d2e88180-2bea-4e17-9516-d9677edc0ea4",
+            "tw_document_href": "https://x.com/",
+            "tw_iframe_status": 0,
+            "txn_id": "o8zly",
+            "type": "javascript",
+            "version": "2.3.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://x.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=569805c8-6d2d-4f15-ba2c-b160b5b7155d&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=d2e88180-2bea-4e17-9516-d9677edc0ea4&tw_document_href=https%3A%2F%2Fx.com%2F&tw_iframe_status=0&txn_id=o8zly&type=javascript&version=2.3.30"
+      },
+      {
+        "data": {
+          "filter": "/adsct?",
+          "listName": "easyprivacy.txt",
+          "query": {
+            "bci": 4,
+            "eci": 3,
+            "event": {},
+            "event_id": "486b28db-e6b1-4a4a-92d8-ec4f255ca826",
+            "integration": "advertiser",
+            "p_id": "Twitter",
+            "p_user_id": 0,
+            "pl_id": "d2e88180-2bea-4e17-9516-d9677edc0ea4",
+            "tw_document_href": "https://x.com/",
+            "tw_iframe_status": 0,
+            "txn_id": "ogf5s",
+            "type": "javascript",
+            "version": "2.3.30"
+          }
+        },
+        "stack": [
+          {
+            "fileName": "https://x.com/",
+            "source": "ThirdPartyTracker RequestHandler"
+          }
+        ],
+        "type": "TrackingRequest",
+        "url": "https://t.co/1/i/adsct?bci=4&eci=3&event=%7B%7D&event_id=486b28db-e6b1-4a4a-92d8-ec4f255ca826&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=d2e88180-2bea-4e17-9516-d9677edc0ea4&tw_document_href=https%3A%2F%2Fx.com%2F&tw_iframe_status=0&txn_id=ogf5s&type=javascript&version=2.3.30"
       },
       {
         "data": {
@@ -1165,63 +1242,6 @@
         ],
         "type": "TrackingRequest",
         "url": "https://static.ads-twitter.com/uwt.js"
-      },
-      {
-        "data": {
-          "filter": "||google.com/gsi/log?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "as": "ORNKBRhZKYHE9GIE1qXXZQ",
-            "client_id": "49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com",
-            "event": "onetap.policy.uiEvents"
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://x.com/?mx=2",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://accounts.google.com/gsi/log?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&as=ORNKBRhZKYHE9GIE1qXXZQ&event=onetap.policy.uiEvents"
-      },
-      {
-        "data": {
-          "filter": "||google.com/gsi/log?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "as": "ORNKBRhZKYHE9GIE1qXXZQ",
-            "client_id": "49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com",
-            "event": "onetap.policy.uiEvents"
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://x.com/?mx=2",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://accounts.google.com/gsi/log?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&as=ORNKBRhZKYHE9GIE1qXXZQ&event=onetap.policy.uiEvents"
-      },
-      {
-        "data": {
-          "filter": "||google.com/gsi/log?",
-          "listName": "easyprivacy.txt",
-          "query": {
-            "as": "ORNKBRhZKYHE9GIE1qXXZQ",
-            "client_id": "49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com",
-            "event": "onetap.policy.uiEvents"
-          }
-        },
-        "stack": [
-          {
-            "fileName": "https://x.com/?mx=2",
-            "source": "ThirdPartyTracker RequestHandler"
-          }
-        ],
-        "type": "TrackingRequest",
-        "url": "https://accounts.google.com/gsi/log?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&as=ORNKBRhZKYHE9GIE1qXXZQ&event=onetap.policy.uiEvents"
       }
     ]
   }
